@@ -1,0 +1,35 @@
+name: Generate Asset JSONs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'stickers/**'
+      - 'frames/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run generator script
+        run: python generate_json.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add stickers_data.json frames_data.json || true
+          git commit -m "Auto-update asset JSONs" || echo "No changes to commit"
+          git push
