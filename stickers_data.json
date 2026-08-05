@@ -11,6 +11,14 @@
             "heart"
           ],
           "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/cute_heart.svg"
+        },
+        {
+          "id": "pencil",
+          "title": "Pencil",
+          "tags": [
+            "pencil"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/pencil.png"
         }
       ]
     }
