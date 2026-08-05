@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Notes Asset Library</title>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --surface-color: rgba(30, 41, 59, 0.7);
+            --surface-border: rgba(255, 255, 255, 0.1);
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+            --accent: #3b82f6;
+            --accent-hover: #2563eb;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(147, 51, 234, 0.15), transparent 25%);
+            background-attachment: fixed;
+            font-family: 'Inter', sans-serif;
+            color: var(--text-main);
+            min-height: 100vh;
+        }
+
+        /* Glassmorphism Header */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--surface-border);
+            padding: 20px 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            font-weight: 800;
+            background: linear-gradient(90deg, #60a5fa, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Search Bar */
+        .search-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 12px 20px;
+            border-radius: 20px;
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        .search-container input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+        }
+
+        /* Tabs & Filters */
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: 1px solid var(--surface-border);
+            color: var(--text-dim);
+            padding: 8px 16px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .tab-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        .tab-btn:hover:not(.active) {
+            background: var(--surface-color);
+            color: var(--text-main);
+        }
+
+        .categories {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+            scrollbar-width: none;
+        }
+        
+        .categories::-webkit-scrollbar {
+            display: none;
+        }
+
+        .cat-chip {
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            color: var(--text-dim);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s ease;
+        }
+
+        .cat-chip.active {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-main);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Masonry Grid */
+        main {
+            padding: 40px;
+        }
+
+        .grid {
+            column-count: 2;
+            column-gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .grid { column-count: 3; }
+        }
+
+        @media (min-width: 1024px) {
+            .grid { column-count: 4; }
+        }
+
+        @media (min-width: 1440px) {
+            .grid { column-count: 5; }
+        }
+
+        /* Image Cards */
+        .card {
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            border-radius: 16px;
+            padding: 15px;
+            margin-bottom: 20px;
+            break-inside: avoid;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            border-color: rgba(255,255,255,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            object-fit: contain;
+            background: rgba(0,0,0,0.2);
+        }
+
+        .card-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .card-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .card-tags {
+            font-size: 0.8rem;
+            color: var(--accent);
+        }
+
+        /* Loader */
+        .loader {
+            text-align: center;
+            padding: 50px;
+            color: var(--text-dim);
+            font-size: 1.1rem;
+        }
+
+        .error {
+            color: #ef4444;
+            text-align: center;
+            padding: 50px;
+        }
+
+        /* Download Button Overlay */
+        .card-image-wrapper {
+            position: relative;
+        }
+        
+        .download-btn {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(4px);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.2s ease, background 0.2s ease;
+            text-decoration: none;
+        }
+
+        .card:hover .download-btn {
+            opacity: 1;
+        }
+
+        .download-btn:hover {
+            background: var(--accent);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <h1>N-Notes Assets</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search stickers, frames, svgs...">
+            </div>
+        </div>
+        <div class="controls">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="stickers">Stickers</button>
+                <button class="tab-btn" data-tab="frames">Frames</button>
+            </div>
+            <div class="categories" id="categoryContainer">
+                <button class="cat-chip active" data-cat="All Categories">All Categories</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="loader" class="loader">Loading assets from GitHub...</div>
+        <div id="grid" class="grid"></div>
+    </main>
+
+    <script>
+        const API_BASE = "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main";
+        
+        let databases = {
+            stickers: [],
+            frames: []
+        };
+        
+        let currentTab = 'stickers';
+        let currentCategory = 'All Categories';
+        let searchQuery = '';
+
+        // Elements
+        const grid = document.getElementById('grid');
+        const loader = document.getElementById('loader');
+        const searchInput = document.getElementById('searchInput');
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const categoryContainer = document.getElementById('categoryContainer');
+
+        async function init() {
+            try {
+                // Fetch both JSONs in parallel
+                const [stickersRes, framesRes] = await Promise.all([
+                    fetch(`${API_BASE}/stickers_data.json`).catch(() => null),
+                    fetch(`${API_BASE}/frames_data.json`).catch(() => null)
+                ]);
+
+                if (stickersRes && stickersRes.ok) {
+                    const data = await stickersRes.json();
+                    databases.stickers = parseJsonToFlatList(data);
+                }
+                
+                if (framesRes && framesRes.ok) {
+                    const data = await framesRes.json();
+                    databases.frames = parseJsonToFlatList(data);
+                }
+
+                loader.style.display = 'none';
+                updateUI();
+            } catch (err) {
+                loader.innerHTML = `<div class="error">Failed to load assets. Ensure your GitHub repo has the generated JSON files.</div>`;
+            }
+        }
+
+        function parseJsonToFlatList(data) {
+            let list = [];
+            if (!data.categories) return list;
+            
+            data.categories.forEach(cat => {
+                if (cat.images) {
+                    cat.images.forEach(img => {
+                        list.push({
+                            id: img.id,
+                            title: img.title,
+                            tags: img.tags || [],
+                            url: img.url,
+                            category: cat.name || 'Uncategorized'
+                        });
+                    });
+                }
+            });
+            return list;
+        }
+
+        function updateUI() {
+            const currentData = databases[currentTab];
+            
+            // Update Categories
+            const uniqueCats = [...new Set(currentData.map(item => item.category))].sort();
+            
+            let catHTML = `<button class="cat-chip ${currentCategory === 'All Categories' ? 'active' : ''}" data-cat="All Categories">All Categories</button>`;
+            uniqueCats.forEach(cat => {
+                catHTML += `<button class="cat-chip ${currentCategory === cat ? 'active' : ''}" data-cat="${cat}">${cat}</button>`;
+            });
+            categoryContainer.innerHTML = catHTML;
+
+            // Bind Category Events
+            document.querySelectorAll('.cat-chip').forEach(chip => {
+                chip.addEventListener('click', (e) => {
+                    currentCategory = e.target.dataset.cat;
+                    updateUI();
+                });
+            });
+
+            // Filter Data
+            let filtered = currentData;
+            
+            if (currentCategory !== 'All Categories') {
+                filtered = filtered.filter(item => item.category === currentCategory);
+            }
+            
+            if (searchQuery) {
+                const q = searchQuery.toLowerCase();
+                filtered = filtered.filter(item => 
+                    item.title.toLowerCase().includes(q) || 
+                    item.tags.some(tag => tag.toLowerCase().includes(q))
+                );
+            }
+
+            renderGrid(filtered);
+        }
+
+        function renderGrid(items) {
+            if (items.length === 0) {
+                grid.innerHTML = `<div class="loader">No assets found.</div>`;
+                return;
+            }
+
+            let html = '';
+            items.forEach(item => {
+                // Determine format
+                const ext = item.url.split('.').pop().toLowerCase();
+                const formatLabel = ext === 'svg' ? 'SVG Vector' : (ext === 'gif' ? 'GIF Animation' : ext.toUpperCase());
+
+                html += `
+                    <div class="card" onclick="window.open('${item.url}', '_blank')">
+                        <div class="card-image-wrapper">
+                            <img src="${item.url}" alt="${item.title}" loading="lazy">
+                            <a href="${item.url}" download class="download-btn" title="Download">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-title">${item.title}</div>
+                            <div class="card-tags">#${formatLabel}</div>
+                        </div>
+                    </div>
+                `;
+            });
+            grid.innerHTML = html;
+        }
+
+        // Event Listeners
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                tabBtns.forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                currentTab = e.target.dataset.tab;
+                currentCategory = 'All Categories'; // Reset category on tab switch
+                updateUI();
+            });
+        });
+
+        searchInput.addEventListener('input', (e) => {
+            searchQuery = e.target.value.trim();
+            updateUI();
+        });
+
+        // Start
+        init();
+    </script>
+</body>
+</html>
