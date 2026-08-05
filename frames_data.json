@@ -2,7 +2,16 @@
   "categories": [
     {
       "name": "Basic Frames",
-      "images": []
+      "images": [
+        {
+          "id": "Doctor",
+          "title": "Doctor",
+          "tags": [
+            "doctor"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/frames/Doctor.png"
+        }
+      ]
     }
   ]
 }
