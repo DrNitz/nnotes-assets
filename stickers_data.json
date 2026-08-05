@@ -4,6 +4,15 @@
       "name": "General Stickers",
       "images": [
         {
+          "id": "coffee mug ",
+          "title": "Coffee Mug ",
+          "tags": [
+            "coffee",
+            "mug"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/coffee mug .png"
+        },
+        {
           "id": "cute_heart",
           "title": "Cute Heart",
           "tags": [
@@ -11,6 +20,14 @@
             "heart"
           ],
           "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/cute_heart.svg"
+        },
+        {
+          "id": "mountain",
+          "title": "Mountain",
+          "tags": [
+            "mountain"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/mountain.png"
         },
         {
           "id": "pencil",
