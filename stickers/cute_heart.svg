@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Transparent background -->
+  
+  <!-- Heart -->
+  <path
+    d="M256 458
+       C240 440 80 320 80 176
+       C80 104 136 56 200 56
+       C236 56 266 76 256 108
+       C246 76 276 56 312 56
+       C376 56 432 104 432 176
+       C432 320 272 440 256 458Z"
+    fill="#FF6FAE"/>
+
+  <!-- Shine -->
+  <ellipse
+    cx="185"
+    cy="145"
+    rx="22"
+    ry="36"
+    fill="#FFD6E8"
+    transform="rotate(-25 185 145)"
+    opacity="0.9"/>
+
+  <!-- Cute face -->
+  <circle cx="215" cy="225" r="8" fill="#3D3D3D"/>
+  <circle cx="297" cy="225" r="8" fill="#3D3D3D"/>
+
+  <path
+    d="M238 260
+       Q256 276 274 260"
+    fill="none"
+    stroke="#3D3D3D"
+    stroke-width="5"
+    stroke-linecap="round"/>
+
+  <!-- Blush -->
+  <ellipse cx="190" cy="245" rx="14" ry="8" fill="#FFB3C7" opacity="0.7"/>
+  <ellipse cx="322" cy="245" rx="14" ry="8" fill="#FFB3C7" opacity="0.7"/>
+</svg>
