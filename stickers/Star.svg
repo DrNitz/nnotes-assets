@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Outer edge + white sticker border -->
+  <polygon points="256,90 306,196 422,211 337,291 359,407 256,350 153,407 175,291 90,211 206,196"
+           fill="none" stroke="#D1D5DB" stroke-width="52" stroke-linejoin="round"/>
+  <polygon points="256,90 306,196 422,211 337,291 359,407 256,350 153,407 175,291 90,211 206,196"
+           fill="#FFFFFF" stroke="#FFFFFF" stroke-width="44" stroke-linejoin="round"/>
+
+  <!-- Star body -->
+  <polygon points="256,90 306,196 422,211 337,291 359,407 256,350 153,407 175,291 90,211 206,196"
+           fill="#FACC15" stroke="#1E293B" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- Cute face -->
+  <circle cx="222" cy="252" r="12" fill="#1E293B"/>
+  <circle cx="218" cy="248" r="4" fill="#FFFFFF"/>
+  <circle cx="290" cy="252" r="12" fill="#1E293B"/>
+  <circle cx="286" cy="248" r="4" fill="#FFFFFF"/>
+  <ellipse cx="198" cy="274" rx="14" ry="8" fill="#FB7185" opacity="0.7"/>
+  <ellipse cx="314" cy="274" rx="14" ry="8" fill="#FB7185" opacity="0.7"/>
+  <path d="M236 276 Q256 298 276 276" fill="none" stroke="#1E293B" stroke-width="8" stroke-linecap="round"/>
+</svg>
