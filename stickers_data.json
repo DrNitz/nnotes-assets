@@ -4,6 +4,14 @@
       "name": "General Stickers",
       "images": [
         {
+          "id": "Star",
+          "title": "Star",
+          "tags": [
+            "star"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/Star.svg"
+        },
+        {
           "id": "coffee mug ",
           "title": "Coffee Mug ",
           "tags": [
