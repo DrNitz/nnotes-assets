@@ -281,6 +281,7 @@
         <div class="controls">
             <div class="tabs">
                 <button class="tab-btn active" data-tab="stickers">Stickers</button>
+                <button class="tab-btn" data-tab="individual">Sticker Library</button>
                 <button class="tab-btn" data-tab="frames">Frames</button>
             </div>
             <div class="categories" id="categoryContainer">
@@ -299,6 +300,7 @@
         
         let databases = {
             stickers: [],
+            individual: [],
             frames: []
         };
         
@@ -315,9 +317,10 @@
 
         async function init() {
             try {
-                // Fetch both JSONs in parallel
-                const [stickersRes, framesRes] = await Promise.all([
+                // Fetch all JSONs in parallel
+                const [stickersRes, individualRes, framesRes] = await Promise.all([
                     fetch(`${API_BASE}/stickers_data.json`).catch(() => null),
+                    fetch(`${API_BASE}/stickers_individual_data.json`).catch(() => null),
                     fetch(`${API_BASE}/frames_data.json`).catch(() => null)
                 ]);
 
@@ -325,7 +328,12 @@
                     const data = await stickersRes.json();
                     databases.stickers = parseJsonToFlatList(data);
                 }
-                
+
+                if (individualRes && individualRes.ok) {
+                    const data = await individualRes.json();
+                    databases.individual = parseJsonToFlatList(data);
+                }
+
                 if (framesRes && framesRes.ok) {
                     const data = await framesRes.json();
                     databases.frames = parseJsonToFlatList(data);

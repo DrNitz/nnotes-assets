@@ -7,6 +7,7 @@ on:
     paths:
       - 'stickers/**'
       - 'frames/**'
+      - 'stickers_individual/**'
 
 jobs:
   build:
@@ -30,6 +31,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add stickers_data.json frames_data.json || true
+          git add stickers_data.json frames_data.json stickers_individual_data.json || true
           git commit -m "Auto-update asset JSONs" || echo "No changes to commit"
           git push
