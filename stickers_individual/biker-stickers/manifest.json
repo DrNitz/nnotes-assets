@@ -1,0 +1,130 @@
+{
+  "sheet": "biker-stickers",
+  "stickers": [
+    {
+      "id": "motorcycle",
+      "band": "ride",
+      "file": "individual/biker-stickers/motorcycle.svg"
+    },
+    {
+      "id": "helmet",
+      "band": "ride",
+      "file": "individual/biker-stickers/helmet.svg"
+    },
+    {
+      "id": "gloves",
+      "band": "ride",
+      "file": "individual/biker-stickers/gloves.svg"
+    },
+    {
+      "id": "jacket",
+      "band": "ride",
+      "file": "individual/biker-stickers/jacket.svg"
+    },
+    {
+      "id": "boots",
+      "band": "ride",
+      "file": "individual/biker-stickers/boots.svg"
+    },
+    {
+      "id": "goggles",
+      "band": "ride",
+      "file": "individual/biker-stickers/goggles.svg"
+    },
+    {
+      "id": "wrench",
+      "band": "ride",
+      "file": "individual/biker-stickers/wrench.svg"
+    },
+    {
+      "id": "tire",
+      "band": "ride",
+      "file": "individual/biker-stickers/tire.svg"
+    },
+    {
+      "id": "handlebar",
+      "band": "gear",
+      "file": "individual/biker-stickers/handlebar.svg"
+    },
+    {
+      "id": "exhaust",
+      "band": "gear",
+      "file": "individual/biker-stickers/exhaust.svg"
+    },
+    {
+      "id": "fuelCan",
+      "band": "gear",
+      "file": "individual/biker-stickers/fuelCan.svg"
+    },
+    {
+      "id": "raceFlag",
+      "band": "gear",
+      "file": "individual/biker-stickers/raceFlag.svg"
+    },
+    {
+      "id": "lightning",
+      "band": "gear",
+      "file": "individual/biker-stickers/lightning.svg"
+    },
+    {
+      "id": "speedometer",
+      "band": "gear",
+      "file": "individual/biker-stickers/speedometer.svg"
+    },
+    {
+      "id": "chain",
+      "band": "gear",
+      "file": "individual/biker-stickers/chain.svg"
+    },
+    {
+      "id": "sprocket",
+      "band": "gear",
+      "file": "individual/biker-stickers/sprocket.svg"
+    },
+    {
+      "id": "brakeDisc",
+      "band": "parts",
+      "file": "individual/biker-stickers/brakeDisc.svg"
+    },
+    {
+      "id": "shock",
+      "band": "parts",
+      "file": "individual/biker-stickers/shock.svg"
+    },
+    {
+      "id": "sparkPlug",
+      "band": "parts",
+      "file": "individual/biker-stickers/sparkPlug.svg"
+    },
+    {
+      "id": "oilCan",
+      "band": "parts",
+      "file": "individual/biker-stickers/oilCan.svg"
+    },
+    {
+      "id": "bikerCap",
+      "band": "parts",
+      "file": "individual/biker-stickers/bikerCap.svg"
+    },
+    {
+      "id": "vest",
+      "band": "parts",
+      "file": "individual/biker-stickers/vest.svg"
+    },
+    {
+      "id": "road",
+      "band": "parts",
+      "file": "individual/biker-stickers/road.svg"
+    },
+    {
+      "id": "gearShift",
+      "band": "parts",
+      "file": "individual/biker-stickers/gearShift.svg"
+    },
+    {
+      "id": "horn",
+      "band": "parts",
+      "file": "individual/biker-stickers/horn.svg"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Rainbow</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="skyBaby" cx="0.34" r="0.78" cy="0.26">
+      <stop stop-color="#D7EFFC" />
+      <stop offset="0.5" stop-color="#8CC8EE" />
+      <stop offset="1" stop-color="#4F8FC9" />
+    </radialGradient></defs><g fill="url(#skyBaby)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-opacity="0.88" id="rainbow"><path d="M-28 18a28 28 0 0 1 56 0" fill="none" stroke="#F2929A" stroke-width="5" /><path d="M-21 18a21 21 0 0 1 42 0" fill="none" stroke="#F6CE73" stroke-width="5" /><path d="M-14 18a14 14 0 0 1 28 0" fill="none" stroke="#9CD9A0" stroke-width="5" /><circle cx="-28" cy="18" r="6" fill="#FFF6E0" stroke-width="1.6" /><circle cx="28" cy="18" r="6" fill="#FFF6E0" stroke-width="1.6" /></g></svg>

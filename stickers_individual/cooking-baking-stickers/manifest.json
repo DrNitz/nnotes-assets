@@ -1,0 +1,130 @@
+{
+  "sheet": "cooking-baking-stickers",
+  "stickers": [
+    {
+      "id": "chefHat",
+      "band": "tools",
+      "file": "individual/cooking-baking-stickers/chefHat.svg"
+    },
+    {
+      "id": "apron",
+      "band": "tools",
+      "file": "individual/cooking-baking-stickers/apron.svg"
+    },
+    {
+      "id": "fryingPan",
+      "band": "tools",
+      "file": "individual/cooking-baking-stickers/fryingPan.svg"
+    },
+    {
+      "id": "chefKnife",
+      "band": "tools",
+      "file": "individual/cooking-baking-stickers/chefKnife.svg"
+    },
+    {
+      "id": "mixingBowl",
+      "band": "tools",
+      "file": "individual/cooking-baking-stickers/mixingBowl.svg"
+    },
+    {
+      "id": "whisk",
+      "band": "tools",
+      "file": "individual/cooking-baking-stickers/whisk.svg"
+    },
+    {
+      "id": "rollingPin",
+      "band": "tools",
+      "file": "individual/cooking-baking-stickers/rollingPin.svg"
+    },
+    {
+      "id": "measuringCup",
+      "band": "tools",
+      "file": "individual/cooking-baking-stickers/measuringCup.svg"
+    },
+    {
+      "id": "cupcake",
+      "band": "baking",
+      "file": "individual/cooking-baking-stickers/cupcake.svg"
+    },
+    {
+      "id": "bread",
+      "band": "baking",
+      "file": "individual/cooking-baking-stickers/bread.svg"
+    },
+    {
+      "id": "croissant",
+      "band": "baking",
+      "file": "individual/cooking-baking-stickers/croissant.svg"
+    },
+    {
+      "id": "cake",
+      "band": "baking",
+      "file": "individual/cooking-baking-stickers/cake.svg"
+    },
+    {
+      "id": "egg",
+      "band": "baking",
+      "file": "individual/cooking-baking-stickers/egg.svg"
+    },
+    {
+      "id": "flour",
+      "band": "baking",
+      "file": "individual/cooking-baking-stickers/flour.svg"
+    },
+    {
+      "id": "saltPepper",
+      "band": "baking",
+      "file": "individual/cooking-baking-stickers/saltPepper.svg"
+    },
+    {
+      "id": "spatula",
+      "band": "baking",
+      "file": "individual/cooking-baking-stickers/spatula.svg"
+    },
+    {
+      "id": "ladle",
+      "band": "ingredients",
+      "file": "individual/cooking-baking-stickers/ladle.svg"
+    },
+    {
+      "id": "colander",
+      "band": "ingredients",
+      "file": "individual/cooking-baking-stickers/colander.svg"
+    },
+    {
+      "id": "cuttingBoard",
+      "band": "ingredients",
+      "file": "individual/cooking-baking-stickers/cuttingBoard.svg"
+    },
+    {
+      "id": "herbs",
+      "band": "ingredients",
+      "file": "individual/cooking-baking-stickers/herbs.svg"
+    },
+    {
+      "id": "tomato",
+      "band": "ingredients",
+      "file": "individual/cooking-baking-stickers/tomato.svg"
+    },
+    {
+      "id": "carrot",
+      "band": "ingredients",
+      "file": "individual/cooking-baking-stickers/carrot.svg"
+    },
+    {
+      "id": "cheese",
+      "band": "ingredients",
+      "file": "individual/cooking-baking-stickers/cheese.svg"
+    },
+    {
+      "id": "milk",
+      "band": "ingredients",
+      "file": "individual/cooking-baking-stickers/milk.svg"
+    },
+    {
+      "id": "ovenMitt",
+      "band": "ingredients",
+      "file": "individual/cooking-baking-stickers/ovenMitt.svg"
+    }
+  ]
+}

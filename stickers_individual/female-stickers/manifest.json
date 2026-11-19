@@ -1,0 +1,130 @@
+{
+  "sheet": "female-stickers",
+  "stickers": [
+    {
+      "id": "lipstick",
+      "band": "beauty",
+      "file": "individual/female-stickers/lipstick.svg"
+    },
+    {
+      "id": "perfume",
+      "band": "beauty",
+      "file": "individual/female-stickers/perfume.svg"
+    },
+    {
+      "id": "highHeel",
+      "band": "beauty",
+      "file": "individual/female-stickers/highHeel.svg"
+    },
+    {
+      "id": "handbag",
+      "band": "beauty",
+      "file": "individual/female-stickers/handbag.svg"
+    },
+    {
+      "id": "compact",
+      "band": "beauty",
+      "file": "individual/female-stickers/compact.svg"
+    },
+    {
+      "id": "mirror",
+      "band": "beauty",
+      "file": "individual/female-stickers/mirror.svg"
+    },
+    {
+      "id": "nailPolish",
+      "band": "beauty",
+      "file": "individual/female-stickers/nailPolish.svg"
+    },
+    {
+      "id": "mascara",
+      "band": "beauty",
+      "file": "individual/female-stickers/mascara.svg"
+    },
+    {
+      "id": "brush",
+      "band": "adornment",
+      "file": "individual/female-stickers/brush.svg"
+    },
+    {
+      "id": "eyeshadow",
+      "band": "adornment",
+      "file": "individual/female-stickers/eyeshadow.svg"
+    },
+    {
+      "id": "foundation",
+      "band": "adornment",
+      "file": "individual/female-stickers/foundation.svg"
+    },
+    {
+      "id": "hairDryer",
+      "band": "adornment",
+      "file": "individual/female-stickers/hairDryer.svg"
+    },
+    {
+      "id": "flatIron",
+      "band": "adornment",
+      "file": "individual/female-stickers/flatIron.svg"
+    },
+    {
+      "id": "necklace",
+      "band": "adornment",
+      "file": "individual/female-stickers/necklace.svg"
+    },
+    {
+      "id": "earrings",
+      "band": "adornment",
+      "file": "individual/female-stickers/earrings.svg"
+    },
+    {
+      "id": "ring",
+      "band": "adornment",
+      "file": "individual/female-stickers/ring.svg"
+    },
+    {
+      "id": "watch",
+      "band": "care",
+      "file": "individual/female-stickers/watch.svg"
+    },
+    {
+      "id": "sunglasses",
+      "band": "care",
+      "file": "individual/female-stickers/sunglasses.svg"
+    },
+    {
+      "id": "dress",
+      "band": "care",
+      "file": "individual/female-stickers/dress.svg"
+    },
+    {
+      "id": "curlIron",
+      "band": "care",
+      "file": "individual/female-stickers/curlIron.svg"
+    },
+    {
+      "id": "hairClip",
+      "band": "care",
+      "file": "individual/female-stickers/hairClip.svg"
+    },
+    {
+      "id": "powderPuff",
+      "band": "care",
+      "file": "individual/female-stickers/powderPuff.svg"
+    },
+    {
+      "id": "tweezers",
+      "band": "care",
+      "file": "individual/female-stickers/tweezers.svg"
+    },
+    {
+      "id": "towel",
+      "band": "care",
+      "file": "individual/female-stickers/towel.svg"
+    },
+    {
+      "id": "candle",
+      "band": "care",
+      "file": "individual/female-stickers/candle.svg"
+    }
+  ]
+}

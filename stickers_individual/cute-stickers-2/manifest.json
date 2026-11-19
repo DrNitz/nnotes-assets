@@ -1,0 +1,125 @@
+{
+  "sheet": "cute-stickers-2",
+  "stickers": [
+    {
+      "id": "hedgehog",
+      "band": "critters",
+      "file": "individual/cute-stickers-2/hedgehog.svg"
+    },
+    {
+      "id": "koala",
+      "band": "critters",
+      "file": "individual/cute-stickers-2/koala.svg"
+    },
+    {
+      "id": "sloth",
+      "band": "critters",
+      "file": "individual/cute-stickers-2/sloth.svg"
+    },
+    {
+      "id": "raccoon",
+      "band": "critters",
+      "file": "individual/cute-stickers-2/raccoon.svg"
+    },
+    {
+      "id": "deer",
+      "band": "critters",
+      "file": "individual/cute-stickers-2/deer.svg"
+    },
+    {
+      "id": "bunny2",
+      "band": "critters",
+      "file": "individual/cute-stickers-2/bunny2.svg"
+    },
+    {
+      "id": "seal",
+      "band": "critters",
+      "file": "individual/cute-stickers-2/seal.svg"
+    },
+    {
+      "id": "turtle",
+      "band": "critters",
+      "file": "individual/cute-stickers-2/turtle.svg"
+    },
+    {
+      "id": "cupcake",
+      "band": "treats",
+      "file": "individual/cute-stickers-2/cupcake.svg"
+    },
+    {
+      "id": "icecream",
+      "band": "treats",
+      "file": "individual/cute-stickers-2/icecream.svg"
+    },
+    {
+      "id": "donut",
+      "band": "treats",
+      "file": "individual/cute-stickers-2/donut.svg"
+    },
+    {
+      "id": "cherryCake",
+      "band": "treats",
+      "file": "individual/cute-stickers-2/cherryCake.svg"
+    },
+    {
+      "id": "strawberry2",
+      "band": "treats",
+      "file": "individual/cute-stickers-2/strawberry2.svg"
+    },
+    {
+      "id": "watermelon2",
+      "band": "treats",
+      "file": "individual/cute-stickers-2/watermelon2.svg"
+    },
+    {
+      "id": "flowerPot",
+      "band": "treats",
+      "file": "individual/cute-stickers-2/flowerPot.svg"
+    },
+    {
+      "id": "cactus",
+      "band": "treats",
+      "file": "individual/cute-stickers-2/cactus.svg"
+    },
+    {
+      "id": "mushroom",
+      "band": "charms",
+      "file": "individual/cute-stickers-2/mushroom.svg"
+    },
+    {
+      "id": "cherryPair",
+      "band": "charms",
+      "file": "individual/cute-stickers-2/cherryPair.svg"
+    },
+    {
+      "id": "peach2",
+      "band": "charms",
+      "file": "individual/cute-stickers-2/peach2.svg"
+    },
+    {
+      "id": "cloudHeart",
+      "band": "charms",
+      "file": "individual/cute-stickers-2/cloudHeart.svg"
+    },
+    {
+      "id": "star2",
+      "band": "charms",
+      "file": "individual/cute-stickers-2/star2.svg"
+    },
+    {
+      "id": "moon2",
+      "band": "charms",
+      "file": "individual/cute-stickers-2/moon2.svg"
+    },
+    {
+      "id": "crown",
+      "band": "charms",
+      "file": "individual/cute-stickers-2/crown.svg"
+    },
+    {
+      "id": "balloon",
+      "band": "charms",
+      "file": "individual/cute-stickers-2/balloon.svg"
+    }
+  ]
+}

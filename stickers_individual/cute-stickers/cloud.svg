@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Cloud</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="skyBaby" cx="0.34" r="0.78" cy="0.26">
+      <stop stop-color="#D7EFFC" />
+      <stop offset="0.5" stop-color="#8CC8EE" />
+      <stop offset="1" stop-color="#4F8FC9" />
+    </radialGradient></defs><g fill="url(#skyBaby)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" stroke-opacity="0.88" id="cloud"><path d="M-22 12C-30 12 -32 2 -26 -4C-24 -14 -10 -18 -2 -12C6 -20 20 -16 22 -6C30 -4 32 8 24 12Z" /><circle cx="-7" cy="0" r="2" fill="#3A2A2A" stroke="none" /><circle cx="7" cy="0" r="2" fill="#3A2A2A" stroke="none" /><path d="M-3 5q3 4 6 0" fill="none" stroke="#3A2A2A" stroke-width="1.6" /><ellipse cx="-12" cy="4" rx="3" ry="1.8" fill="#FF9BA0" fill-opacity="0.55" stroke="none" /><ellipse cx="12" cy="4" rx="3" ry="1.8" fill="#FF9BA0" fill-opacity="0.55" stroke="none" /></g></svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Pig</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="skyMilk" r="0.78" cy="0.25" cx="0.33">
+      <stop offset="1" stop-color="#87A96E" />
+      <stop offset="0.5" stop-color="#C6DFAE" />
+      <stop stop-color="#EAF4DC" />
+    </radialGradient></defs><g fill="url(#skyMilk)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" stroke-opacity="0.88" id="pig"><ellipse cy="2" rx="21" ry="17" /><ellipse cx="0" cy="6" rx="8" ry="6" fill="#FF9BA0" stroke="none" /><circle cx="-3" cy="6" r="1.4" fill="#6A462A" stroke="none" /><circle cx="3" cy="6" r="1.4" fill="#6A462A" stroke="none" /><path d="M-12 -12l-4 -8M12 -12l4 -8" fill="none" stroke-width="2" /><circle cx="-7" cy="-3" r="2" fill="#3A2A2A" stroke="none" /><circle cx="7" cy="-3" r="2" fill="#3A2A2A" stroke="none" /></g></svg>

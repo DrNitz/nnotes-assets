@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Cupcake</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="rosePuff" r="0.78" cy="0.26" cx="0.33">
+      <stop offset="1" stop-color="#B55F7E" />
+      <stop offset="0.5" stop-color="#F2A0B5" />
+      <stop stop-color="#FFD8E0" />
+    </radialGradient></defs><g fill="url(#rosePuff)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" stroke-opacity="0.88" id="cupcake"><path d="M-20 4h40l-6 20h-28z" /><path d="M-20 4C-24 -8 -12 -14 -8 -4C-6 -16 8 -16 10 -4C16 -14 24 -8 20 4Z" /><circle cx="0" cy="-14" r="3" fill="#E8515F" stroke="none" /><path d="M-12 12h24M-10 18h20" fill="none" stroke="#FFFFFF" stroke-width="1.4" /></g></svg>

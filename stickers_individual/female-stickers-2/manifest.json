@@ -1,0 +1,130 @@
+{
+  "sheet": "female-stickers-2",
+  "stickers": [
+    {
+      "id": "blush",
+      "band": "cosmetics",
+      "file": "individual/female-stickers-2/blush.svg"
+    },
+    {
+      "id": "lipGloss",
+      "band": "cosmetics",
+      "file": "individual/female-stickers-2/lipGloss.svg"
+    },
+    {
+      "id": "browPencil",
+      "band": "cosmetics",
+      "file": "individual/female-stickers-2/browPencil.svg"
+    },
+    {
+      "id": "eyeliner",
+      "band": "cosmetics",
+      "file": "individual/female-stickers-2/eyeliner.svg"
+    },
+    {
+      "id": "serum",
+      "band": "cosmetics",
+      "file": "individual/female-stickers-2/serum.svg"
+    },
+    {
+      "id": "moisturizer",
+      "band": "cosmetics",
+      "file": "individual/female-stickers-2/moisturizer.svg"
+    },
+    {
+      "id": "toner",
+      "band": "cosmetics",
+      "file": "individual/female-stickers-2/toner.svg"
+    },
+    {
+      "id": "faceMask",
+      "band": "cosmetics",
+      "file": "individual/female-stickers-2/faceMask.svg"
+    },
+    {
+      "id": "comb",
+      "band": "styling",
+      "file": "individual/female-stickers-2/comb.svg"
+    },
+    {
+      "id": "hairSpray",
+      "band": "styling",
+      "file": "individual/female-stickers-2/hairSpray.svg"
+    },
+    {
+      "id": "scarf",
+      "band": "styling",
+      "file": "individual/female-stickers-2/scarf.svg"
+    },
+    {
+      "id": "clutch",
+      "band": "styling",
+      "file": "individual/female-stickers-2/clutch.svg"
+    },
+    {
+      "id": "belt",
+      "band": "styling",
+      "file": "individual/female-stickers-2/belt.svg"
+    },
+    {
+      "id": "earringStand",
+      "band": "styling",
+      "file": "individual/female-stickers-2/earringStand.svg"
+    },
+    {
+      "id": "nailFile",
+      "band": "styling",
+      "file": "individual/female-stickers-2/nailFile.svg"
+    },
+    {
+      "id": "cuticleOil",
+      "band": "styling",
+      "file": "individual/female-stickers-2/cuticleOil.svg"
+    },
+    {
+      "id": "handCream",
+      "band": "care",
+      "file": "individual/female-stickers-2/handCream.svg"
+    },
+    {
+      "id": "bathBomb",
+      "band": "care",
+      "file": "individual/female-stickers-2/bathBomb.svg"
+    },
+    {
+      "id": "loofah",
+      "band": "care",
+      "file": "individual/female-stickers-2/loofah.svg"
+    },
+    {
+      "id": "razor",
+      "band": "care",
+      "file": "individual/female-stickers-2/razor.svg"
+    },
+    {
+      "id": "perfumeAtomizer",
+      "band": "care",
+      "file": "individual/female-stickers-2/perfumeAtomizer.svg"
+    },
+    {
+      "id": "jewelryBox",
+      "band": "care",
+      "file": "individual/female-stickers-2/jewelryBox.svg"
+    },
+    {
+      "id": "makeupBag",
+      "band": "care",
+      "file": "individual/female-stickers-2/makeupBag.svg"
+    },
+    {
+      "id": "hairTie",
+      "band": "care",
+      "file": "individual/female-stickers-2/hairTie.svg"
+    },
+    {
+      "id": "shoe",
+      "band": "care",
+      "file": "individual/female-stickers-2/shoe.svg"
+    }
+  ]
+}

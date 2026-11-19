@@ -1,0 +1,125 @@
+{
+  "sheet": "flowers-botanical-stickers",
+  "stickers": [
+    {
+      "id": "rose",
+      "band": "blooms",
+      "file": "individual/flowers-botanical-stickers/rose.svg"
+    },
+    {
+      "id": "sunflower",
+      "band": "blooms",
+      "file": "individual/flowers-botanical-stickers/sunflower.svg"
+    },
+    {
+      "id": "daisy",
+      "band": "blooms",
+      "file": "individual/flowers-botanical-stickers/daisy.svg"
+    },
+    {
+      "id": "tulip",
+      "band": "blooms",
+      "file": "individual/flowers-botanical-stickers/tulip.svg"
+    },
+    {
+      "id": "lotus",
+      "band": "blooms",
+      "file": "individual/flowers-botanical-stickers/lotus.svg"
+    },
+    {
+      "id": "lavender",
+      "band": "blooms",
+      "file": "individual/flowers-botanical-stickers/lavender.svg"
+    },
+    {
+      "id": "mapleLeaf",
+      "band": "blooms",
+      "file": "individual/flowers-botanical-stickers/mapleLeaf.svg"
+    },
+    {
+      "id": "oakLeaf",
+      "band": "blooms",
+      "file": "individual/flowers-botanical-stickers/oakLeaf.svg"
+    },
+    {
+      "id": "fern",
+      "band": "leaves",
+      "file": "individual/flowers-botanical-stickers/fern.svg"
+    },
+    {
+      "id": "clover",
+      "band": "leaves",
+      "file": "individual/flowers-botanical-stickers/clover.svg"
+    },
+    {
+      "id": "cactus",
+      "band": "leaves",
+      "file": "individual/flowers-botanical-stickers/cactus.svg"
+    },
+    {
+      "id": "branch",
+      "band": "leaves",
+      "file": "individual/flowers-botanical-stickers/branch.svg"
+    },
+    {
+      "id": "cherryBlossom",
+      "band": "leaves",
+      "file": "individual/flowers-botanical-stickers/cherryBlossom.svg"
+    },
+    {
+      "id": "berryBranch",
+      "band": "leaves",
+      "file": "individual/flowers-botanical-stickers/berryBranch.svg"
+    },
+    {
+      "id": "pineCone",
+      "band": "leaves",
+      "file": "individual/flowers-botanical-stickers/pineCone.svg"
+    },
+    {
+      "id": "seedling",
+      "band": "leaves",
+      "file": "individual/flowers-botanical-stickers/seedling.svg"
+    },
+    {
+      "id": "pottedPlant",
+      "band": "garden",
+      "file": "individual/flowers-botanical-stickers/pottedPlant.svg"
+    },
+    {
+      "id": "wateringCan",
+      "band": "garden",
+      "file": "individual/flowers-botanical-stickers/wateringCan.svg"
+    },
+    {
+      "id": "flowerPot",
+      "band": "garden",
+      "file": "individual/flowers-botanical-stickers/flowerPot.svg"
+    },
+    {
+      "id": "wheat",
+      "band": "garden",
+      "file": "individual/flowers-botanical-stickers/wheat.svg"
+    },
+    {
+      "id": "mushroom",
+      "band": "garden",
+      "file": "individual/flowers-botanical-stickers/mushroom.svg"
+    },
+    {
+      "id": "leafDrop",
+      "band": "garden",
+      "file": "individual/flowers-botanical-stickers/leafDrop.svg"
+    },
+    {
+      "id": "gardenShears",
+      "band": "garden",
+      "file": "individual/flowers-botanical-stickers/gardenShears.svg"
+    },
+    {
+      "id": "soil",
+      "band": "garden",
+      "file": "individual/flowers-botanical-stickers/soil.svg"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "sheet": "pets-stickers",
+  "stickers": [
+    {
+      "id": "dogBone",
+      "band": "dogsCats",
+      "file": "individual/pets-stickers/dogBone.svg"
+    },
+    {
+      "id": "collar",
+      "band": "dogsCats",
+      "file": "individual/pets-stickers/collar.svg"
+    },
+    {
+      "id": "leash",
+      "band": "dogsCats",
+      "file": "individual/pets-stickers/leash.svg"
+    },
+    {
+      "id": "petBowl",
+      "band": "dogsCats",
+      "file": "individual/pets-stickers/petBowl.svg"
+    },
+    {
+      "id": "fish",
+      "band": "dogsCats",
+      "file": "individual/pets-stickers/fish.svg"
+    },
+    {
+      "id": "catFace",
+      "band": "dogsCats",
+      "file": "individual/pets-stickers/catFace.svg"
+    },
+    {
+      "id": "dogFace",
+      "band": "dogsCats",
+      "file": "individual/pets-stickers/dogFace.svg"
+    },
+    {
+      "id": "paw",
+      "band": "dogsCats",
+      "file": "individual/pets-stickers/paw.svg"
+    },
+    {
+      "id": "fishBowl",
+      "band": "smallPets",
+      "file": "individual/pets-stickers/fishBowl.svg"
+    },
+    {
+      "id": "birdCage",
+      "band": "smallPets",
+      "file": "individual/pets-stickers/birdCage.svg"
+    },
+    {
+      "id": "kitten",
+      "band": "smallPets",
+      "file": "individual/pets-stickers/kitten.svg"
+    },
+    {
+      "id": "puppy",
+      "band": "smallPets",
+      "file": "individual/pets-stickers/puppy.svg"
+    },
+    {
+      "id": "rabbit",
+      "band": "smallPets",
+      "file": "individual/pets-stickers/rabbit.svg"
+    },
+    {
+      "id": "hamster",
+      "band": "smallPets",
+      "file": "individual/pets-stickers/hamster.svg"
+    },
+    {
+      "id": "parrot",
+      "band": "smallPets",
+      "file": "individual/pets-stickers/parrot.svg"
+    },
+    {
+      "id": "turtle",
+      "band": "smallPets",
+      "file": "individual/pets-stickers/turtle.svg"
+    },
+    {
+      "id": "petBed",
+      "band": "care",
+      "file": "individual/pets-stickers/petBed.svg"
+    },
+    {
+      "id": "petHouse",
+      "band": "care",
+      "file": "individual/pets-stickers/petHouse.svg"
+    },
+    {
+      "id": "toyBall",
+      "band": "care",
+      "file": "individual/pets-stickers/toyBall.svg"
+    },
+    {
+      "id": "feather",
+      "band": "care",
+      "file": "individual/pets-stickers/feather.svg"
+    },
+    {
+      "id": "petTag",
+      "band": "care",
+      "file": "individual/pets-stickers/petTag.svg"
+    },
+    {
+      "id": "birdSeed",
+      "band": "care",
+      "file": "individual/pets-stickers/birdSeed.svg"
+    },
+    {
+      "id": "petBrush",
+      "band": "care",
+      "file": "individual/pets-stickers/petBrush.svg"
+    },
+    {
+      "id": "litterBox",
+      "band": "care",
+      "file": "individual/pets-stickers/litterBox.svg"
+    },
+    {
+      "id": "petFirstAid",
+      "band": "care",
+      "file": "individual/pets-stickers/petFirstAid.svg"
+    }
+  ]
+}

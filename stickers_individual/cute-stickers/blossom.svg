@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Blossom</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="rosePuff" cx="0.33" r="0.78" cy="0.26">
+      <stop stop-color="#FFD8E0" />
+      <stop offset="0.5" stop-color="#F2A0B5" />
+      <stop offset="1" stop-color="#B55F7E" />
+    </radialGradient></defs><g fill="url(#rosePuff)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" stroke-opacity="0.92" id="blossom"><circle cx="0" cy="-16" r="9" /><circle cx="15" cy="-5" r="9" /><circle cx="9" cy="13" r="9" /><circle cx="-9" cy="13" r="9" /><circle cx="-15" cy="-5" r="9" /><circle r="8" fill="#FFF0BE" stroke-width="1.6" /><circle cx="-3" cy="-1" r="1.6" fill="#3A2A2A" stroke="none" /><circle cx="3" cy="-1" r="1.6" fill="#3A2A2A" stroke="none" /><path d="M-2 4q2 2 4 0" fill="none" stroke="#3A2A2A" stroke-width="1.4" /></g></svg>

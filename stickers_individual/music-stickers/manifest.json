@@ -1,0 +1,125 @@
+{
+  "sheet": "music-stickers",
+  "stickers": [
+    {
+      "id": "guitar",
+      "band": "strings",
+      "file": "individual/music-stickers/guitar.svg"
+    },
+    {
+      "id": "violin",
+      "band": "strings",
+      "file": "individual/music-stickers/violin.svg"
+    },
+    {
+      "id": "piano",
+      "band": "strings",
+      "file": "individual/music-stickers/piano.svg"
+    },
+    {
+      "id": "drum",
+      "band": "strings",
+      "file": "individual/music-stickers/drum.svg"
+    },
+    {
+      "id": "trumpet",
+      "band": "strings",
+      "file": "individual/music-stickers/trumpet.svg"
+    },
+    {
+      "id": "flute",
+      "band": "strings",
+      "file": "individual/music-stickers/flute.svg"
+    },
+    {
+      "id": "mic",
+      "band": "strings",
+      "file": "individual/music-stickers/mic.svg"
+    },
+    {
+      "id": "headphones",
+      "band": "strings",
+      "file": "individual/music-stickers/headphones.svg"
+    },
+    {
+      "id": "vinyl",
+      "band": "wind",
+      "file": "individual/music-stickers/vinyl.svg"
+    },
+    {
+      "id": "cello",
+      "band": "wind",
+      "file": "individual/music-stickers/cello.svg"
+    },
+    {
+      "id": "saxophone",
+      "band": "wind",
+      "file": "individual/music-stickers/saxophone.svg"
+    },
+    {
+      "id": "tambourine",
+      "band": "wind",
+      "file": "individual/music-stickers/tambourine.svg"
+    },
+    {
+      "id": "harp",
+      "band": "wind",
+      "file": "individual/music-stickers/harp.svg"
+    },
+    {
+      "id": "keyboardKeys",
+      "band": "wind",
+      "file": "individual/music-stickers/keyboardKeys.svg"
+    },
+    {
+      "id": "musicNote",
+      "band": "wind",
+      "file": "individual/music-stickers/musicNote.svg"
+    },
+    {
+      "id": "metronome",
+      "band": "wind",
+      "file": "individual/music-stickers/metronome.svg"
+    },
+    {
+      "id": "cymbal",
+      "band": "percussion",
+      "file": "individual/music-stickers/cymbal.svg"
+    },
+    {
+      "id": "banjo",
+      "band": "percussion",
+      "file": "individual/music-stickers/banjo.svg"
+    },
+    {
+      "id": "amp",
+      "band": "percussion",
+      "file": "individual/music-stickers/amp.svg"
+    },
+    {
+      "id": "tuningFork",
+      "band": "percussion",
+      "file": "individual/music-stickers/tuningFork.svg"
+    },
+    {
+      "id": "maracas",
+      "band": "percussion",
+      "file": "individual/music-stickers/maracas.svg"
+    },
+    {
+      "id": "recordPlayer",
+      "band": "percussion",
+      "file": "individual/music-stickers/recordPlayer.svg"
+    },
+    {
+      "id": "oboe",
+      "band": "percussion",
+      "file": "individual/music-stickers/oboe.svg"
+    },
+    {
+      "id": "trombone",
+      "band": "percussion",
+      "file": "individual/music-stickers/trombone.svg"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Donut</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="rosePuff" r="0.78" cy="0.26" cx="0.33">
+      <stop offset="1" stop-color="#B55F7E" />
+      <stop offset="0.5" stop-color="#F2A0B5" />
+      <stop stop-color="#FFD8E0" />
+    </radialGradient></defs><g fill="url(#rosePuff)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" stroke-opacity="0.92" id="donut"><circle r="22" /><circle r="7" fill="#FFF0DC" stroke="none" /><path d="M-18 -6q6 -4 12 0M2 -14q6 -4 12 0M-14 12q6 -4 12 0M8 10q6 -4 12 0" fill="none" stroke="#FFFFFF" stroke-width="2.2" /><path d="M-14 -12l3 -3M10 -10l3 -3M-6 16l3 -3" fill="none" stroke="#7BD6C0" stroke-width="2" /></g></svg>

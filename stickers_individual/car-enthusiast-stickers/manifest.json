@@ -1,0 +1,125 @@
+{
+  "sheet": "car-enthusiast-stickers",
+  "stickers": [
+    {
+      "id": "sportsCar",
+      "band": "body",
+      "file": "individual/car-enthusiast-stickers/sportsCar.svg"
+    },
+    {
+      "id": "engine",
+      "band": "body",
+      "file": "individual/car-enthusiast-stickers/engine.svg"
+    },
+    {
+      "id": "turbo",
+      "band": "body",
+      "file": "individual/car-enthusiast-stickers/turbo.svg"
+    },
+    {
+      "id": "rim",
+      "band": "body",
+      "file": "individual/car-enthusiast-stickers/rim.svg"
+    },
+    {
+      "id": "tire",
+      "band": "body",
+      "file": "individual/car-enthusiast-stickers/tire.svg"
+    },
+    {
+      "id": "brake",
+      "band": "body",
+      "file": "individual/car-enthusiast-stickers/brake.svg"
+    },
+    {
+      "id": "piston",
+      "band": "body",
+      "file": "individual/car-enthusiast-stickers/piston.svg"
+    },
+    {
+      "id": "crankshaft",
+      "band": "body",
+      "file": "individual/car-enthusiast-stickers/crankshaft.svg"
+    },
+    {
+      "id": "sparkPlug",
+      "band": "ignition",
+      "file": "individual/car-enthusiast-stickers/sparkPlug.svg"
+    },
+    {
+      "id": "headlight",
+      "band": "ignition",
+      "file": "individual/car-enthusiast-stickers/headlight.svg"
+    },
+    {
+      "id": "taillight",
+      "band": "ignition",
+      "file": "individual/car-enthusiast-stickers/taillight.svg"
+    },
+    {
+      "id": "grille",
+      "band": "ignition",
+      "file": "individual/car-enthusiast-stickers/grille.svg"
+    },
+    {
+      "id": "steeringWheel",
+      "band": "ignition",
+      "file": "individual/car-enthusiast-stickers/steeringWheel.svg"
+    },
+    {
+      "id": "gearShift",
+      "band": "ignition",
+      "file": "individual/car-enthusiast-stickers/gearShift.svg"
+    },
+    {
+      "id": "speedometer",
+      "band": "ignition",
+      "file": "individual/car-enthusiast-stickers/speedometer.svg"
+    },
+    {
+      "id": "exhaustTip",
+      "band": "ignition",
+      "file": "individual/car-enthusiast-stickers/exhaustTip.svg"
+    },
+    {
+      "id": "spoiler",
+      "band": "hardware",
+      "file": "individual/car-enthusiast-stickers/spoiler.svg"
+    },
+    {
+      "id": "coilover",
+      "band": "hardware",
+      "file": "individual/car-enthusiast-stickers/coilover.svg"
+    },
+    {
+      "id": "radiator",
+      "band": "hardware",
+      "file": "individual/car-enthusiast-stickers/radiator.svg"
+    },
+    {
+      "id": "battery",
+      "band": "hardware",
+      "file": "individual/car-enthusiast-stickers/battery.svg"
+    },
+    {
+      "id": "alternator",
+      "band": "hardware",
+      "file": "individual/car-enthusiast-stickers/alternator.svg"
+    },
+    {
+      "id": "oilFilter",
+      "band": "hardware",
+      "file": "individual/car-enthusiast-stickers/oilFilter.svg"
+    },
+    {
+      "id": "airFilter",
+      "band": "hardware",
+      "file": "individual/car-enthusiast-stickers/airFilter.svg"
+    },
+    {
+      "id": "raceFlag",
+      "band": "hardware",
+      "file": "individual/car-enthusiast-stickers/raceFlag.svg"
+    }
+  ]
+}

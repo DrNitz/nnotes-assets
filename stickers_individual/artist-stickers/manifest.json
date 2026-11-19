@@ -1,0 +1,130 @@
+{
+  "sheet": "artist-stickers",
+  "stickers": [
+    {
+      "id": "palette",
+      "band": "tools",
+      "file": "individual/artist-stickers/palette.svg"
+    },
+    {
+      "id": "paintbrush",
+      "band": "tools",
+      "file": "individual/artist-stickers/paintbrush.svg"
+    },
+    {
+      "id": "easel",
+      "band": "tools",
+      "file": "individual/artist-stickers/easel.svg"
+    },
+    {
+      "id": "pencil",
+      "band": "tools",
+      "file": "individual/artist-stickers/pencil.svg"
+    },
+    {
+      "id": "crayon",
+      "band": "tools",
+      "file": "individual/artist-stickers/crayon.svg"
+    },
+    {
+      "id": "marker",
+      "band": "tools",
+      "file": "individual/artist-stickers/marker.svg"
+    },
+    {
+      "id": "inkPot",
+      "band": "tools",
+      "file": "individual/artist-stickers/inkPot.svg"
+    },
+    {
+      "id": "paintTube",
+      "band": "tools",
+      "file": "individual/artist-stickers/paintTube.svg"
+    },
+    {
+      "id": "canvas",
+      "band": "studio",
+      "file": "individual/artist-stickers/canvas.svg"
+    },
+    {
+      "id": "sketchbook",
+      "band": "studio",
+      "file": "individual/artist-stickers/sketchbook.svg"
+    },
+    {
+      "id": "paintSplat",
+      "band": "studio",
+      "file": "individual/artist-stickers/paintSplat.svg"
+    },
+    {
+      "id": "paletteKnife",
+      "band": "studio",
+      "file": "individual/artist-stickers/paletteKnife.svg"
+    },
+    {
+      "id": "chisel",
+      "band": "studio",
+      "file": "individual/artist-stickers/chisel.svg"
+    },
+    {
+      "id": "clay",
+      "band": "studio",
+      "file": "individual/artist-stickers/clay.svg"
+    },
+    {
+      "id": "pottery",
+      "band": "studio",
+      "file": "individual/artist-stickers/pottery.svg"
+    },
+    {
+      "id": "brushJar",
+      "band": "studio",
+      "file": "individual/artist-stickers/brushJar.svg"
+    },
+    {
+      "id": "frame",
+      "band": "making",
+      "file": "individual/artist-stickers/frame.svg"
+    },
+    {
+      "id": "beret",
+      "band": "making",
+      "file": "individual/artist-stickers/beret.svg"
+    },
+    {
+      "id": "gloves",
+      "band": "making",
+      "file": "individual/artist-stickers/gloves.svg"
+    },
+    {
+      "id": "camera",
+      "band": "making",
+      "file": "individual/artist-stickers/camera.svg"
+    },
+    {
+      "id": "scalpel",
+      "band": "making",
+      "file": "individual/artist-stickers/scalpel.svg"
+    },
+    {
+      "id": "spray",
+      "band": "making",
+      "file": "individual/artist-stickers/spray.svg"
+    },
+    {
+      "id": "stamp",
+      "band": "making",
+      "file": "individual/artist-stickers/stamp.svg"
+    },
+    {
+      "id": "chalk",
+      "band": "making",
+      "file": "individual/artist-stickers/chalk.svg"
+    },
+    {
+      "id": "gallery",
+      "band": "making",
+      "file": "individual/artist-stickers/gallery.svg"
+    }
+  ]
+}

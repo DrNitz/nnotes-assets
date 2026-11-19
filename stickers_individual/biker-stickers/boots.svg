@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Boots</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="leatherBrown" r="0.78" cy="0.25" cx="0.33">
+      <stop offset="1" stop-color="#7A4E2A" />
+      <stop offset="0.5" stop-color="#B48254" />
+      <stop stop-color="#E8C9A8" />
+    </radialGradient></defs><g fill="url(#leatherBrown)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" stroke-opacity="0.88" id="boots"><path d="M-20 -18h14v22l8 6v8h-22z" /><path d="M6 -18h14v36H6v-8l8-6z" /><path d="M-18 4h12M8 4h12" fill="none" stroke="#E8C9A8" stroke-width="1.6" /><circle cx="-3" cy="-8" r="2" fill="#2A2A2A" stroke="none" /><circle cx="3" cy="-8" r="2" fill="#2A2A2A" stroke="none" /><path d="M-2 5q2 4 4 0" fill="none" stroke="#2A2A2A" stroke-width="1.6" /><ellipse cx="-8" cy="4" rx="3" ry="1.8" fill="#FF9BA0" fill-opacity="0.5" stroke="none" /><ellipse cx="8" cy="4" rx="3" ry="1.8" fill="#FF9BA0" fill-opacity="0.5" stroke="none" /></g></svg>

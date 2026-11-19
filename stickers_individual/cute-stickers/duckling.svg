@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Duckling</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="skyBaby" cx="0.34" r="0.78" cy="0.26">
+      <stop stop-color="#D7EFFC" />
+      <stop offset="0.5" stop-color="#8CC8EE" />
+      <stop offset="1" stop-color="#4F8FC9" />
+    </radialGradient></defs><g fill="url(#skyBaby)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" stroke-opacity="0.88" id="duckling"><circle cy="-8" r="17" /><ellipse cx="4" cy="8" rx="16" ry="13" /><path d="M18 -9l10 4 -10 4z" fill="#F09840" stroke="none" /><circle cx="8" cy="-11" r="2" fill="#3A2A2A" stroke="none" /><path d="M-10 8q4 4 8 0" fill="none" stroke="#3A2A2A" stroke-width="1.6" /></g></svg>

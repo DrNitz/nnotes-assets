@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Watermelon2</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="mintMist" r="0.78" cy="0.25" cx="0.33">
+      <stop offset="1" stop-color="#4E9A6C" />
+      <stop offset="0.5" stop-color="#93D6A6" />
+      <stop stop-color="#DCF6DE" />
+    </radialGradient></defs><g fill="url(#mintMist)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" stroke-opacity="0.88" id="watermelon2"><path d="M-26 -10A26 26 0 0 1 26 -10Z" /><path d="M-21 -10A21 21 0 0 1 21 -10Z" fill="#FFF0E2" stroke="none" /><path d="M-17 -10A17 17 0 0 1 17 -10Z" fill="#E8555C" stroke="none" /><circle cx="-7" cy="-14" r="1.4" fill="#5A2A22" stroke="none" /><circle cx="4" cy="-18" r="1.4" fill="#5A2A22" stroke="none" /><circle cx="-9" cy="-2" r="1.6" fill="#3A2A2A" stroke="none" /><circle cx="9" cy="-2" r="1.6" fill="#3A2A2A" stroke="none" /><path d="M-3 4q3 3 6 0" fill="none" stroke="#3A2A2A" stroke-width="1.4" /></g></svg>

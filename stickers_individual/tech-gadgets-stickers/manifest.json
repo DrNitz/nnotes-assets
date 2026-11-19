@@ -1,0 +1,120 @@
+{
+  "sheet": "tech-gadgets-stickers",
+  "stickers": [
+    {
+      "id": "laptop",
+      "band": "devices",
+      "file": "individual/tech-gadgets-stickers/laptop.svg"
+    },
+    {
+      "id": "phone",
+      "band": "devices",
+      "file": "individual/tech-gadgets-stickers/phone.svg"
+    },
+    {
+      "id": "tablet",
+      "band": "devices",
+      "file": "individual/tech-gadgets-stickers/tablet.svg"
+    },
+    {
+      "id": "camera",
+      "band": "devices",
+      "file": "individual/tech-gadgets-stickers/camera.svg"
+    },
+    {
+      "id": "headphones",
+      "band": "devices",
+      "file": "individual/tech-gadgets-stickers/headphones.svg"
+    },
+    {
+      "id": "mouse",
+      "band": "devices",
+      "file": "individual/tech-gadgets-stickers/mouse.svg"
+    },
+    {
+      "id": "keyboard",
+      "band": "devices",
+      "file": "individual/tech-gadgets-stickers/keyboard.svg"
+    },
+    {
+      "id": "usbDrive",
+      "band": "devices",
+      "file": "individual/tech-gadgets-stickers/usbDrive.svg"
+    },
+    {
+      "id": "battery",
+      "band": "components",
+      "file": "individual/tech-gadgets-stickers/battery.svg"
+    },
+    {
+      "id": "chip",
+      "band": "components",
+      "file": "individual/tech-gadgets-stickers/chip.svg"
+    },
+    {
+      "id": "router",
+      "band": "components",
+      "file": "individual/tech-gadgets-stickers/router.svg"
+    },
+    {
+      "id": "speaker",
+      "band": "components",
+      "file": "individual/tech-gadgets-stickers/speaker.svg"
+    },
+    {
+      "id": "watch",
+      "band": "components",
+      "file": "individual/tech-gadgets-stickers/watch.svg"
+    },
+    {
+      "id": "cloud",
+      "band": "components",
+      "file": "individual/tech-gadgets-stickers/cloud.svg"
+    },
+    {
+      "id": "wifi",
+      "band": "components",
+      "file": "individual/tech-gadgets-stickers/wifi.svg"
+    },
+    {
+      "id": "cable",
+      "band": "components",
+      "file": "individual/tech-gadgets-stickers/cable.svg"
+    },
+    {
+      "id": "monitor",
+      "band": "gear",
+      "file": "individual/tech-gadgets-stickers/monitor.svg"
+    },
+    {
+      "id": "flashDrive",
+      "band": "gear",
+      "file": "individual/tech-gadgets-stickers/flashDrive.svg"
+    },
+    {
+      "id": "printer",
+      "band": "gear",
+      "file": "individual/tech-gadgets-stickers/printer.svg"
+    },
+    {
+      "id": "drone",
+      "band": "gear",
+      "file": "individual/tech-gadgets-stickers/drone.svg"
+    },
+    {
+      "id": "vrHeadset",
+      "band": "gear",
+      "file": "individual/tech-gadgets-stickers/vrHeadset.svg"
+    },
+    {
+      "id": "batteryPack",
+      "band": "gear",
+      "file": "individual/tech-gadgets-stickers/batteryPack.svg"
+    },
+    {
+      "id": "server",
+      "band": "gear",
+      "file": "individual/tech-gadgets-stickers/server.svg"
+    }
+  ]
+}

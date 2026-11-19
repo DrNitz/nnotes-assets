@@ -1,0 +1,125 @@
+{
+  "sheet": "shapes-library",
+  "stickers": [
+    {
+      "id": "shape-checkbox",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-checkbox.svg"
+    },
+    {
+      "id": "shape-radio",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-radio.svg"
+    },
+    {
+      "id": "shape-star",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-star.svg"
+    },
+    {
+      "id": "shape-heart",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-heart.svg"
+    },
+    {
+      "id": "shape-arrow-right",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-arrow-right.svg"
+    },
+    {
+      "id": "shape-chevron",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-chevron.svg"
+    },
+    {
+      "id": "shape-tag",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-tag.svg"
+    },
+    {
+      "id": "shape-sticky-note",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-sticky-note.svg"
+    },
+    {
+      "id": "shape-callout",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-callout.svg"
+    },
+    {
+      "id": "shape-badge",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-badge.svg"
+    },
+    {
+      "id": "shape-progress-bar",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-progress-bar.svg"
+    },
+    {
+      "id": "shape-progress-ring",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-progress-ring.svg"
+    },
+    {
+      "id": "shape-rating-dots",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-rating-dots.svg"
+    },
+    {
+      "id": "shape-divider",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-divider.svg"
+    },
+    {
+      "id": "shape-bullets",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-bullets.svg"
+    },
+    {
+      "id": "shape-number-badge",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-number-badge.svg"
+    },
+    {
+      "id": "shape-bookmark",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-bookmark.svg"
+    },
+    {
+      "id": "shape-pin",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-pin.svg"
+    },
+    {
+      "id": "shape-flag",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-flag.svg"
+    },
+    {
+      "id": "shape-folder",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-folder.svg"
+    },
+    {
+      "id": "shape-bell",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-bell.svg"
+    },
+    {
+      "id": "shape-clock",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-clock.svg"
+    },
+    {
+      "id": "shape-lightbulb",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-lightbulb.svg"
+    },
+    {
+      "id": "shape-checkmark",
+      "band": "shape-library",
+      "file": "individual/shapes-library/shape-checkmark.svg"
+    }
+  ]
+}

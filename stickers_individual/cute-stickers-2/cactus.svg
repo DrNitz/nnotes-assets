@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Cactus</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="mintMist" r="0.78" cy="0.25" cx="0.33">
+      <stop offset="1" stop-color="#4E9A6C" />
+      <stop offset="0.5" stop-color="#93D6A6" />
+      <stop stop-color="#DCF6DE" />
+    </radialGradient></defs><g fill="url(#mintMist)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" stroke-opacity="0.88" id="cactus"><path d="M-12 20V-8C-12 -18 12 -18 12 -8V20Z" /><path d="M-12 4h-6v-8M12 0h6v-10" fill="none" stroke-width="3" /><path d="M-6 2h2M4 8h2M-4 14h2" fill="none" stroke="#FFFFFF" stroke-width="1.6" /><circle cx="-4" cy="-4" r="1.6" fill="#3A2A2A" stroke="none" /><circle cx="4" cy="-4" r="1.6" fill="#3A2A2A" stroke="none" /><path d="M-2 2q2 2 4 0" fill="none" stroke="#3A2A2A" stroke-width="1.4" /></g></svg>

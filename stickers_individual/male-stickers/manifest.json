@@ -1,0 +1,130 @@
+{
+  "sheet": "male-stickers",
+  "stickers": [
+    {
+      "id": "razor",
+      "band": "grooming",
+      "file": "individual/male-stickers/razor.svg"
+    },
+    {
+      "id": "shavingBrush",
+      "band": "grooming",
+      "file": "individual/male-stickers/shavingBrush.svg"
+    },
+    {
+      "id": "aftershave",
+      "band": "grooming",
+      "file": "individual/male-stickers/aftershave.svg"
+    },
+    {
+      "id": "beardOil",
+      "band": "grooming",
+      "file": "individual/male-stickers/beardOil.svg"
+    },
+    {
+      "id": "comb",
+      "band": "grooming",
+      "file": "individual/male-stickers/comb.svg"
+    },
+    {
+      "id": "hairClay",
+      "band": "grooming",
+      "file": "individual/male-stickers/hairClay.svg"
+    },
+    {
+      "id": "tie",
+      "band": "grooming",
+      "file": "individual/male-stickers/tie.svg"
+    },
+    {
+      "id": "belt",
+      "band": "grooming",
+      "file": "individual/male-stickers/belt.svg"
+    },
+    {
+      "id": "watch",
+      "band": "carry",
+      "file": "individual/male-stickers/watch.svg"
+    },
+    {
+      "id": "wallet",
+      "band": "carry",
+      "file": "individual/male-stickers/wallet.svg"
+    },
+    {
+      "id": "keys",
+      "band": "carry",
+      "file": "individual/male-stickers/keys.svg"
+    },
+    {
+      "id": "lighter",
+      "band": "carry",
+      "file": "individual/male-stickers/lighter.svg"
+    },
+    {
+      "id": "cologne",
+      "band": "carry",
+      "file": "individual/male-stickers/cologne.svg"
+    },
+    {
+      "id": "cufflinks",
+      "band": "carry",
+      "file": "individual/male-stickers/cufflinks.svg"
+    },
+    {
+      "id": "socks",
+      "band": "carry",
+      "file": "individual/male-stickers/socks.svg"
+    },
+    {
+      "id": "shoe",
+      "band": "carry",
+      "file": "individual/male-stickers/shoe.svg"
+    },
+    {
+      "id": "shirt",
+      "band": "style",
+      "file": "individual/male-stickers/shirt.svg"
+    },
+    {
+      "id": "jacket",
+      "band": "style",
+      "file": "individual/male-stickers/jacket.svg"
+    },
+    {
+      "id": "sunglasses",
+      "band": "style",
+      "file": "individual/male-stickers/sunglasses.svg"
+    },
+    {
+      "id": "cap",
+      "band": "style",
+      "file": "individual/male-stickers/cap.svg"
+    },
+    {
+      "id": "scissors",
+      "band": "style",
+      "file": "individual/male-stickers/scissors.svg"
+    },
+    {
+      "id": "nailClippers",
+      "band": "style",
+      "file": "individual/male-stickers/nailClippers.svg"
+    },
+    {
+      "id": "deodorant",
+      "band": "style",
+      "file": "individual/male-stickers/deodorant.svg"
+    },
+    {
+      "id": "bottle",
+      "band": "style",
+      "file": "individual/male-stickers/bottle.svg"
+    },
+    {
+      "id": "briefcase",
+      "band": "style",
+      "file": "individual/male-stickers/briefcase.svg"
+    }
+  ]
+}

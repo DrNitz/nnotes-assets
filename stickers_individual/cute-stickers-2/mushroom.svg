@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Mushroom</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="rosePuff" r="0.78" cy="0.26" cx="0.33">
+      <stop offset="1" stop-color="#B55F7E" />
+      <stop offset="0.5" stop-color="#F2A0B5" />
+      <stop stop-color="#FFD8E0" />
+    </radialGradient></defs><g fill="url(#rosePuff)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" stroke-opacity="0.88" id="mushroom"><path d="M-10 4h20v16H-10z" /><path d="M-24 4C-24 -14 24 -14 24 4Z" /><circle cx="-10" cy="-4" r="4" fill="#FFF0E0" stroke="none" /><circle cx="8" cy="-6" r="3" fill="#FFF0E0" stroke="none" /><circle cx="-4" cy="12" r="1.6" fill="#3A2A2A" stroke="none" /><circle cx="4" cy="12" r="1.6" fill="#3A2A2A" stroke="none" /><path d="M-2 17q2 2 4 0" fill="none" stroke="#3A2A2A" stroke-width="1.4" /></g></svg>

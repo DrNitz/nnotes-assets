@@ -1,0 +1,970 @@
+{
+  "sheet": "country-flags",
+  "stickers": [
+    {
+      "id": "flag-afghanistan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-afghanistan.svg"
+    },
+    {
+      "id": "flag-albania",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-albania.svg"
+    },
+    {
+      "id": "flag-algeria",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-algeria.svg"
+    },
+    {
+      "id": "flag-andorra",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-andorra.svg"
+    },
+    {
+      "id": "flag-angola",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-angola.svg"
+    },
+    {
+      "id": "flag-antigua-and-barbuda",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-antigua-and-barbuda.svg"
+    },
+    {
+      "id": "flag-argentina",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-argentina.svg"
+    },
+    {
+      "id": "flag-armenia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-armenia.svg"
+    },
+    {
+      "id": "flag-australia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-australia.svg"
+    },
+    {
+      "id": "flag-austria",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-austria.svg"
+    },
+    {
+      "id": "flag-azerbaijan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-azerbaijan.svg"
+    },
+    {
+      "id": "flag-bahamas",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-bahamas.svg"
+    },
+    {
+      "id": "flag-bahrain",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-bahrain.svg"
+    },
+    {
+      "id": "flag-bangladesh",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-bangladesh.svg"
+    },
+    {
+      "id": "flag-barbados",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-barbados.svg"
+    },
+    {
+      "id": "flag-belarus",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-belarus.svg"
+    },
+    {
+      "id": "flag-belgium",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-belgium.svg"
+    },
+    {
+      "id": "flag-belize",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-belize.svg"
+    },
+    {
+      "id": "flag-benin",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-benin.svg"
+    },
+    {
+      "id": "flag-bhutan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-bhutan.svg"
+    },
+    {
+      "id": "flag-bolivia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-bolivia.svg"
+    },
+    {
+      "id": "flag-bosnia-and-herzegovina",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-bosnia-and-herzegovina.svg"
+    },
+    {
+      "id": "flag-botswana",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-botswana.svg"
+    },
+    {
+      "id": "flag-brazil",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-brazil.svg"
+    },
+    {
+      "id": "flag-brunei",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-brunei.svg"
+    },
+    {
+      "id": "flag-bulgaria",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-bulgaria.svg"
+    },
+    {
+      "id": "flag-burkina-faso",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-burkina-faso.svg"
+    },
+    {
+      "id": "flag-burundi",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-burundi.svg"
+    },
+    {
+      "id": "flag-cabo-verde",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-cabo-verde.svg"
+    },
+    {
+      "id": "flag-cambodia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-cambodia.svg"
+    },
+    {
+      "id": "flag-cameroon",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-cameroon.svg"
+    },
+    {
+      "id": "flag-canada",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-canada.svg"
+    },
+    {
+      "id": "flag-central-african-republic",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-central-african-republic.svg"
+    },
+    {
+      "id": "flag-chad",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-chad.svg"
+    },
+    {
+      "id": "flag-chile",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-chile.svg"
+    },
+    {
+      "id": "flag-china",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-china.svg"
+    },
+    {
+      "id": "flag-colombia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-colombia.svg"
+    },
+    {
+      "id": "flag-comoros",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-comoros.svg"
+    },
+    {
+      "id": "flag-congo",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-congo.svg"
+    },
+    {
+      "id": "flag-costa-rica",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-costa-rica.svg"
+    },
+    {
+      "id": "flag-croatia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-croatia.svg"
+    },
+    {
+      "id": "flag-cuba",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-cuba.svg"
+    },
+    {
+      "id": "flag-cyprus",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-cyprus.svg"
+    },
+    {
+      "id": "flag-czechia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-czechia.svg"
+    },
+    {
+      "id": "flag-denmark",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-denmark.svg"
+    },
+    {
+      "id": "flag-djibouti",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-djibouti.svg"
+    },
+    {
+      "id": "flag-dominica",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-dominica.svg"
+    },
+    {
+      "id": "flag-dominican-republic",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-dominican-republic.svg"
+    },
+    {
+      "id": "flag-ecuador",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-ecuador.svg"
+    },
+    {
+      "id": "flag-egypt",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-egypt.svg"
+    },
+    {
+      "id": "flag-el-salvador",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-el-salvador.svg"
+    },
+    {
+      "id": "flag-equatorial-guinea",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-equatorial-guinea.svg"
+    },
+    {
+      "id": "flag-eritrea",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-eritrea.svg"
+    },
+    {
+      "id": "flag-estonia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-estonia.svg"
+    },
+    {
+      "id": "flag-eswatini",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-eswatini.svg"
+    },
+    {
+      "id": "flag-ethiopia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-ethiopia.svg"
+    },
+    {
+      "id": "flag-fiji",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-fiji.svg"
+    },
+    {
+      "id": "flag-finland",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-finland.svg"
+    },
+    {
+      "id": "flag-france",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-france.svg"
+    },
+    {
+      "id": "flag-gabon",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-gabon.svg"
+    },
+    {
+      "id": "flag-gambia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-gambia.svg"
+    },
+    {
+      "id": "flag-georgia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-georgia.svg"
+    },
+    {
+      "id": "flag-germany",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-germany.svg"
+    },
+    {
+      "id": "flag-ghana",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-ghana.svg"
+    },
+    {
+      "id": "flag-greece",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-greece.svg"
+    },
+    {
+      "id": "flag-grenada",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-grenada.svg"
+    },
+    {
+      "id": "flag-guatemala",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-guatemala.svg"
+    },
+    {
+      "id": "flag-guinea",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-guinea.svg"
+    },
+    {
+      "id": "flag-guinea-bissau",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-guinea-bissau.svg"
+    },
+    {
+      "id": "flag-guyana",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-guyana.svg"
+    },
+    {
+      "id": "flag-haiti",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-haiti.svg"
+    },
+    {
+      "id": "flag-honduras",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-honduras.svg"
+    },
+    {
+      "id": "flag-hungary",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-hungary.svg"
+    },
+    {
+      "id": "flag-iceland",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-iceland.svg"
+    },
+    {
+      "id": "flag-india",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-india.svg"
+    },
+    {
+      "id": "flag-indonesia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-indonesia.svg"
+    },
+    {
+      "id": "flag-iran",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-iran.svg"
+    },
+    {
+      "id": "flag-iraq",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-iraq.svg"
+    },
+    {
+      "id": "flag-ireland",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-ireland.svg"
+    },
+    {
+      "id": "flag-israel",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-israel.svg"
+    },
+    {
+      "id": "flag-italy",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-italy.svg"
+    },
+    {
+      "id": "flag-jamaica",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-jamaica.svg"
+    },
+    {
+      "id": "flag-japan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-japan.svg"
+    },
+    {
+      "id": "flag-jordan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-jordan.svg"
+    },
+    {
+      "id": "flag-kazakhstan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-kazakhstan.svg"
+    },
+    {
+      "id": "flag-kenya",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-kenya.svg"
+    },
+    {
+      "id": "flag-kiribati",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-kiribati.svg"
+    },
+    {
+      "id": "flag-kuwait",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-kuwait.svg"
+    },
+    {
+      "id": "flag-kyrgyzstan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-kyrgyzstan.svg"
+    },
+    {
+      "id": "flag-laos",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-laos.svg"
+    },
+    {
+      "id": "flag-latvia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-latvia.svg"
+    },
+    {
+      "id": "flag-lebanon",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-lebanon.svg"
+    },
+    {
+      "id": "flag-lesotho",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-lesotho.svg"
+    },
+    {
+      "id": "flag-liberia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-liberia.svg"
+    },
+    {
+      "id": "flag-libya",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-libya.svg"
+    },
+    {
+      "id": "flag-liechtenstein",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-liechtenstein.svg"
+    },
+    {
+      "id": "flag-lithuania",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-lithuania.svg"
+    },
+    {
+      "id": "flag-luxembourg",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-luxembourg.svg"
+    },
+    {
+      "id": "flag-madagascar",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-madagascar.svg"
+    },
+    {
+      "id": "flag-malawi",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-malawi.svg"
+    },
+    {
+      "id": "flag-malaysia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-malaysia.svg"
+    },
+    {
+      "id": "flag-maldives",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-maldives.svg"
+    },
+    {
+      "id": "flag-mali",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-mali.svg"
+    },
+    {
+      "id": "flag-malta",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-malta.svg"
+    },
+    {
+      "id": "flag-marshall-islands",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-marshall-islands.svg"
+    },
+    {
+      "id": "flag-mauritania",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-mauritania.svg"
+    },
+    {
+      "id": "flag-mauritius",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-mauritius.svg"
+    },
+    {
+      "id": "flag-mexico",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-mexico.svg"
+    },
+    {
+      "id": "flag-micronesia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-micronesia.svg"
+    },
+    {
+      "id": "flag-moldova",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-moldova.svg"
+    },
+    {
+      "id": "flag-monaco",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-monaco.svg"
+    },
+    {
+      "id": "flag-mongolia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-mongolia.svg"
+    },
+    {
+      "id": "flag-montenegro",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-montenegro.svg"
+    },
+    {
+      "id": "flag-morocco",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-morocco.svg"
+    },
+    {
+      "id": "flag-mozambique",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-mozambique.svg"
+    },
+    {
+      "id": "flag-myanmar",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-myanmar.svg"
+    },
+    {
+      "id": "flag-namibia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-namibia.svg"
+    },
+    {
+      "id": "flag-nauru",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-nauru.svg"
+    },
+    {
+      "id": "flag-nepal",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-nepal.svg"
+    },
+    {
+      "id": "flag-netherlands",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-netherlands.svg"
+    },
+    {
+      "id": "flag-new-zealand",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-new-zealand.svg"
+    },
+    {
+      "id": "flag-nicaragua",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-nicaragua.svg"
+    },
+    {
+      "id": "flag-niger",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-niger.svg"
+    },
+    {
+      "id": "flag-nigeria",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-nigeria.svg"
+    },
+    {
+      "id": "flag-north-korea",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-north-korea.svg"
+    },
+    {
+      "id": "flag-north-macedonia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-north-macedonia.svg"
+    },
+    {
+      "id": "flag-norway",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-norway.svg"
+    },
+    {
+      "id": "flag-oman",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-oman.svg"
+    },
+    {
+      "id": "flag-pakistan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-pakistan.svg"
+    },
+    {
+      "id": "flag-palau",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-palau.svg"
+    },
+    {
+      "id": "flag-panama",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-panama.svg"
+    },
+    {
+      "id": "flag-papua-new-guinea",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-papua-new-guinea.svg"
+    },
+    {
+      "id": "flag-paraguay",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-paraguay.svg"
+    },
+    {
+      "id": "flag-peru",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-peru.svg"
+    },
+    {
+      "id": "flag-philippines",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-philippines.svg"
+    },
+    {
+      "id": "flag-poland",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-poland.svg"
+    },
+    {
+      "id": "flag-portugal",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-portugal.svg"
+    },
+    {
+      "id": "flag-qatar",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-qatar.svg"
+    },
+    {
+      "id": "flag-romania",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-romania.svg"
+    },
+    {
+      "id": "flag-russia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-russia.svg"
+    },
+    {
+      "id": "flag-rwanda",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-rwanda.svg"
+    },
+    {
+      "id": "flag-saint-kitts-and-nevis",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-saint-kitts-and-nevis.svg"
+    },
+    {
+      "id": "flag-saint-lucia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-saint-lucia.svg"
+    },
+    {
+      "id": "flag-saint-vincent-and-the-grenadines",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-saint-vincent-and-the-grenadines.svg"
+    },
+    {
+      "id": "flag-samoa",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-samoa.svg"
+    },
+    {
+      "id": "flag-san-marino",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-san-marino.svg"
+    },
+    {
+      "id": "flag-sao-tome-and-principe",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-sao-tome-and-principe.svg"
+    },
+    {
+      "id": "flag-saudi-arabia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-saudi-arabia.svg"
+    },
+    {
+      "id": "flag-senegal",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-senegal.svg"
+    },
+    {
+      "id": "flag-serbia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-serbia.svg"
+    },
+    {
+      "id": "flag-seychelles",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-seychelles.svg"
+    },
+    {
+      "id": "flag-sierra-leone",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-sierra-leone.svg"
+    },
+    {
+      "id": "flag-singapore",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-singapore.svg"
+    },
+    {
+      "id": "flag-slovakia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-slovakia.svg"
+    },
+    {
+      "id": "flag-slovenia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-slovenia.svg"
+    },
+    {
+      "id": "flag-solomon-islands",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-solomon-islands.svg"
+    },
+    {
+      "id": "flag-somalia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-somalia.svg"
+    },
+    {
+      "id": "flag-south-africa",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-south-africa.svg"
+    },
+    {
+      "id": "flag-south-korea",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-south-korea.svg"
+    },
+    {
+      "id": "flag-south-sudan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-south-sudan.svg"
+    },
+    {
+      "id": "flag-spain",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-spain.svg"
+    },
+    {
+      "id": "flag-sri-lanka",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-sri-lanka.svg"
+    },
+    {
+      "id": "flag-sudan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-sudan.svg"
+    },
+    {
+      "id": "flag-suriname",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-suriname.svg"
+    },
+    {
+      "id": "flag-sweden",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-sweden.svg"
+    },
+    {
+      "id": "flag-switzerland",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-switzerland.svg"
+    },
+    {
+      "id": "flag-syria",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-syria.svg"
+    },
+    {
+      "id": "flag-taiwan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-taiwan.svg"
+    },
+    {
+      "id": "flag-tajikistan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-tajikistan.svg"
+    },
+    {
+      "id": "flag-tanzania",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-tanzania.svg"
+    },
+    {
+      "id": "flag-thailand",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-thailand.svg"
+    },
+    {
+      "id": "flag-timor-leste",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-timor-leste.svg"
+    },
+    {
+      "id": "flag-togo",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-togo.svg"
+    },
+    {
+      "id": "flag-tonga",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-tonga.svg"
+    },
+    {
+      "id": "flag-trinidad-and-tobago",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-trinidad-and-tobago.svg"
+    },
+    {
+      "id": "flag-tunisia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-tunisia.svg"
+    },
+    {
+      "id": "flag-turkey",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-turkey.svg"
+    },
+    {
+      "id": "flag-turkmenistan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-turkmenistan.svg"
+    },
+    {
+      "id": "flag-tuvalu",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-tuvalu.svg"
+    },
+    {
+      "id": "flag-uganda",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-uganda.svg"
+    },
+    {
+      "id": "flag-ukraine",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-ukraine.svg"
+    },
+    {
+      "id": "flag-united-arab-emirates",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-united-arab-emirates.svg"
+    },
+    {
+      "id": "flag-united-kingdom",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-united-kingdom.svg"
+    },
+    {
+      "id": "flag-united-states",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-united-states.svg"
+    },
+    {
+      "id": "flag-uruguay",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-uruguay.svg"
+    },
+    {
+      "id": "flag-uzbekistan",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-uzbekistan.svg"
+    },
+    {
+      "id": "flag-vanuatu",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-vanuatu.svg"
+    },
+    {
+      "id": "flag-vatican-city",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-vatican-city.svg"
+    },
+    {
+      "id": "flag-venezuela",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-venezuela.svg"
+    },
+    {
+      "id": "flag-vietnam",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-vietnam.svg"
+    },
+    {
+      "id": "flag-yemen",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-yemen.svg"
+    },
+    {
+      "id": "flag-zambia",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-zambia.svg"
+    },
+    {
+      "id": "flag-zimbabwe",
+      "band": "flagSheet",
+      "file": "individual/country-flags/flag-zimbabwe.svg"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "sheet": "farming-stickers",
+  "stickers": [
+    {
+      "id": "wheat",
+      "band": "harvest",
+      "file": "individual/farming-stickers/wheat.svg"
+    },
+    {
+      "id": "tractor",
+      "band": "harvest",
+      "file": "individual/farming-stickers/tractor.svg"
+    },
+    {
+      "id": "barn",
+      "band": "harvest",
+      "file": "individual/farming-stickers/barn.svg"
+    },
+    {
+      "id": "carrot",
+      "band": "harvest",
+      "file": "individual/farming-stickers/carrot.svg"
+    },
+    {
+      "id": "apple",
+      "band": "harvest",
+      "file": "individual/farming-stickers/apple.svg"
+    },
+    {
+      "id": "egg",
+      "band": "harvest",
+      "file": "individual/farming-stickers/egg.svg"
+    },
+    {
+      "id": "milkCan",
+      "band": "harvest",
+      "file": "individual/farming-stickers/milkCan.svg"
+    },
+    {
+      "id": "hayBale",
+      "band": "harvest",
+      "file": "individual/farming-stickers/hayBale.svg"
+    },
+    {
+      "id": "hoe",
+      "band": "livestock",
+      "file": "individual/farming-stickers/hoe.svg"
+    },
+    {
+      "id": "shovel",
+      "band": "livestock",
+      "file": "individual/farming-stickers/shovel.svg"
+    },
+    {
+      "id": "boot",
+      "band": "livestock",
+      "file": "individual/farming-stickers/boot.svg"
+    },
+    {
+      "id": "strawHat",
+      "band": "livestock",
+      "file": "individual/farming-stickers/strawHat.svg"
+    },
+    {
+      "id": "chicken",
+      "band": "livestock",
+      "file": "individual/farming-stickers/chicken.svg"
+    },
+    {
+      "id": "cow",
+      "band": "livestock",
+      "file": "individual/farming-stickers/cow.svg"
+    },
+    {
+      "id": "pig",
+      "band": "livestock",
+      "file": "individual/farming-stickers/pig.svg"
+    },
+    {
+      "id": "field",
+      "band": "livestock",
+      "file": "individual/farming-stickers/field.svg"
+    },
+    {
+      "id": "wateringCan",
+      "band": "farmLife",
+      "file": "individual/farming-stickers/wateringCan.svg"
+    },
+    {
+      "id": "fence",
+      "band": "farmLife",
+      "file": "individual/farming-stickers/fence.svg"
+    },
+    {
+      "id": "silo",
+      "band": "farmLife",
+      "file": "individual/farming-stickers/silo.svg"
+    },
+    {
+      "id": "farmer",
+      "band": "farmLife",
+      "file": "individual/farming-stickers/farmer.svg"
+    },
+    {
+      "id": "scarecrow",
+      "band": "farmLife",
+      "file": "individual/farming-stickers/scarecrow.svg"
+    },
+    {
+      "id": "pumpkin",
+      "band": "farmLife",
+      "file": "individual/farming-stickers/pumpkin.svg"
+    },
+    {
+      "id": "crop",
+      "band": "farmLife",
+      "file": "individual/farming-stickers/crop.svg"
+    }
+  ]
+}

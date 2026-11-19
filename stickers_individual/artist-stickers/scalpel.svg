@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Scalpel</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><radialGradient id="brushBlue" r="0.78" cy="0.25" cx="0.33">
+      <stop offset="1" stop-color="#4A7FB8" />
+      <stop offset="0.5" stop-color="#8DBBE4" />
+      <stop stop-color="#D5E9F8" />
+    </radialGradient></defs><g fill="url(#brushBlue)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" stroke-opacity="0.88" id="scalpel"><path d="M-6 20L6 -10L14 -6L2 24Z" /><path d="M6 -10l8 -12 6 4 -8 12z" /><circle cx="-4" cy="8" r="2" fill="#3A2A2A" stroke="none" /><circle cx="4" cy="8" r="2" fill="#3A2A2A" stroke="none" /><path d="M-2 5q2 4 4 0" fill="none" stroke="#3A2A2A" stroke-width="1.6" /><ellipse cx="-9" cy="4" rx="3" ry="1.8" fill="#FF9BA0" fill-opacity="0.5" stroke="none" /><ellipse cx="9" cy="4" rx="3" ry="1.8" fill="#FF9BA0" fill-opacity="0.5" stroke="none" /></g></svg>

@@ -1,0 +1,125 @@
+{
+  "sheet": "coffee-tea-stickers",
+  "stickers": [
+    {
+      "id": "coffeeMug",
+      "band": "coffee",
+      "file": "individual/coffee-tea-stickers/coffeeMug.svg"
+    },
+    {
+      "id": "teaCup",
+      "band": "coffee",
+      "file": "individual/coffee-tea-stickers/teaCup.svg"
+    },
+    {
+      "id": "espresso",
+      "band": "coffee",
+      "file": "individual/coffee-tea-stickers/espresso.svg"
+    },
+    {
+      "id": "coffeeBeans",
+      "band": "coffee",
+      "file": "individual/coffee-tea-stickers/coffeeBeans.svg"
+    },
+    {
+      "id": "teapot",
+      "band": "coffee",
+      "file": "individual/coffee-tea-stickers/teapot.svg"
+    },
+    {
+      "id": "kettle",
+      "band": "coffee",
+      "file": "individual/coffee-tea-stickers/kettle.svg"
+    },
+    {
+      "id": "teaBag",
+      "band": "coffee",
+      "file": "individual/coffee-tea-stickers/teaBag.svg"
+    },
+    {
+      "id": "sugarBowl",
+      "band": "coffee",
+      "file": "individual/coffee-tea-stickers/sugarBowl.svg"
+    },
+    {
+      "id": "spoon",
+      "band": "brewing",
+      "file": "individual/coffee-tea-stickers/spoon.svg"
+    },
+    {
+      "id": "frenchPress",
+      "band": "brewing",
+      "file": "individual/coffee-tea-stickers/frenchPress.svg"
+    },
+    {
+      "id": "grinder",
+      "band": "brewing",
+      "file": "individual/coffee-tea-stickers/grinder.svg"
+    },
+    {
+      "id": "latte",
+      "band": "brewing",
+      "file": "individual/coffee-tea-stickers/latte.svg"
+    },
+    {
+      "id": "coffeePot",
+      "band": "brewing",
+      "file": "individual/coffee-tea-stickers/coffeePot.svg"
+    },
+    {
+      "id": "milkJug",
+      "band": "brewing",
+      "file": "individual/coffee-tea-stickers/milkJug.svg"
+    },
+    {
+      "id": "cinnamon",
+      "band": "brewing",
+      "file": "individual/coffee-tea-stickers/cinnamon.svg"
+    },
+    {
+      "id": "biscuit",
+      "band": "brewing",
+      "file": "individual/coffee-tea-stickers/biscuit.svg"
+    },
+    {
+      "id": "honey",
+      "band": "extras",
+      "file": "individual/coffee-tea-stickers/honey.svg"
+    },
+    {
+      "id": "lemon",
+      "band": "extras",
+      "file": "individual/coffee-tea-stickers/lemon.svg"
+    },
+    {
+      "id": "teaLeaf",
+      "band": "extras",
+      "file": "individual/coffee-tea-stickers/teaLeaf.svg"
+    },
+    {
+      "id": "coaster",
+      "band": "extras",
+      "file": "individual/coffee-tea-stickers/coaster.svg"
+    },
+    {
+      "id": "cafetiere",
+      "band": "extras",
+      "file": "individual/coffee-tea-stickers/cafetiere.svg"
+    },
+    {
+      "id": "sugarCube",
+      "band": "extras",
+      "file": "individual/coffee-tea-stickers/sugarCube.svg"
+    },
+    {
+      "id": "strainer",
+      "band": "extras",
+      "file": "individual/coffee-tea-stickers/strainer.svg"
+    },
+    {
+      "id": "coffeeScoop",
+      "band": "extras",
+      "file": "individual/coffee-tea-stickers/coffeeScoop.svg"
+    }
+  ]
+}

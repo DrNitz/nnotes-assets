@@ -1,0 +1,125 @@
+{
+  "sheet": "gardening-stickers",
+  "stickers": [
+    {
+      "id": "trowel",
+      "band": "tools",
+      "file": "individual/gardening-stickers/trowel.svg"
+    },
+    {
+      "id": "spade",
+      "band": "tools",
+      "file": "individual/gardening-stickers/spade.svg"
+    },
+    {
+      "id": "rake",
+      "band": "tools",
+      "file": "individual/gardening-stickers/rake.svg"
+    },
+    {
+      "id": "wateringCan",
+      "band": "tools",
+      "file": "individual/gardening-stickers/wateringCan.svg"
+    },
+    {
+      "id": "flowerPot",
+      "band": "tools",
+      "file": "individual/gardening-stickers/flowerPot.svg"
+    },
+    {
+      "id": "seedPacket",
+      "band": "tools",
+      "file": "individual/gardening-stickers/seedPacket.svg"
+    },
+    {
+      "id": "gloves",
+      "band": "tools",
+      "file": "individual/gardening-stickers/gloves.svg"
+    },
+    {
+      "id": "wheelbarrow",
+      "band": "tools",
+      "file": "individual/gardening-stickers/wheelbarrow.svg"
+    },
+    {
+      "id": "sprout",
+      "band": "plants",
+      "file": "individual/gardening-stickers/sprout.svg"
+    },
+    {
+      "id": "sunflower",
+      "band": "plants",
+      "file": "individual/gardening-stickers/sunflower.svg"
+    },
+    {
+      "id": "soilBag",
+      "band": "plants",
+      "file": "individual/gardening-stickers/soilBag.svg"
+    },
+    {
+      "id": "gardenHose",
+      "band": "plants",
+      "file": "individual/gardening-stickers/gardenHose.svg"
+    },
+    {
+      "id": "pruners",
+      "band": "plants",
+      "file": "individual/gardening-stickers/pruners.svg"
+    },
+    {
+      "id": "compost",
+      "band": "plants",
+      "file": "individual/gardening-stickers/compost.svg"
+    },
+    {
+      "id": "plantLabel",
+      "band": "plants",
+      "file": "individual/gardening-stickers/plantLabel.svg"
+    },
+    {
+      "id": "greenhouse",
+      "band": "plants",
+      "file": "individual/gardening-stickers/greenhouse.svg"
+    },
+    {
+      "id": "Mulch",
+      "band": "extras",
+      "file": "individual/gardening-stickers/Mulch.svg"
+    },
+    {
+      "id": "TomatoPlant",
+      "band": "extras",
+      "file": "individual/gardening-stickers/TomatoPlant.svg"
+    },
+    {
+      "id": "kneePad",
+      "band": "extras",
+      "file": "individual/gardening-stickers/kneePad.svg"
+    },
+    {
+      "id": "bugSpray",
+      "band": "extras",
+      "file": "individual/gardening-stickers/bugSpray.svg"
+    },
+    {
+      "id": "sunHat",
+      "band": "extras",
+      "file": "individual/gardening-stickers/sunHat.svg"
+    },
+    {
+      "id": "gardenFork",
+      "band": "extras",
+      "file": "individual/gardening-stickers/gardenFork.svg"
+    },
+    {
+      "id": "shelf",
+      "band": "extras",
+      "file": "individual/gardening-stickers/shelf.svg"
+    },
+    {
+      "id": "herbPot",
+      "band": "extras",
+      "file": "individual/gardening-stickers/herbPot.svg"
+    }
+  ]
+}

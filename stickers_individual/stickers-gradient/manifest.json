@@ -1,0 +1,125 @@
+{
+  "sheet": "stickers-gradient",
+  "stickers": [
+    {
+      "id": "sticker-star",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-star.svg"
+    },
+    {
+      "id": "sticker-heart",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-heart.svg"
+    },
+    {
+      "id": "sticker-circle",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-circle.svg"
+    },
+    {
+      "id": "sticker-rounded-square",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-rounded-square.svg"
+    },
+    {
+      "id": "sticker-pill",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-pill.svg"
+    },
+    {
+      "id": "sticker-tag",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-tag.svg"
+    },
+    {
+      "id": "sticker-cloud",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-cloud.svg"
+    },
+    {
+      "id": "sticker-burst",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-burst.svg"
+    },
+    {
+      "id": "sticker-arrow",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-arrow.svg"
+    },
+    {
+      "id": "sticker-check-badge",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-check-badge.svg"
+    },
+    {
+      "id": "sticker-bookmark",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-bookmark.svg"
+    },
+    {
+      "id": "sticker-hexagon",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-hexagon.svg"
+    },
+    {
+      "id": "sticker-droplet",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-droplet.svg"
+    },
+    {
+      "id": "sticker-leaf",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-leaf.svg"
+    },
+    {
+      "id": "sticker-flag",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-flag.svg"
+    },
+    {
+      "id": "sticker-bell",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-bell.svg"
+    },
+    {
+      "id": "sticker-speech",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-speech.svg"
+    },
+    {
+      "id": "sticker-lightbulb",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-lightbulb.svg"
+    },
+    {
+      "id": "sticker-pencil",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-pencil.svg"
+    },
+    {
+      "id": "sticker-folder",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-folder.svg"
+    },
+    {
+      "id": "sticker-octagon",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-octagon.svg"
+    },
+    {
+      "id": "sticker-diamond",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-diamond.svg"
+    },
+    {
+      "id": "sticker-triangle",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-triangle.svg"
+    },
+    {
+      "id": "sticker-plus",
+      "band": "sticker-library",
+      "file": "individual/stickers-gradient/sticker-plus.svg"
+    }
+  ]
+}

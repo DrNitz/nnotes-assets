@@ -1,0 +1,125 @@
+{
+  "sheet": "cute-stickers",
+  "stickers": [
+    {
+      "id": "kitty",
+      "band": "friends",
+      "file": "individual/cute-stickers/kitty.svg"
+    },
+    {
+      "id": "puppy",
+      "band": "friends",
+      "file": "individual/cute-stickers/puppy.svg"
+    },
+    {
+      "id": "bunny",
+      "band": "friends",
+      "file": "individual/cute-stickers/bunny.svg"
+    },
+    {
+      "id": "bear",
+      "band": "friends",
+      "file": "individual/cute-stickers/bear.svg"
+    },
+    {
+      "id": "panda",
+      "band": "friends",
+      "file": "individual/cute-stickers/panda.svg"
+    },
+    {
+      "id": "fox",
+      "band": "friends",
+      "file": "individual/cute-stickers/fox.svg"
+    },
+    {
+      "id": "frog",
+      "band": "friends",
+      "file": "individual/cute-stickers/frog.svg"
+    },
+    {
+      "id": "owl",
+      "band": "friends",
+      "file": "individual/cute-stickers/owl.svg"
+    },
+    {
+      "id": "chick",
+      "band": "skyFolk",
+      "file": "individual/cute-stickers/chick.svg"
+    },
+    {
+      "id": "duckling",
+      "band": "skyFolk",
+      "file": "individual/cute-stickers/duckling.svg"
+    },
+    {
+      "id": "penguin",
+      "band": "skyFolk",
+      "file": "individual/cute-stickers/penguin.svg"
+    },
+    {
+      "id": "unicorn",
+      "band": "skyFolk",
+      "file": "individual/cute-stickers/unicorn.svg"
+    },
+    {
+      "id": "rainbow",
+      "band": "skyFolk",
+      "file": "individual/cute-stickers/rainbow.svg"
+    },
+    {
+      "id": "cloud",
+      "band": "skyFolk",
+      "file": "individual/cute-stickers/cloud.svg"
+    },
+    {
+      "id": "sun",
+      "band": "skyFolk",
+      "file": "individual/cute-stickers/sun.svg"
+    },
+    {
+      "id": "moon",
+      "band": "skyFolk",
+      "file": "individual/cute-stickers/moon.svg"
+    },
+    {
+      "id": "star",
+      "band": "garden",
+      "file": "individual/cute-stickers/star.svg"
+    },
+    {
+      "id": "heart",
+      "band": "garden",
+      "file": "individual/cute-stickers/heart.svg"
+    },
+    {
+      "id": "blossom",
+      "band": "garden",
+      "file": "individual/cute-stickers/blossom.svg"
+    },
+    {
+      "id": "butterfly",
+      "band": "garden",
+      "file": "individual/cute-stickers/butterfly.svg"
+    },
+    {
+      "id": "ladybug",
+      "band": "garden",
+      "file": "individual/cute-stickers/ladybug.svg"
+    },
+    {
+      "id": "snail",
+      "band": "garden",
+      "file": "individual/cute-stickers/snail.svg"
+    },
+    {
+      "id": "whale",
+      "band": "garden",
+      "file": "individual/cute-stickers/whale.svg"
+    },
+    {
+      "id": "octopus",
+      "band": "garden",
+      "file": "individual/cute-stickers/octopus.svg"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Sticker Cloud</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><linearGradient id="gradSky" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7DD3FC" />
+      <stop offset="1" stop-color="#3B82F6" />
+    </linearGradient></defs><g fill="url(#gradSky)" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" id="sticker-cloud"><path d="M-20 14C-30 14 -34 6 -32 -2C-31 -10 -24 -14 -17 -13C-14 -23 -2 -27 6 -20C12 -25 23 -21 25 -12C33 -11 36 -2 32 5C29 11 22 14 14 14Z" /></g></svg>

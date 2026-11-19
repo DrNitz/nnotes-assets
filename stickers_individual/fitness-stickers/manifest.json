@@ -1,0 +1,120 @@
+{
+  "sheet": "fitness-stickers",
+  "stickers": [
+    {
+      "id": "dumbbell",
+      "band": "weights",
+      "file": "individual/fitness-stickers/dumbbell.svg"
+    },
+    {
+      "id": "kettlebell",
+      "band": "weights",
+      "file": "individual/fitness-stickers/kettlebell.svg"
+    },
+    {
+      "id": "barbell",
+      "band": "weights",
+      "file": "individual/fitness-stickers/barbell.svg"
+    },
+    {
+      "id": "yogaMat",
+      "band": "weights",
+      "file": "individual/fitness-stickers/yogaMat.svg"
+    },
+    {
+      "id": "resistanceBand",
+      "band": "weights",
+      "file": "individual/fitness-stickers/resistanceBand.svg"
+    },
+    {
+      "id": "jumpRope",
+      "band": "weights",
+      "file": "individual/fitness-stickers/jumpRope.svg"
+    },
+    {
+      "id": "gymBag",
+      "band": "weights",
+      "file": "individual/fitness-stickers/gymBag.svg"
+    },
+    {
+      "id": "waterBottle",
+      "band": "weights",
+      "file": "individual/fitness-stickers/waterBottle.svg"
+    },
+    {
+      "id": "treadmill",
+      "band": "cardio",
+      "file": "individual/fitness-stickers/treadmill.svg"
+    },
+    {
+      "id": "stopwatch",
+      "band": "cardio",
+      "file": "individual/fitness-stickers/stopwatch.svg"
+    },
+    {
+      "id": "heartRate",
+      "band": "cardio",
+      "file": "individual/fitness-stickers/heartRate.svg"
+    },
+    {
+      "id": "proteinShake",
+      "band": "cardio",
+      "file": "individual/fitness-stickers/proteinShake.svg"
+    },
+    {
+      "id": "runningShoe",
+      "band": "cardio",
+      "file": "individual/fitness-stickers/runningShoe.svg"
+    },
+    {
+      "id": "shorts",
+      "band": "cardio",
+      "file": "individual/fitness-stickers/shorts.svg"
+    },
+    {
+      "id": "tankTop",
+      "band": "cardio",
+      "file": "individual/fitness-stickers/tankTop.svg"
+    },
+    {
+      "id": "gloves",
+      "band": "cardio",
+      "file": "individual/fitness-stickers/gloves.svg"
+    },
+    {
+      "id": "bench",
+      "band": "gear",
+      "file": "individual/fitness-stickers/bench.svg"
+    },
+    {
+      "id": "plates",
+      "band": "gear",
+      "file": "individual/fitness-stickers/plates.svg"
+    },
+    {
+      "id": "pullUpBar",
+      "band": "gear",
+      "file": "individual/fitness-stickers/pullUpBar.svg"
+    },
+    {
+      "id": "foamRoller",
+      "band": "gear",
+      "file": "individual/fitness-stickers/foamRoller.svg"
+    },
+    {
+      "id": "matYoga",
+      "band": "gear",
+      "file": "individual/fitness-stickers/matYoga.svg"
+    },
+    {
+      "id": "trainer",
+      "band": "gear",
+      "file": "individual/fitness-stickers/trainer.svg"
+    },
+    {
+      "id": "medball",
+      "band": "gear",
+      "file": "individual/fitness-stickers/medball.svg"
+    }
+  ]
+}
