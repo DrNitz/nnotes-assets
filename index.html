@@ -16,8 +16,6 @@
 
     *, *::before, *::after { box-sizing: border-box; }
 
-    html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       background: var(--paper);
@@ -43,7 +41,6 @@
       background: var(--field);
       color: var(--ink);
       padding: 10px 14px;
-      border-radius: 10px;
       z-index: 10;
     }
     .skip:focus { left: 12px; }
@@ -62,44 +59,40 @@
 
     header {
       border-bottom: 1px solid var(--line);
-      padding: 38px 24px 16px;
+      padding: 30px 32px 24px;
     }
 
     .masthead {
       display: flex;
       flex-wrap: wrap;
-      align-items: baseline;
-      gap: 6px 20px;
-      max-width: 1240px;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px 32px;
+      max-width: 1400px;
       margin: 0 auto;
     }
 
     h1 {
       margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(2.1rem, 5vw, 3.2rem);
-      font-weight: 400;
-      letter-spacing: -0.035em;
-      line-height: 1.05;
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-weight: 700;
+      letter-spacing: -0.045em;
+      line-height: 1;
     }
 
     .intro {
-      margin: 6px 0 0;
+      margin: 8px 0 0;
       color: var(--secondary);
-      font-size: 1.0625rem;
+      font-size: 0.9375rem;
     }
 
-    .search-bar {
-      max-width: 1240px;
-      margin: 20px auto 0;
-    }
+    .search-bar { flex: 1 1 320px; max-width: 460px; }
 
     .search-bar input {
       width: 100%;
-      max-width: 440px;
-      padding: 11px 14px;
+      padding: 12px 14px;
       border: 1px solid var(--line);
-      border-radius: 12px;
+      border-radius: 0;
       background: var(--field);
       color: var(--ink);
       font: inherit;
@@ -107,71 +100,63 @@
 
     .search-bar input::placeholder { color: var(--secondary); }
 
-    .toolbar {
-      max-width: 1240px;
-      margin: 18px auto 0;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px 24px;
+    .layout {
+      display: grid;
+      grid-template-columns: 236px minmax(0, 1fr);
+      gap: 36px;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 28px 32px 64px;
     }
 
-    .tabs {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
+    .rail {
+      align-self: start;
+      position: sticky;
+      top: 20px;
     }
 
-    .tab {
-      background: none;
-      border: 0;
-      border-bottom: 2px solid transparent;
-      padding: 6px 2px;
+    .rail-label {
+      margin: 0 0 8px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--line);
       color: var(--secondary);
-      font: inherit;
+      font-size: 0.75rem;
       font-weight: 600;
     }
-    .tab[aria-pressed="true"] {
-      color: var(--ink);
-      border-bottom-color: var(--accent);
-    }
 
-    .categories {
+    .tabs, .categories {
       display: flex;
-      gap: 8px;
-      overflow-x: auto;
-      padding: 6px 0;
-      max-width: 1240px;
-      margin: 0 auto;
-      scrollbar-width: thin;
+      flex-direction: column;
+      gap: 2px;
+      margin: 0 0 28px;
+      padding: 0;
     }
 
-    .chip {
-      flex: 0 0 auto;
-      background: transparent;
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      padding: 6px 12px;
+    .tab, .chip {
+      min-height: 44px;
+      text-align: left;
+      background: none;
+      border: 0;
+      border-left: 3px solid transparent;
+      border-radius: 0;
+      padding: 10px 12px;
       color: var(--secondary);
       font: inherit;
-      font-size: 0.875rem;
-      white-space: nowrap;
-    }
-    .chip[aria-pressed="true"] {
-      border-color: var(--accent);
-      color: var(--ink);
+      font-size: 0.9375rem;
     }
 
-    main {
-      max-width: 1240px;
-      margin: 0 auto;
-      padding: 20px 24px 56px;
+    .tab[aria-pressed="true"], .chip[aria-pressed="true"] {
+      color: var(--ink);
+      border-left-color: var(--accent);
+      font-weight: 600;
     }
 
     .status {
-      margin: 0 0 20px;
+      margin: 0 0 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--line);
       color: var(--secondary);
+      font-size: 0.875rem;
     }
     .status button {
       background: none;
@@ -184,42 +169,32 @@
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
-      gap: 24px 14px;
+      grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+      gap: 28px 20px;
     }
 
-    .asset {
-      margin: 0;
-      min-width: 0;
-      text-align: center;
-    }
+    .asset { margin: 0; min-width: 0; }
 
-    .asset-preview {
-      display: block;
-      border-radius: 10px;
-    }
+    .asset-preview { display: block; }
 
     .asset-preview img {
       display: block;
       width: 100%;
-      max-width: 132px;
       aspect-ratio: 1 / 1;
       object-fit: contain;
-      margin: 0 auto;
     }
 
     .asset-name {
-      margin-top: 10px;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 0.9375rem;
+      margin-top: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
       overflow-wrap: anywhere;
     }
 
     .asset-actions {
-      margin-top: 4px;
+      margin-top: 2px;
       display: flex;
-      justify-content: center;
-      gap: 12px;
+      gap: 14px;
       font-size: 0.75rem;
     }
 
@@ -232,23 +207,30 @@
 
     footer {
       border-top: 1px solid var(--line);
-      margin-top: 24px;
-      padding: 18px 24px 28px;
+      padding: 20px 32px 32px;
       color: var(--secondary);
       font-size: 0.8125rem;
     }
+    footer p { max-width: 1400px; margin: 0 auto; }
     footer a { color: var(--accent); }
-    footer p { max-width: 1240px; margin: 0 auto; }
 
-    @media (max-width: 600px) {
-      header { padding: 20px 16px 12px; }
-      main { padding: 16px 16px 40px; }
-      .grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 20px 10px; }
-      .tabs { gap: 14px; }
+    @media (max-width: 900px) {
+      header { padding: 22px 20px 18px; }
+      .layout { grid-template-columns: 1fr; gap: 22px; padding: 20px 20px 48px; }
+      .rail { position: static; }
+      .tabs, .categories { flex-direction: row; overflow-x: auto; margin-bottom: 18px; }
+      .tab, .chip { white-space: nowrap; border-left: 0; border-bottom: 3px solid transparent; }
+      .tab[aria-pressed="true"], .chip[aria-pressed="true"] { border-left: 0; border-bottom-color: var(--accent); }
+      .grid { grid-template-columns: repeat(auto-fill, minmax(136px, 1fr)); gap: 22px 14px; }
+      footer { padding: 18px 20px 28px; }
+    }
+
+    @media (max-width: 480px) {
+      .grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 18px 10px; }
+      .asset-actions { gap: 10px; }
     }
 
     @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
       *, *::before, *::after { transition: none !important; }
     }
   </style>
@@ -258,27 +240,34 @@
 
   <header>
     <div class="masthead">
-      <h1>N-Notes Assets</h1>
-      <p class="intro">Stickers and frames for note apps.</p>
+      <div>
+        <h1>N-Notes Assets</h1>
+        <p class="intro">Stickers and frames for note apps.</p>
+      </div>
+      <div class="search-bar">
+        <label class="sr-only" for="searchInput">Search assets</label>
+        <input id="searchInput" type="search" placeholder="Search stickers, frames, SVGs" autocomplete="off">
+      </div>
     </div>
-    <div class="search-bar">
-      <label class="sr-only" for="searchInput">Search assets</label>
-      <input id="searchInput" type="search" placeholder="Search stickers, frames, SVGs" autocomplete="off">
-    </div>
-    <div class="toolbar">
+  </header>
+
+  <div class="layout">
+    <aside class="rail" aria-label="Asset filters">
+      <p class="rail-label">Collection</p>
       <nav class="tabs" aria-label="Asset collections">
         <button class="tab" type="button" data-tab="stickers" aria-pressed="true">Stickers</button>
         <button class="tab" type="button" data-tab="individual" aria-pressed="false">Sticker Library</button>
         <button class="tab" type="button" data-tab="frames" aria-pressed="false">Frames</button>
       </nav>
-    </div>
-    <div class="categories" id="categoryContainer" aria-label="Categories"></div>
-  </header>
+      <p class="rail-label">Categories</p>
+      <div class="categories" id="categoryContainer" aria-label="Categories"></div>
+    </aside>
 
-  <main>
-    <p class="status" id="status" role="status" aria-live="polite">Loading assets from GitHub...</p>
-    <div class="grid" id="grid"></div>
-  </main>
+    <main>
+      <p class="status" id="status" role="status" aria-live="polite">Loading assets from GitHub...</p>
+      <div class="grid" id="grid"></div>
+    </main>
+  </div>
 
   <footer>
     <p>Assets hosted on GitHub. Made by <a href="https://drnitz.com" target="_blank" rel="noopener">drnitz.com</a>.</p>

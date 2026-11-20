@@ -1,58 +1,56 @@
 # N-Notes Assets design direction
 
-Owner direction, in their words: "the Ui and design should be minimalist soft corners the stickers should feel as if they are embeded not bulky photo container".
+Owner direction: "minimalist", "unique and viewer friendly", "stickers should feel embedded, not bulky photo containers". Chosen direction: Swiss grid catalog.
 
 ## Identity
 
-A practical catalog of stickers and frames for people building note apps. The assets are the subject. The interface stays out of their way.
+A visual asset catalog for people building note apps. The stickers are the content. The interface is a neutral grid around them.
 
-Premium is expressed as editorial restraint: a serif display title, generous whitespace, and hairline rules. No glass, glow, gradient, or extra radius. The word "premium" is a direction for the design, not marketing copy on the page.
+## Reference
+
+UI/UX Pro Max skill match: `minimalism-and-swiss-style`, verified from local `styles.csv`. Keywords: clean, spacious, functional, high contrast, geometric, grid-based, sans-serif, essential. Fonts: sans-serif only, no network font request.
 
 ## Dials
 
-ENERGY 1 / RHYTHM 1 / MOTION 1. Premium here means craft and restraint, not louder motion or more decoration.
+ENERGY 1 / RHYTHM 1 / MOTION 1. Uniqueness comes from the strict grid and the left rail, not from decoration or motion.
 
 ## Palette
 
-- Paper `#96938B`: page background, a mid-tone chosen so both white die-cut borders and dark artwork read on it. Near-white made white sticker lines disappear.
-- Ink `#14141A`: primary text.
-- Secondary `#26262B`: labels and inactive controls.
-- Accent `#0A2266`: active tab, focus ring, and link underlines only. Deepened from the logo blue so it stays legible on the mid-tone page.
+- Paper `#96938B`: mid-tone neutral so white sticker borders and dark artwork both read. Checked: white borders 3.07:1, dark ink 5.98:1.
+- Ink `#14141A`: text and hairlines.
+- Secondary `#26262B`: inactive controls, 4.91:1 on paper.
+- Accent `#0A2266`: active rail item and focus ring only, 4.77:1 on paper.
 
-Neutral white is used for the search field only.
-
-Contrast checked with the antislop-human script: ink on paper 5.98:1, secondary on paper 4.91:1, accent on paper 4.77:1, white sticker borders on paper 3.07:1. All text passes 4.5:1 and white borders pass the 3:1 non-text bar.
+No gradient, no glow, no glass, no shadow.
 
 ## Typography
 
-System UI stack for controls (`system-ui, -apple-system, "Segoe UI", Roboto, sans-serif`). Reason: no network font request, and the neutral voice keeps attention on the artwork. Display title uses a local serif stack (Georgia, "Times New Roman", serif) to give the catalog an editorial, print feel without a network font. Asset names use the same serif, smaller.
+Sans-serif system stack only (`system-ui, -apple-system, "Segoe UI", Roboto, sans-serif`). Display title 700 weight with tight tracking. All UI text same family. No serif, no monospace, no network font.
 
 ## Shape and elevation
 
-Radius 10px on inputs and category chips, 0 on tab underlines. Hairline rules under the masthead and above the footer, both at 3:1 against the page. No cards, no shadows, no blur, no gradients. Stickers sit directly on the page with no container, border, or backing panel. Generous vertical spacing between groups, tighter spacing inside a group.
+Border radius 0 everywhere. Hairline rules at `#45433E` (3.22:1 on paper) where structure is needed. Stickers sit directly on the page with no panel, border, or backing box.
 
 ## Layout
 
-No hero. A masthead with title and one line of plain description, a search field, row of collection tabs, scrollable category chips, then a single responsive grid of assets. Section rhythm is deliberately uniform because this is a catalog, not a landing page.
+Desktop: top masthead with title and search, then a two-column body. Left rail holds collection tabs and category buttons as vertical text items with a 3px accent marker for the active item. Right side is a strict responsive grid of sticker previews with name and Save link below. Mobile: rail becomes a horizontal scrolling bar above the grid, grid reflows to two columns then one as needed.
 
 ## States
 
-Loading, empty, and error states are text with a real action. No fabricated numbers or content. Asset counts come from the fetched JSON.
+Loading, empty, and error states are text with a real action. Counts come from the fetched JSON, never invented.
 
 ## Theme
 
-One fixed mid-tone theme. Reason: sticker artwork includes both white die-cut borders and dark ink, and only a mid-tone page keeps both visible. A dark theme would hide dark details; a light theme hides white lines. No theme toggle.
+One fixed mid-tone theme. A dark theme would hide dark artwork; a light theme hides white sticker lines. No toggle.
 
 ## Motion
 
-None. Hover is a color change only. Non-essential motion is absent, so reduced-motion needs no exception beyond resetting transitions.
+None. Hover is a color change only. Reduced-motion rule is present as a safeguard.
 
 ## Decision reasons
 
-- No photo containers: the owner asked for embedded stickers.
-- No dark default: artwork color fidelity matters more than a "tech" look.
-- Mid-tone page, not near-white: white sticker borders were invisible on a light page. Checked at 3.07:1 against the new paper tone.
-- Serif display title: gives the catalog an editorial voice; system fonts keep the page fast and offline-safe.
-- Hairline rules at 3.22:1: define structure without building boxes around stickers.
-- System font: avoids a render-blocking font request.
-- Search at top: the fastest path into 653 assets.
+- Left rail: keeps categories visible while browsing 653 assets, without a dropdown.
+- Sharp edges: Swiss catalog character, set deliberately against the former soft-corner version.
+- Mid-tone page: white sticker borders were invisible on near-white.
+- Sans-serif only: clear, fast, and distinct from the previous editorial direction.
+- No cards: stickers stay embedded in the page, as requested.
