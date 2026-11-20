@@ -2,4 +2,4 @@
       <stop stop-color="#D7EFFC" />
       <stop offset="0.5" stop-color="#8CC8EE" />
       <stop offset="1" stop-color="#4F8FC9" />
-    </radialGradient></defs><g fill="url(#skyBaby)" stroke-linecap="round" stroke-linejoin="round" id="whale"><path d="M-26 2C-26 -12 -8 -20 8 -16C20 -12 26 -2 24 8C16 16 -10 18 -22 10Z" /><path d="M24 4l10 -10 -2 14z" /><path d="M-10 -16q-4 -10 0 -14M0 -18q4 -10 0 -14" fill="none" stroke-width="2" /><circle cx="-12" cy="-4" r="2" fill="#3A2A2A" stroke="none" /><path d="M-18 4q4 4 8 0" fill="none" stroke="#3A2A2A" stroke-width="1.6" /></g></svg>
+    </radialGradient></defs><g fill="url(#skyBaby)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" stroke-opacity="0.88" id="whale"><path d="M-26 2C-26 -12 -8 -20 8 -16C20 -12 26 -2 24 8C16 16 -10 18 -22 10Z" stroke="none" /><path d="M24 4l10 -10 -2 14z" stroke="none" /><path d="M-10 -16q-4 -10 0 -14M0 -18q4 -10 0 -14" fill="none" stroke-width="2" /><circle cx="-12" cy="-4" r="2" fill="#3A2A2A" stroke="none" /><path d="M-18 4q4 4 8 0" fill="none" stroke="#3A2A2A" stroke-width="1.6" /></g></svg>

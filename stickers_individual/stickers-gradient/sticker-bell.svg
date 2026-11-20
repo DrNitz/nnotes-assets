@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Sticker Bell</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><linearGradient id="gradGold" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#FDE68A" />
       <stop offset="1" stop-color="#F59E0B" />
-    </linearGradient></defs><g fill="url(#gradGold)" stroke-linejoin="round" id="sticker-bell"><path d="M-17 8C-17 -5 -10 -15 0 -15C10 -15 17 -5 17 8L23 14H-23Z" /></g></svg>
+    </linearGradient></defs><g fill="url(#gradGold)" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" id="sticker-bell"><path d="M-17 8C-17 -5 -10 -15 0 -15C10 -15 17 -5 17 8L23 14H-23Z" stroke="none" /></g></svg>

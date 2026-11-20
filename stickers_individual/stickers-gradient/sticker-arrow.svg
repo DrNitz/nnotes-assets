@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Sticker Arrow</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><linearGradient id="gradCoral" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#FF9A76" />
       <stop offset="1" stop-color="#FF5D8F" />
-    </linearGradient></defs><g fill="url(#gradCoral)" stroke-linejoin="round" id="sticker-arrow"><path d="M-30 -12H8V-24L30 0L8 24V12H-30Z" /></g></svg>
+    </linearGradient></defs><g fill="url(#gradCoral)" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" id="sticker-arrow"><path d="M-30 -12H8V-24L30 0L8 24V12H-30Z" stroke="none" /></g></svg>

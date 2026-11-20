@@ -2,4 +2,4 @@
       <stop offset="1" stop-color="#B55F7E" />
       <stop offset="0.5" stop-color="#F2A0B5" />
       <stop stop-color="#FFD8E0" />
-    </radialGradient></defs><g fill="url(#rosePuff)" stroke-linecap="round" stroke-linejoin="round" id="balloon"><ellipse cy="-6" rx="16" ry="19" /><path d="M-4 12l4 6 4 -6z" fill="#F2A0B5" stroke="none" /><path d="M0 18q6 8 0 14" fill="none" stroke-width="1.6" /><circle cx="-5" cy="-10" r="1.8" fill="#3A2A2A" stroke="none" /><circle cx="5" cy="-10" r="1.8" fill="#3A2A2A" stroke="none" /><path d="M-2 -2q2 2 4 0" fill="none" stroke="#3A2A2A" stroke-width="1.4" /></g></svg>
+    </radialGradient></defs><g fill="url(#rosePuff)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" stroke-opacity="0.9" id="balloon"><ellipse cy="-6" rx="16" ry="19" stroke="none" /><path d="M-4 12l4 6 4 -6z" fill="#F2A0B5" stroke="none" /><path d="M0 18q6 8 0 14" fill="none" stroke-width="1.6" /><circle cx="-5" cy="-10" r="1.8" fill="#3A2A2A" stroke="none" /><circle cx="5" cy="-10" r="1.8" fill="#3A2A2A" stroke="none" /><path d="M-2 -2q2 2 4 0" fill="none" stroke="#3A2A2A" stroke-width="1.4" /></g></svg>
