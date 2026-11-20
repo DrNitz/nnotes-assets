@@ -12,14 +12,14 @@ ENERGY 1 / RHYTHM 1 / MOTION 1.
 
 ## Palette
 
-- Paper `#F6F5F1`: page background, chosen so light sticker artwork sits on a calm neutral without a panel behind it.
+- Paper `#96938B`: page background, a mid-tone chosen so both white die-cut borders and dark artwork read on it. Near-white made white sticker lines disappear.
 - Ink `#14141A`: primary text.
-- Secondary `#565660`: labels and inactive controls.
-- Accent `#2F5BD8`: active tab, focus ring, and link underlines only. It comes from the N-Notes logo family, used at the key moment instead of across every surface.
+- Secondary `#26262B`: labels and inactive controls.
+- Accent `#0A2266`: active tab, focus ring, and link underlines only. Deepened from the logo blue so it stays legible on the mid-tone page.
 
 Neutral white is used for the search field only.
 
-Contrast checked with the antislop-human script: ink on paper 16.82:1, secondary on paper 6.65:1, white on accent 5.82:1. All pass normal text.
+Contrast checked with the antislop-human script: ink on paper 5.98:1, secondary on paper 4.91:1, accent on paper 4.77:1, white sticker borders on paper 3.07:1. All text passes 4.5:1 and white borders pass the 3:1 non-text bar.
 
 ## Typography
 
@@ -39,7 +39,7 @@ Loading, empty, and error states are text with a real action. No fabricated numb
 
 ## Theme
 
-Light only. Reason: the stickers are authored on light backgrounds and a dark theme would change how the artwork is perceived. No theme toggle.
+One fixed mid-tone theme. Reason: sticker artwork includes both white die-cut borders and dark ink, and only a mid-tone page keeps both visible. A dark theme would hide dark details; a light theme hides white lines. No theme toggle.
 
 ## Motion
 
@@ -49,5 +49,6 @@ None. Hover is a color change only. Non-essential motion is absent, so reduced-m
 
 - No photo containers: the owner asked for embedded stickers.
 - No dark default: artwork color fidelity matters more than a "tech" look.
+- Mid-tone page, not near-white: white sticker borders were invisible on a light page. Checked at 3.07:1 against the new paper tone.
 - System font: avoids a render-blocking font request.
 - Search at top: the fastest path into 653 assets.
