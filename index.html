@@ -10,7 +10,7 @@
       --ink: #14141A;
       --secondary: #26262B;
       --accent: #0A2266;
-      --line: #6E6B64;
+      --line: #45433E;
       --field: #FFFFFF;
     }
 
@@ -62,7 +62,7 @@
 
     header {
       border-bottom: 1px solid var(--line);
-      padding: 26px 24px 14px;
+      padding: 38px 24px 16px;
     }
 
     .masthead {
@@ -76,14 +76,17 @@
 
     h1 {
       margin: 0;
-      font-size: clamp(1.4rem, 4vw, 1.9rem);
-      font-weight: 650;
-      letter-spacing: -0.02em;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.1rem, 5vw, 3.2rem);
+      font-weight: 400;
+      letter-spacing: -0.035em;
+      line-height: 1.05;
     }
 
     .intro {
-      margin: 0;
+      margin: 6px 0 0;
       color: var(--secondary);
+      font-size: 1.0625rem;
     }
 
     .search-bar {
@@ -206,8 +209,9 @@
     }
 
     .asset-name {
-      margin-top: 8px;
-      font-size: 0.8125rem;
+      margin-top: 10px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 0.9375rem;
       overflow-wrap: anywhere;
     }
 
@@ -228,6 +232,7 @@
 
     footer {
       border-top: 1px solid var(--line);
+      margin-top: 24px;
       padding: 18px 24px 28px;
       color: var(--secondary);
       font-size: 0.8125rem;
