@@ -1,457 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>N-Notes Asset Library</title>
-    <!-- Google Fonts: Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg-color: #0f172a;
-            --surface-color: rgba(30, 41, 59, 0.7);
-            --surface-border: rgba(255, 255, 255, 0.1);
-            --text-main: #f8fafc;
-            --text-dim: #94a3b8;
-            --accent: #3b82f6;
-            --accent-hover: #2563eb;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N-Notes Assets</title>
+  <style>
+    :root {
+      --paper: #F6F5F1;
+      --ink: #14141A;
+      --secondary: #565660;
+      --accent: #2F5BD8;
+      --line: #DDDCD6;
+      --field: #FFFFFF;
+    }
 
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-color);
-            background-image: 
-                radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.15), transparent 25%),
-                radial-gradient(circle at 85% 30%, rgba(147, 51, 234, 0.15), transparent 25%);
-            background-attachment: fixed;
-            font-family: 'Inter', sans-serif;
-            color: var(--text-main);
-            min-height: 100vh;
-        }
+    *, *::before, *::after { box-sizing: border-box; }
 
-        /* Glassmorphism Header */
-        header {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            background: rgba(15, 23, 42, 0.6);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid var(--surface-border);
-            padding: 20px 40px;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
+    html { scroll-behavior: smooth; }
 
-        .header-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.45;
+      -webkit-font-smoothing: antialiased;
+    }
 
-        h1 {
-            margin: 0;
-            font-size: 1.8rem;
-            font-weight: 800;
-            background: linear-gradient(90deg, #60a5fa, #c084fc);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+    a, button { cursor: pointer; }
+    button:disabled { cursor: not-allowed; }
 
-        /* Search Bar */
-        .search-container {
-            position: relative;
-            width: 100%;
-            max-width: 500px;
-        }
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
 
-        .search-container input {
-            width: 100%;
-            padding: 12px 20px;
-            border-radius: 20px;
-            background: var(--surface-color);
-            border: 1px solid var(--surface-border);
-            color: var(--text-main);
-            font-family: 'Inter', sans-serif;
-            font-size: 1rem;
-            outline: none;
-            transition: all 0.3s ease;
-            box-sizing: border-box;
-        }
+    .skip {
+      position: absolute;
+      left: -9999px;
+      top: 8px;
+      background: var(--field);
+      color: var(--ink);
+      padding: 10px 14px;
+      border-radius: 10px;
+      z-index: 10;
+    }
+    .skip:focus { left: 12px; }
 
-        .search-container input:focus {
-            border-color: var(--accent);
-            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
-        }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
 
-        /* Tabs & Filters */
-        .controls {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
+    header {
+      border-bottom: 1px solid var(--line);
+      padding: 26px 24px 14px;
+    }
 
-        .tabs {
-            display: flex;
-            gap: 10px;
-        }
+    .masthead {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 6px 20px;
+      max-width: 1240px;
+      margin: 0 auto;
+    }
 
-        .tab-btn {
-            background: transparent;
-            border: 1px solid var(--surface-border);
-            color: var(--text-dim);
-            padding: 8px 16px;
-            border-radius: 12px;
-            cursor: pointer;
-            font-family: 'Inter', sans-serif;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
+    h1 {
+      margin: 0;
+      font-size: clamp(1.4rem, 4vw, 1.9rem);
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
 
-        .tab-btn.active {
-            background: var(--accent);
-            color: white;
-            border-color: var(--accent);
-        }
+    .intro {
+      margin: 0;
+      color: var(--secondary);
+    }
 
-        .tab-btn:hover:not(.active) {
-            background: var(--surface-color);
-            color: var(--text-main);
-        }
+    .search-bar {
+      max-width: 1240px;
+      margin: 20px auto 0;
+    }
 
-        .categories {
-            display: flex;
-            gap: 8px;
-            overflow-x: auto;
-            padding-bottom: 4px;
-            scrollbar-width: none;
-        }
-        
-        .categories::-webkit-scrollbar {
-            display: none;
-        }
+    .search-bar input {
+      width: 100%;
+      max-width: 440px;
+      padding: 11px 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--field);
+      color: var(--ink);
+      font: inherit;
+    }
 
-        .cat-chip {
-            background: var(--surface-color);
-            border: 1px solid var(--surface-border);
-            color: var(--text-dim);
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            cursor: pointer;
-            white-space: nowrap;
-            transition: all 0.2s ease;
-        }
+    .search-bar input::placeholder { color: var(--secondary); }
 
-        .cat-chip.active {
-            background: rgba(255, 255, 255, 0.1);
-            color: var(--text-main);
-            border-color: rgba(255, 255, 255, 0.3);
-        }
+    .toolbar {
+      max-width: 1240px;
+      margin: 18px auto 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px 24px;
+    }
 
-        /* Masonry Grid */
-        main {
-            padding: 40px;
-        }
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
 
-        .grid {
-            column-count: 2;
-            column-gap: 20px;
-        }
+    .tab {
+      background: none;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      padding: 6px 2px;
+      color: var(--secondary);
+      font: inherit;
+      font-weight: 600;
+    }
+    .tab[aria-pressed="true"] {
+      color: var(--ink);
+      border-bottom-color: var(--accent);
+    }
 
-        @media (min-width: 768px) {
-            .grid { column-count: 3; }
-        }
+    .categories {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 6px 0;
+      max-width: 1240px;
+      margin: 0 auto;
+      scrollbar-width: thin;
+    }
 
-        @media (min-width: 1024px) {
-            .grid { column-count: 4; }
-        }
+    .chip {
+      flex: 0 0 auto;
+      background: transparent;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 6px 12px;
+      color: var(--secondary);
+      font: inherit;
+      font-size: 0.875rem;
+      white-space: nowrap;
+    }
+    .chip[aria-pressed="true"] {
+      border-color: var(--accent);
+      color: var(--ink);
+    }
 
-        @media (min-width: 1440px) {
-            .grid { column-count: 5; }
-        }
+    main {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 20px 24px 56px;
+    }
 
-        /* Image Cards */
-        .card {
-            background: var(--surface-color);
-            border: 1px solid var(--surface-border);
-            border-radius: 16px;
-            padding: 15px;
-            margin-bottom: 20px;
-            break-inside: avoid;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            cursor: pointer;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
+    .status {
+      margin: 0 0 20px;
+      color: var(--secondary);
+    }
+    .status button {
+      background: none;
+      border: 0;
+      padding: 0;
+      color: var(--accent);
+      font: inherit;
+      text-decoration: underline;
+    }
 
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-            border-color: rgba(255,255,255,0.2);
-        }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+      gap: 24px 14px;
+    }
 
-        .card img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            object-fit: contain;
-            background: rgba(0,0,0,0.2);
-        }
+    .asset {
+      margin: 0;
+      min-width: 0;
+      text-align: center;
+    }
 
-        .card-info {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
+    .asset-preview {
+      display: block;
+      border-radius: 10px;
+    }
 
-        .card-title {
-            font-weight: 600;
-            font-size: 0.95rem;
-        }
+    .asset-preview img {
+      display: block;
+      width: 100%;
+      max-width: 132px;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      margin: 0 auto;
+    }
 
-        .card-tags {
-            font-size: 0.8rem;
-            color: var(--accent);
-        }
+    .asset-name {
+      margin-top: 8px;
+      font-size: 0.8125rem;
+      overflow-wrap: anywhere;
+    }
 
-        /* Loader */
-        .loader {
-            text-align: center;
-            padding: 50px;
-            color: var(--text-dim);
-            font-size: 1.1rem;
-        }
+    .asset-actions {
+      margin-top: 4px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      font-size: 0.75rem;
+    }
 
-        .error {
-            color: #ef4444;
-            text-align: center;
-            padding: 50px;
-        }
+    .asset-actions a {
+      color: var(--secondary);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    .asset-actions a:hover { border-bottom-color: var(--accent); color: var(--ink); }
 
-        /* Download Button Overlay */
-        .card-image-wrapper {
-            position: relative;
-        }
-        
-        .download-btn {
-            position: absolute;
-            bottom: 10px;
-            right: 10px;
-            background: rgba(15, 23, 42, 0.8);
-            backdrop-filter: blur(4px);
-            color: white;
-            border: 1px solid rgba(255,255,255,0.2);
-            border-radius: 50%;
-            width: 36px;
-            height: 36px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.2s ease, background 0.2s ease;
-            text-decoration: none;
-        }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 18px 24px 28px;
+      color: var(--secondary);
+      font-size: 0.8125rem;
+    }
+    footer a { color: var(--accent); }
+    footer p { max-width: 1240px; margin: 0 auto; }
 
-        .card:hover .download-btn {
-            opacity: 1;
-        }
+    @media (max-width: 600px) {
+      header { padding: 20px 16px 12px; }
+      main { padding: 16px 16px 40px; }
+      .grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 20px 10px; }
+      .tabs { gap: 14px; }
+    }
 
-        .download-btn:hover {
-            background: var(--accent);
-        }
-    </style>
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition: none !important; }
+    }
+  </style>
 </head>
 <body>
+  <a class="skip" href="#grid">Skip to assets</a>
 
-    <header>
-        <div class="header-top">
-            <h1>N-Notes Assets</h1>
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search stickers, frames, svgs...">
-            </div>
-        </div>
-        <div class="controls">
-            <div class="tabs">
-                <button class="tab-btn active" data-tab="stickers">Stickers</button>
-                <button class="tab-btn" data-tab="individual">Sticker Library</button>
-                <button class="tab-btn" data-tab="frames">Frames</button>
-            </div>
-            <div class="categories" id="categoryContainer">
-                <button class="cat-chip active" data-cat="All Categories">All Categories</button>
-            </div>
-        </div>
-    </header>
+  <header>
+    <div class="masthead">
+      <h1>N-Notes Assets</h1>
+      <p class="intro">Stickers and frames for note apps.</p>
+    </div>
+    <div class="search-bar">
+      <label class="sr-only" for="searchInput">Search assets</label>
+      <input id="searchInput" type="search" placeholder="Search stickers, frames, SVGs" autocomplete="off">
+    </div>
+    <div class="toolbar">
+      <nav class="tabs" aria-label="Asset collections">
+        <button class="tab" type="button" data-tab="stickers" aria-pressed="true">Stickers</button>
+        <button class="tab" type="button" data-tab="individual" aria-pressed="false">Sticker Library</button>
+        <button class="tab" type="button" data-tab="frames" aria-pressed="false">Frames</button>
+      </nav>
+    </div>
+    <div class="categories" id="categoryContainer" aria-label="Categories"></div>
+  </header>
 
-    <main>
-        <div id="loader" class="loader">Loading assets from GitHub...</div>
-        <div id="grid" class="grid"></div>
-    </main>
+  <main>
+    <p class="status" id="status" role="status" aria-live="polite">Loading assets from GitHub...</p>
+    <div class="grid" id="grid"></div>
+  </main>
 
-    <script>
-        const API_BASE = "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main";
-        
-        let databases = {
-            stickers: [],
-            individual: [],
-            frames: []
-        };
-        
-        let currentTab = 'stickers';
-        let currentCategory = 'All Categories';
-        let searchQuery = '';
+  <footer>
+    <p>Assets hosted on GitHub. Made by <a href="https://drnitz.com" target="_blank" rel="noopener">drnitz.com</a>.</p>
+  </footer>
 
-        // Elements
-        const grid = document.getElementById('grid');
-        const loader = document.getElementById('loader');
-        const searchInput = document.getElementById('searchInput');
-        const tabBtns = document.querySelectorAll('.tab-btn');
-        const categoryContainer = document.getElementById('categoryContainer');
+  <script>
+    const API_BASE = "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main";
 
-        async function init() {
-            try {
-                // Fetch all JSONs in parallel
-                const [stickersRes, individualRes, framesRes] = await Promise.all([
-                    fetch(`${API_BASE}/stickers_data.json`).catch(() => null),
-                    fetch(`${API_BASE}/stickers_individual_data.json`).catch(() => null),
-                    fetch(`${API_BASE}/frames_data.json`).catch(() => null)
-                ]);
+    const databases = { stickers: [], individual: [], frames: [] };
+    let currentTab = "stickers";
+    let currentCategory = "All Categories";
+    let searchQuery = "";
 
-                if (stickersRes && stickersRes.ok) {
-                    const data = await stickersRes.json();
-                    databases.stickers = parseJsonToFlatList(data);
-                }
+    const grid = document.getElementById("grid");
+    const statusEl = document.getElementById("status");
+    const searchInput = document.getElementById("searchInput");
+    const tabs = Array.from(document.querySelectorAll(".tab"));
+    const categories = document.getElementById("categoryContainer");
 
-                if (individualRes && individualRes.ok) {
-                    const data = await individualRes.json();
-                    databases.individual = parseJsonToFlatList(data);
-                }
-
-                if (framesRes && framesRes.ok) {
-                    const data = await framesRes.json();
-                    databases.frames = parseJsonToFlatList(data);
-                }
-
-                loader.style.display = 'none';
-                updateUI();
-            } catch (err) {
-                loader.innerHTML = `<div class="error">Failed to load assets. Ensure your GitHub repo has the generated JSON files.</div>`;
-            }
-        }
-
-        function parseJsonToFlatList(data) {
-            let list = [];
-            if (!data.categories) return list;
-            
-            data.categories.forEach(cat => {
-                if (cat.images) {
-                    cat.images.forEach(img => {
-                        list.push({
-                            id: img.id,
-                            title: img.title,
-                            tags: img.tags || [],
-                            url: img.url,
-                            category: cat.name || 'Uncategorized'
-                        });
-                    });
-                }
-            });
-            return list;
-        }
-
-        function updateUI() {
-            const currentData = databases[currentTab];
-            
-            // Update Categories
-            const uniqueCats = [...new Set(currentData.map(item => item.category))].sort();
-            
-            let catHTML = `<button class="cat-chip ${currentCategory === 'All Categories' ? 'active' : ''}" data-cat="All Categories">All Categories</button>`;
-            uniqueCats.forEach(cat => {
-                catHTML += `<button class="cat-chip ${currentCategory === cat ? 'active' : ''}" data-cat="${cat}">${cat}</button>`;
-            });
-            categoryContainer.innerHTML = catHTML;
-
-            // Bind Category Events
-            document.querySelectorAll('.cat-chip').forEach(chip => {
-                chip.addEventListener('click', (e) => {
-                    currentCategory = e.target.dataset.cat;
-                    updateUI();
-                });
-            });
-
-            // Filter Data
-            let filtered = currentData;
-            
-            if (currentCategory !== 'All Categories') {
-                filtered = filtered.filter(item => item.category === currentCategory);
-            }
-            
-            if (searchQuery) {
-                const q = searchQuery.toLowerCase();
-                filtered = filtered.filter(item => 
-                    item.title.toLowerCase().includes(q) || 
-                    item.tags.some(tag => tag.toLowerCase().includes(q))
-                );
-            }
-
-            renderGrid(filtered);
-        }
-
-        function renderGrid(items) {
-            if (items.length === 0) {
-                grid.innerHTML = `<div class="loader">No assets found.</div>`;
-                return;
-            }
-
-            let html = '';
-            items.forEach(item => {
-                // Determine format
-                const ext = item.url.split('.').pop().toLowerCase();
-                const formatLabel = ext === 'svg' ? 'SVG Vector' : (ext === 'gif' ? 'GIF Animation' : ext.toUpperCase());
-
-                html += `
-                    <div class="card" onclick="window.open('${item.url}', '_blank')">
-                        <div class="card-image-wrapper">
-                            <img src="${item.url}" alt="${item.title}" loading="lazy">
-                            <a href="${item.url}" download class="download-btn" title="Download">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                            </a>
-                        </div>
-                        <div class="card-info">
-                            <div class="card-title">${item.title}</div>
-                            <div class="card-tags">#${formatLabel}</div>
-                        </div>
-                    </div>
-                `;
-            });
-            grid.innerHTML = html;
-        }
-
-        // Event Listeners
-        tabBtns.forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                tabBtns.forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
-                currentTab = e.target.dataset.tab;
-                currentCategory = 'All Categories'; // Reset category on tab switch
-                updateUI();
-            });
+    function parseJsonToFlatList(data) {
+      const list = [];
+      if (!data || !Array.isArray(data.categories)) return list;
+      data.categories.forEach(cat => {
+        if (!Array.isArray(cat.images)) return;
+        cat.images.forEach(img => {
+          list.push({
+            id: img.id || "",
+            title: img.title || "Untitled",
+            tags: Array.isArray(img.tags) ? img.tags : [],
+            url: img.url || "",
+            category: cat.name || "Uncategorized"
+          });
         });
+      });
+      return list;
+    }
 
-        searchInput.addEventListener('input', (e) => {
-            searchQuery = e.target.value.trim();
-            updateUI();
+    async function init() {
+      statusEl.textContent = "Loading assets from GitHub...";
+      const sources = [
+        ["stickers", "stickers_data.json"],
+        ["individual", "stickers_individual_data.json"],
+        ["frames", "frames_data.json"]
+      ];
+      const results = await Promise.all(sources.map(async ([key, file]) => {
+        try {
+          const res = await fetch(`${API_BASE}/${file}`);
+          if (!res.ok) return [key, null];
+          return [key, parseJsonToFlatList(await res.json())];
+        } catch (err) {
+          return [key, null];
+        }
+      }));
+
+      let loaded = 0;
+      results.forEach(([key, data]) => {
+        if (data) {
+          databases[key] = data;
+          loaded += 1;
+        }
+      });
+
+      if (loaded === 0) {
+        showError();
+        return;
+      }
+      render();
+    }
+
+    function showError() {
+      grid.replaceChildren();
+      statusEl.replaceChildren();
+      statusEl.append(document.createTextNode("Could not load assets. Check the JSON files in the repository. "));
+      const retry = document.createElement("button");
+      retry.type = "button";
+      retry.textContent = "Retry";
+      retry.addEventListener("click", init);
+      statusEl.append(retry);
+    }
+
+    function renderCategories(data) {
+      categories.replaceChildren();
+      const names = [...new Set(data.map(item => item.category))].sort((a, b) => a.localeCompare(b));
+      const all = document.createElement("button");
+      all.type = "button";
+      all.className = "chip";
+      all.textContent = "All Categories";
+      all.dataset.cat = "All Categories";
+      all.setAttribute("aria-pressed", String(currentCategory === "All Categories"));
+      all.addEventListener("click", () => {
+        currentCategory = "All Categories";
+        render();
+      });
+      categories.append(all);
+
+      names.forEach(name => {
+        const chip = document.createElement("button");
+        chip.type = "button";
+        chip.className = "chip";
+        chip.textContent = name;
+        chip.dataset.cat = name;
+        chip.setAttribute("aria-pressed", String(currentCategory === name));
+        chip.addEventListener("click", () => {
+          currentCategory = name;
+          render();
         });
+        categories.append(chip);
+      });
+    }
 
-        // Start
-        init();
-    </script>
+    function buildAsset(item) {
+      const figure = document.createElement("figure");
+      figure.className = "asset";
+
+      const preview = document.createElement("a");
+      preview.className = "asset-preview";
+      preview.href = item.url;
+      preview.target = "_blank";
+      preview.rel = "noopener";
+      preview.setAttribute("aria-label", `Open ${item.title}`);
+      const img = document.createElement("img");
+      img.src = item.url;
+      img.alt = item.title;
+      img.width = 120;
+      img.height = 120;
+      img.loading = "lazy";
+      preview.append(img);
+      figure.append(preview);
+
+      const name = document.createElement("div");
+      name.className = "asset-name";
+      name.textContent = item.title;
+      figure.append(name);
+
+      const actions = document.createElement("div");
+      actions.className = "asset-actions";
+      const save = document.createElement("a");
+      save.href = item.url;
+      save.download = "";
+      save.textContent = "Save";
+      save.title = "Save or open the asset file";
+      actions.append(save);
+      figure.append(actions);
+
+      return figure;
+    }
+
+    function render() {
+      const data = databases[currentTab];
+      renderCategories(data);
+
+      let filtered = data;
+      if (currentCategory !== "All Categories") {
+        filtered = filtered.filter(item => item.category === currentCategory);
+      }
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        filtered = filtered.filter(item =>
+          item.title.toLowerCase().includes(q) ||
+          item.tags.some(tag => String(tag).toLowerCase().includes(q))
+        );
+      }
+
+      grid.replaceChildren();
+      if (filtered.length === 0) {
+        statusEl.replaceChildren();
+        statusEl.append(document.createTextNode("No assets match that search. "));
+        const clear = document.createElement("button");
+        clear.type = "button";
+        clear.textContent = "Clear filters";
+        clear.addEventListener("click", () => {
+          searchInput.value = "";
+          searchQuery = "";
+          currentCategory = "All Categories";
+          render();
+        });
+        statusEl.append(clear);
+        return;
+      }
+
+      statusEl.textContent = `Showing ${filtered.length} assets.`;
+      const fragment = document.createDocumentFragment();
+      filtered.forEach(item => fragment.append(buildAsset(item)));
+      grid.append(fragment);
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        currentTab = tab.dataset.tab;
+        currentCategory = "All Categories";
+        tabs.forEach(t => t.setAttribute("aria-pressed", String(t === tab)));
+        render();
+      });
+    });
+
+    searchInput.addEventListener("input", () => {
+      searchQuery = searchInput.value.trim();
+      render();
+    });
+
+    init();
+  </script>
 </body>
 </html>
