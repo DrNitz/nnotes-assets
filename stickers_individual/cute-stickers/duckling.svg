@@ -2,4 +2,4 @@
       <stop stop-color="#D7EFFC" />
       <stop offset="0.5" stop-color="#8CC8EE" />
       <stop offset="1" stop-color="#4F8FC9" />
-    </radialGradient></defs><g fill="url(#skyBaby)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" stroke-opacity="0.88" id="duckling"><circle cy="-8" r="17" /><ellipse cx="4" cy="8" rx="16" ry="13" /><path d="M18 -9l10 4 -10 4z" fill="#F09840" stroke="none" /><circle cx="8" cy="-11" r="2" fill="#3A2A2A" stroke="none" /><path d="M-10 8q4 4 8 0" fill="none" stroke="#3A2A2A" stroke-width="1.6" /></g></svg>
+    </radialGradient></defs><g fill="url(#skyBaby)" stroke-linecap="round" stroke-linejoin="round" id="duckling"><circle cy="-8" r="17" /><ellipse cx="4" cy="8" rx="16" ry="13" /><path d="M18 -9l10 4 -10 4z" fill="#F09840" stroke="none" /><circle cx="8" cy="-11" r="2" fill="#3A2A2A" stroke="none" /><path d="M-10 8q4 4 8 0" fill="none" stroke="#3A2A2A" stroke-width="1.6" /></g></svg>

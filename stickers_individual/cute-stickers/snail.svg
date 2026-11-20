@@ -2,4 +2,4 @@
       <stop offset="1" stop-color="#4E9A6C" />
       <stop offset="0.5" stop-color="#93D6A6" />
       <stop stop-color="#DCF6DE" />
-    </radialGradient></defs><g fill="url(#mintMist)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" stroke-opacity="0.9" id="snail"><path d="M4 -24C18 -24 24 -12 22 0C20 12 8 18 -4 16C-16 14 -20 4 -14 -4C-8 -12 8 -10 8 -2C8 4 0 6 -2 2" fill="none" stroke-width="3" /><path d="M-18 16C-22 8 -12 4 -4 8L-2 18C-8 22 -16 22 -18 16Z" /><path d="M-18 6l-6 -8M-14 4l-2 -10" fill="none" stroke-width="2" /><circle cx="-14" cy="12" r="1.8" fill="#3A2A2A" stroke="none" /></g></svg>
+    </radialGradient></defs><g fill="url(#mintMist)" stroke-linecap="round" stroke-linejoin="round" id="snail"><path d="M4 -24C18 -24 24 -12 22 0C20 12 8 18 -4 16C-16 14 -20 4 -14 -4C-8 -12 8 -10 8 -2C8 4 0 6 -2 2" fill="none" stroke-width="3" /><path d="M-18 16C-22 8 -12 4 -4 8L-2 18C-8 22 -16 22 -18 16Z" /><path d="M-18 6l-6 -8M-14 4l-2 -10" fill="none" stroke-width="2" /><circle cx="-14" cy="12" r="1.8" fill="#3A2A2A" stroke="none" /></g></svg>

@@ -2,4 +2,4 @@
       <stop offset="1" stop-color="#B55F7E" />
       <stop offset="0.5" stop-color="#F2A0B5" />
       <stop stop-color="#FFD8E0" />
-    </radialGradient></defs><g fill="url(#rosePuff)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" stroke-opacity="0.9" id="flowerPot"><path d="M-16 4h32l-5 20h-22z" /><circle cx="0" cy="-8" r="7" /><circle cx="-10" cy="-14" r="7" /><circle cx="10" cy="-14" r="7" /><circle cy="-10" r="5" fill="#FFF0BE" stroke-width="1.6" /><circle cx="-2" cy="-11" r="1.4" fill="#3A2A2A" stroke="none" /><circle cx="2" cy="-11" r="1.4" fill="#3A2A2A" stroke="none" /></g></svg>
+    </radialGradient></defs><g fill="url(#rosePuff)" stroke-linecap="round" stroke-linejoin="round" id="flowerPot"><path d="M-16 4h32l-5 20h-22z" /><circle cx="0" cy="-8" r="7" /><circle cx="-10" cy="-14" r="7" /><circle cx="10" cy="-14" r="7" /><circle cy="-10" r="5" fill="#FFF0BE" stroke-width="1.6" /><circle cx="-2" cy="-11" r="1.4" fill="#3A2A2A" stroke="none" /><circle cx="2" cy="-11" r="1.4" fill="#3A2A2A" stroke="none" /></g></svg>

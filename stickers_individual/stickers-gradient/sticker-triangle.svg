@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="-60 -60 120 120" fill="none"><title>Sticker Triangle</title><desc>drnitz.com</desc><metadata>drnitz.com</metadata><defs><linearGradient id="gradMint" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#6EE7B7" />
       <stop offset="1" stop-color="#10B981" />
-    </linearGradient></defs><g fill="url(#gradMint)" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" id="sticker-triangle"><polygon points="0,-28 28,22 -28,22" /></g></svg>
+    </linearGradient></defs><g fill="url(#gradMint)" stroke-linejoin="round" id="sticker-triangle"><polygon points="0,-28 28,22 -28,22" /></g></svg>

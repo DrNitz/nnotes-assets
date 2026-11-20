@@ -2,4 +2,4 @@
       <stop offset="1" stop-color="#8066C0" />
       <stop offset="0.5" stop-color="#BBA4E8" />
       <stop stop-color="#EBDDFC" />
-    </radialGradient></defs><g fill="url(#lilacSoft)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" stroke-opacity="0.9" id="moon2"><path d="M8 -24C-8 -24 -20 -10 -20 6C-20 20 -8 28 6 24C-4 18 -10 10 -10 0C-10 -10 -2 -20 8 -24Z" /><path d="M-14 -6l3 3 -3 3 -3 -3z" fill="#FFF0BE" stroke="none" /><circle cx="-8" cy="6" r="1.8" fill="#3A2A2A" stroke="none" /><circle cx="7" cy="8" r="1.8" fill="#3A2A2A" stroke="none" /><path d="M-10 14q3 3 6 0" fill="none" stroke="#3A2A2A" stroke-width="1.4" /></g></svg>
+    </radialGradient></defs><g fill="url(#lilacSoft)" stroke-linecap="round" stroke-linejoin="round" id="moon2"><path d="M8 -24C-8 -24 -20 -10 -20 6C-20 20 -8 28 6 24C-4 18 -10 10 -10 0C-10 -10 -2 -20 8 -24Z" /><path d="M-14 -6l3 3 -3 3 -3 -3z" fill="#FFF0BE" stroke="none" /><circle cx="-8" cy="6" r="1.8" fill="#3A2A2A" stroke="none" /><circle cx="7" cy="8" r="1.8" fill="#3A2A2A" stroke="none" /><path d="M-10 14q3 3 6 0" fill="none" stroke="#3A2A2A" stroke-width="1.4" /></g></svg>
