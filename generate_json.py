@@ -26,8 +26,8 @@ def generate_json_for_folder(folder_name, output_file, category_name):
 
     images = []
     for filename in sorted(os.listdir(folder_name)):
-        if filename.lower().startswith("freesvg_"):
-            continue  # sourced stickers live in their own catalog
+        if filename.lower().startswith(("freesvg_", "svgrepo_")):
+            continue  # sourced stickers live in their own catalogs
         if filename.lower().endswith(VALID_EXTENSIONS):
             file_id = os.path.splitext(filename)[0]
             title = file_id.replace('-', ' ').replace('_', ' ').title()
@@ -92,8 +92,35 @@ def generate_freesvg_catalog(sources_file="freesvg_sources.json", output_file="f
     print(f"Generated {output_file} with {len(images)} sourced stickers.")
 
 
+def generate_svgrepo_catalog(sources_file="svgrepo_sources.json", output_file="svgrepo_stickers_data.json"):
+    """Well-organised CC0-style packs from SVGRepo, kept separate from original groups."""
+    if not os.path.exists(sources_file):
+        print(f"File '{sources_file}' not found. Skipping.")
+        return
+    with open(sources_file, encoding="utf-8") as f:
+        sources = json.load(f)
+    by_category = {}
+    for item in sources:
+        by_category.setdefault(item["category"], []).append({
+            "id": item["id"],
+            "title": item["title"],
+            "tags": item["tags"],
+            "url": f"{REPO_URL}/stickers/{item['file']}",
+            "source": "svgrepo",
+            "author": item["author"],
+            "license": item["license"],
+            "licenseUrl": item["licenseUrl"],
+            "sourceUrl": item["sourceUrl"],
+        })
+    data = {"categories": [{"name": name, "images": images} for name, images in by_category.items()]}
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    print(f"Generated {output_file} with {len(sources)} sourced stickers.")
+
+
 if __name__ == "__main__":
     generate_json_for_folder("stickers", "stickers_data.json", "General Stickers")
     generate_json_for_folder("frames", "frames_data.json", "Basic Frames")
     generate_json_for_sheet_folders("stickers_individual", "stickers_individual_data.json")
     generate_freesvg_catalog()
+    generate_svgrepo_catalog()

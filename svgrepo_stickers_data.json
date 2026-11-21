@@ -1,0 +1,544 @@
+{
+  "categories": [
+    {
+      "name": "Animals",
+      "images": [
+        {
+          "id": "svgrepo_animals_cake",
+          "title": "Cake",
+          "tags": [
+            "animals",
+            "cake"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_animals_cake.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/539000/cake"
+        },
+        {
+          "id": "svgrepo_animals_lighthouse",
+          "title": "Lighthouse",
+          "tags": [
+            "animals",
+            "lighthouse"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_animals_lighthouse.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/539001/lighthouse"
+        },
+        {
+          "id": "svgrepo_animals_view",
+          "title": "View",
+          "tags": [
+            "animals",
+            "view"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_animals_view.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/539002/view"
+        },
+        {
+          "id": "svgrepo_animals_planting",
+          "title": "Planting",
+          "tags": [
+            "animals",
+            "planting"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_animals_planting.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/539003/planting"
+        },
+        {
+          "id": "svgrepo_animals_polygon",
+          "title": "Polygon",
+          "tags": [
+            "animals",
+            "polygon"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_animals_polygon.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/539004/polygon"
+        },
+        {
+          "id": "svgrepo_animals_elephant",
+          "title": "Elephant",
+          "tags": [
+            "animals",
+            "elephant"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_animals_elephant.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/539005/elephant"
+        },
+        {
+          "id": "svgrepo_animals_childs-cart",
+          "title": "Childs Cart",
+          "tags": [
+            "animals",
+            "childs",
+            "cart"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_animals_childs-cart.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/539006/childs-cart"
+        },
+        {
+          "id": "svgrepo_animals_whale",
+          "title": "Whale",
+          "tags": [
+            "animals",
+            "whale"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_animals_whale.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/539007/whale"
+        },
+        {
+          "id": "svgrepo_animals_cat-silhouette",
+          "title": "Cat Silhouette",
+          "tags": [
+            "animals",
+            "cat",
+            "silhouette"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_animals_cat-silhouette.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/481046/cat-silhouette"
+        }
+      ]
+    },
+    {
+      "name": "Food",
+      "images": [
+        {
+          "id": "svgrepo_food_noodles",
+          "title": "Noodles",
+          "tags": [
+            "food",
+            "noodles"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_food_noodles.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544594/noodles"
+        },
+        {
+          "id": "svgrepo_food_cake",
+          "title": "Cake",
+          "tags": [
+            "food",
+            "cake"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_food_cake.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544595/cake"
+        },
+        {
+          "id": "svgrepo_food_ice-cream",
+          "title": "Ice Cream",
+          "tags": [
+            "food",
+            "ice",
+            "cream"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_food_ice-cream.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544596/ice-cream"
+        },
+        {
+          "id": "svgrepo_food_roast-duck",
+          "title": "Roast Duck",
+          "tags": [
+            "food",
+            "roast",
+            "duck"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_food_roast-duck.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544597/roast-duck"
+        },
+        {
+          "id": "svgrepo_food_chicken-leg",
+          "title": "Chicken Leg",
+          "tags": [
+            "food",
+            "chicken",
+            "leg"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_food_chicken-leg.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544598/chicken-leg"
+        },
+        {
+          "id": "svgrepo_food_milk-tea",
+          "title": "Milk Tea",
+          "tags": [
+            "food",
+            "milk",
+            "tea"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_food_milk-tea.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544599/milk-tea"
+        },
+        {
+          "id": "svgrepo_food_hamburger",
+          "title": "Hamburger",
+          "tags": [
+            "food",
+            "hamburger"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_food_hamburger.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544600/hamburger"
+        },
+        {
+          "id": "svgrepo_food_french-fries",
+          "title": "French Fries",
+          "tags": [
+            "food",
+            "french",
+            "fries"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_food_french-fries.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544601/french-fries"
+        },
+        {
+          "id": "svgrepo_food_rice-bowl",
+          "title": "Rice Bowl",
+          "tags": [
+            "food",
+            "rice",
+            "bowl"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_food_rice-bowl.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544574/rice-bowl"
+        }
+      ]
+    },
+    {
+      "name": "People",
+      "images": [
+        {
+          "id": "svgrepo_people_agent",
+          "title": "Agent",
+          "tags": [
+            "people",
+            "agent"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_people_agent.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/508382/agent"
+        },
+        {
+          "id": "svgrepo_people_indian",
+          "title": "Indian",
+          "tags": [
+            "people",
+            "indian"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_people_indian.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/508383/indian"
+        },
+        {
+          "id": "svgrepo_people_thief",
+          "title": "Thief",
+          "tags": [
+            "people",
+            "thief"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_people_thief.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/508384/thief"
+        },
+        {
+          "id": "svgrepo_people_landlady",
+          "title": "Landlady",
+          "tags": [
+            "people",
+            "landlady"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_people_landlady.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/508385/landlady"
+        },
+        {
+          "id": "svgrepo_people_businessman",
+          "title": "Businessman",
+          "tags": [
+            "people",
+            "businessman"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_people_businessman.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/508386/businessman"
+        },
+        {
+          "id": "svgrepo_people_santa-claus",
+          "title": "Santa Claus",
+          "tags": [
+            "people",
+            "santa",
+            "claus"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_people_santa-claus.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/508387/santa-claus"
+        },
+        {
+          "id": "svgrepo_people_knight",
+          "title": "Knight",
+          "tags": [
+            "people",
+            "knight"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_people_knight.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/508388/knight"
+        },
+        {
+          "id": "svgrepo_people_attention-exclamation-notification",
+          "title": "Attention Exclamation Notification",
+          "tags": [
+            "people",
+            "attention",
+            "exclamation",
+            "notification"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_people_attention-exclamation-notification.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/503990/attention-exclamation-notification"
+        },
+        {
+          "id": "svgrepo_people_resto-chief-food",
+          "title": "Resto Chief Food",
+          "tags": [
+            "people",
+            "resto",
+            "chief",
+            "food"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_people_resto-chief-food.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/503991/resto-chief-food"
+        }
+      ]
+    },
+    {
+      "name": "Student",
+      "images": [
+        {
+          "id": "svgrepo_education_game-controller",
+          "title": "Game Controller",
+          "tags": [
+            "education",
+            "game",
+            "controller"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_education_game-controller.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544931/game-controller"
+        },
+        {
+          "id": "svgrepo_education_target",
+          "title": "Target",
+          "tags": [
+            "education",
+            "target"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_education_target.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544932/target"
+        },
+        {
+          "id": "svgrepo_education_calligraphy-pen",
+          "title": "Calligraphy Pen",
+          "tags": [
+            "education",
+            "calligraphy",
+            "pen"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_education_calligraphy-pen.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544933/calligraphy-pen"
+        },
+        {
+          "id": "svgrepo_education_textbook",
+          "title": "Textbook",
+          "tags": [
+            "education",
+            "textbook"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_education_textbook.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544934/textbook"
+        },
+        {
+          "id": "svgrepo_education_badge",
+          "title": "Badge",
+          "tags": [
+            "education",
+            "badge"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_education_badge.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544935/badge"
+        },
+        {
+          "id": "svgrepo_education_bookmark",
+          "title": "Bookmark",
+          "tags": [
+            "education",
+            "bookmark"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_education_bookmark.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544936/bookmark"
+        },
+        {
+          "id": "svgrepo_education_biology",
+          "title": "Biology",
+          "tags": [
+            "education",
+            "biology"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_education_biology.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544937/biology"
+        },
+        {
+          "id": "svgrepo_education_edit-tool",
+          "title": "Edit Tool",
+          "tags": [
+            "education",
+            "edit",
+            "tool"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_education_edit-tool.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/544938/edit-tool"
+        },
+        {
+          "id": "svgrepo_education_discovery",
+          "title": "Discovery",
+          "tags": [
+            "education",
+            "discovery"
+          ],
+          "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/stickers/svgrepo_education_discovery.svg",
+          "source": "svgrepo",
+          "author": "SVG Repo",
+          "license": "SVG Repo License",
+          "licenseUrl": "https://www.svgrepo.com/page/licensing/",
+          "sourceUrl": "https://www.svgrepo.com/show/541611/discovery"
+        }
+      ]
+    }
+  ]
+}

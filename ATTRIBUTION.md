@@ -31,3 +31,46 @@ Sourced stickers below are used under CC0 1.0 (public domain). Attribution is no
 | Floral Vector Ornament Silhouette | admin | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG #208499](https://freesvg.org/floral-vector-ornament-silhouette) | 2026-11-22 |
 | 2027 Rainbow and Gold Numbers | j4p4n | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG #207042](https://freesvg.org/2027-rainbow-and-gold-numbers) | 2026-11-22 |
 | Cute Cartoon Monster | j4p4n | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG #207142](https://freesvg.org/cute-cartoon-monster) | 2026-11-22 |
+
+## SVGRepo stickers
+
+Used under the default SVG Repo license (commercial use allowed, no attribution required). Credit is recorded voluntarily.
+
+| Sticker | Author | License | Source | Fetched |
+|---|---|---|---|---|
+| Cake | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #539000](https://www.svgrepo.com/show/539000/cake) | 2026-11-22 |
+| Lighthouse | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #539001](https://www.svgrepo.com/show/539001/lighthouse) | 2026-11-22 |
+| View | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #539002](https://www.svgrepo.com/show/539002/view) | 2026-11-22 |
+| Planting | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #539003](https://www.svgrepo.com/show/539003/planting) | 2026-11-22 |
+| Polygon | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #539004](https://www.svgrepo.com/show/539004/polygon) | 2026-11-22 |
+| Elephant | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #539005](https://www.svgrepo.com/show/539005/elephant) | 2026-11-22 |
+| Childs Cart | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #539006](https://www.svgrepo.com/show/539006/childs-cart) | 2026-11-22 |
+| Whale | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #539007](https://www.svgrepo.com/show/539007/whale) | 2026-11-22 |
+| Cat Silhouette | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #481046](https://www.svgrepo.com/show/481046/cat-silhouette) | 2026-11-22 |
+| Noodles | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544594](https://www.svgrepo.com/show/544594/noodles) | 2026-11-22 |
+| Cake | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544595](https://www.svgrepo.com/show/544595/cake) | 2026-11-22 |
+| Ice Cream | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544596](https://www.svgrepo.com/show/544596/ice-cream) | 2026-11-22 |
+| Roast Duck | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544597](https://www.svgrepo.com/show/544597/roast-duck) | 2026-11-22 |
+| Chicken Leg | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544598](https://www.svgrepo.com/show/544598/chicken-leg) | 2026-11-22 |
+| Milk Tea | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544599](https://www.svgrepo.com/show/544599/milk-tea) | 2026-11-22 |
+| Hamburger | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544600](https://www.svgrepo.com/show/544600/hamburger) | 2026-11-22 |
+| French Fries | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544601](https://www.svgrepo.com/show/544601/french-fries) | 2026-11-22 |
+| Rice Bowl | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544574](https://www.svgrepo.com/show/544574/rice-bowl) | 2026-11-22 |
+| Agent | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #508382](https://www.svgrepo.com/show/508382/agent) | 2026-11-22 |
+| Indian | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #508383](https://www.svgrepo.com/show/508383/indian) | 2026-11-22 |
+| Thief | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #508384](https://www.svgrepo.com/show/508384/thief) | 2026-11-22 |
+| Landlady | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #508385](https://www.svgrepo.com/show/508385/landlady) | 2026-11-22 |
+| Businessman | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #508386](https://www.svgrepo.com/show/508386/businessman) | 2026-11-22 |
+| Santa Claus | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #508387](https://www.svgrepo.com/show/508387/santa-claus) | 2026-11-22 |
+| Knight | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #508388](https://www.svgrepo.com/show/508388/knight) | 2026-11-22 |
+| Attention Exclamation Notification | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #503990](https://www.svgrepo.com/show/503990/attention-exclamation-notification) | 2026-11-22 |
+| Resto Chief Food | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #503991](https://www.svgrepo.com/show/503991/resto-chief-food) | 2026-11-22 |
+| Game Controller | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544931](https://www.svgrepo.com/show/544931/game-controller) | 2026-11-22 |
+| Target | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544932](https://www.svgrepo.com/show/544932/target) | 2026-11-22 |
+| Calligraphy Pen | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544933](https://www.svgrepo.com/show/544933/calligraphy-pen) | 2026-11-22 |
+| Textbook | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544934](https://www.svgrepo.com/show/544934/textbook) | 2026-11-22 |
+| Badge | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544935](https://www.svgrepo.com/show/544935/badge) | 2026-11-22 |
+| Bookmark | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544936](https://www.svgrepo.com/show/544936/bookmark) | 2026-11-22 |
+| Biology | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544937](https://www.svgrepo.com/show/544937/biology) | 2026-11-22 |
+| Edit Tool | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544938](https://www.svgrepo.com/show/544938/edit-tool) | 2026-11-22 |
+| Discovery | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #541611](https://www.svgrepo.com/show/541611/discovery) | 2026-11-22 |
