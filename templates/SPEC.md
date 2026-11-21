@@ -104,10 +104,11 @@ Meta sidecar example:
       "items": [
         { "op": "fill", "evenOdd": true,
           "contours": [[60,104, 62,101, /* … */]] }
+      ] },
+    { "role": "sticker", "alpha": 1.0, "preserveColor": true,
+      "items": [
+        { "op": "ellipse", "c": [230,170], "rx": 48, "ry": 60, "fill": true, "ink": "#ff6b81" }
       ] }
-  ],
-  "stickers": [
-    { "id": "paperclip", "rect": [1135,27,18,62], "svg": "<svg …>…</svg>" }
   ]
 }
 ```
@@ -127,10 +128,14 @@ relative to its row baseline; x coordinates are absolute.
 
 ### Stickers
 
-A `sticker-<id>` group becomes a small standalone SVG whose `viewBox` is the group's bounding box,
-plus that box in `rect` (template canvas coordinates). On apply the app scales the rect into page
-space and inserts the SVG as an ordinary unlocked image item: selectable, movable, resizable and
-deletable. Keep sticker artwork small and closed; strokes are flattened into polylines.
+A `sticker-<id>` group becomes a layer with `role: "sticker"` and `preserveColor: true`. Every
+primitive in it carries its authored hex colour in `ink`, and the app paints it with that colour
+instead of the page's pattern colour. Stickers are **part of the template model**, not separate page
+items: applying a different template repaints the page and the old artwork disappears with it.
+They are therefore not individually selectable or movable. The `stickers` array is kept empty for
+readers of older versions.
+
+Keep sticker artwork small and closed; paths, arcs and curves are flattened into polylines.
 
 ## Catalog entry
 

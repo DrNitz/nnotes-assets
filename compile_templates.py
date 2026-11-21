@@ -586,11 +586,11 @@ def walk(el, style, matrix, fonts, role, repeats, group_id, sink, sticker_sink=N
 
     if tag == "g":
         gid = el.get("id") or group_id
-        if gid and gid.startswith("sticker-") and sticker_sink is not None:
-            inner = []
+        if gid and gid.startswith("sticker-"):
+            # Bake the sticker artwork into the model as a preserveColor layer. It is painted with
+            # the template, so switching templates can never leave old artwork on the page.
             for child in el:
-                walk(child, style, matrix, fonts, "sticker", repeats, gid, inner)
-            sticker_sink.append({"id": gid[len("sticker-"):], "items": inner})
+                walk(child, style, matrix, fonts, "sticker", repeats, gid, sink, sticker_sink)
             return
         role = role_for(gid, role)
         for child in el:
@@ -614,7 +614,7 @@ def walk(el, style, matrix, fonts, role, repeats, group_id, sink, sticker_sink=N
         uses_fill = item["op"] == "fill" or item.get("fill") is True
         item["alpha"] = rnd(alpha_of(style, "fill" if uses_fill else "stroke"))
         if role == "sticker":
-            item["ink"] = style.get("fill") if item["op"] == "fill" else style.get("stroke")
+            item["ink"] = style.get("fill") if uses_fill else style.get("stroke")
         sink.append(item)
 
 
@@ -731,9 +731,13 @@ def compile_svg(path, meta, fonts):
     for item in items:
         role = item.get("role", "decor")
         if layers and layers[-1]["alpha"] == item["alpha"] and layers[-1]["role"] == role:
-            layers[-1]["items"].append(strip(item))
+            target = layers[-1]
         else:
-            layers.append({"role": role, "alpha": item["alpha"], "items": [strip(item)]})
+            target = {"role": role, "alpha": item["alpha"], "items": []}
+            if role == "sticker":
+                target["preserveColor"] = True
+            layers.append(target)
+        target["items"].append(strip(item))
 
     spacing = None
     if repeat_specs:
