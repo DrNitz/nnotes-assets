@@ -2,5 +2,15 @@
   "title": "Daily Planner",
   "category": "Planners",
   "tags": ["daily", "planner", "schedule", "agenda", "to-do"],
-  "description": "A4 daily page with a date header, top priorities, an hourly schedule, a to-do column and notes."
+  "description": "A4 daily page with a date header, top priorities, an hourly schedule, a to-do column and notes.",
+  "layout": {
+    "primary": "schedule",
+    "repeats": {
+      "priorities": {"group": "rule-priorities", "anchor": 328, "base": 38, "limit": 452},
+      "schedule": {"group": "rule-schedule", "anchor": 576, "base": 78, "limit": 1420},
+      "todo": {"group": "rule-todo", "anchor": 576, "base": 34, "limit": 1100},
+      "notes_left": {"group": "rule-notes-left", "anchor": 1452, "base": 35, "limit": 1714},
+      "notes_right": {"group": "rule-notes-right", "anchor": 1136, "base": 36, "limit": 1714}
+    }
+  }
 }

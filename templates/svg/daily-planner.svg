@@ -1,24 +1,97 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1754" viewBox="0 0 1240 1754">
-  <g fill="none" stroke="#5d5d5d" stroke-width="2" stroke-opacity="0.8" stroke-linecap="round">
-    <path d="M60 228 H1180"/>
-    <path d="M60 452 H1180" stroke-width="1.9" stroke-opacity="0.84"/>
+  <g id="structural" fill="none" stroke="#5d5d5d" stroke-linecap="round">
+    <path d="M60 180 H880" stroke-width="1.3" stroke-opacity="0.55"/>
+    <path d="M60 228 H1180" stroke-width="2.1" stroke-opacity="0.85"/>
+    <path d="M60 452 H1180" stroke-width="1.9" stroke-opacity="0.8"/>
   </g>
-  <g fill="none" stroke="#7c7c7c" stroke-width="1.2" stroke-opacity="0.52">
-    <path d="M60 180 H880" stroke-width="1.3" stroke-opacity="0.54"/>
+  <g id="guide" fill="none" stroke="#9a9a9a" stroke-opacity="0.4">
+    <path d="M722 490 V1694" stroke-width="0.9"/>
+    <path d="M150 556 V1372" stroke-width="0.9"/>
+    <path d="M952 122 H1180" stroke-width="0.9"/>
+  </g>
+  <g id="label" fill="#6d6d6d" fill-opacity="0.95" font-family="sans-serif">
+    <text x="60" y="104" font-size="27" font-weight="700" letter-spacing="2">DAILY PLAN</text>
+    <text x="60" y="150" font-size="16" font-weight="500" letter-spacing="1">DATE</text>
+    <text x="60" y="282" font-size="19" font-weight="700" letter-spacing="1.5">TOP PRIORITIES</text>
+    <text x="60" y="522" font-size="19" font-weight="700" letter-spacing="1.5">SCHEDULE</text>
+    <text x="748" y="522" font-size="19" font-weight="700" letter-spacing="1.5">TO-DO</text>
+    <text x="60" y="1420" font-size="19" font-weight="700" letter-spacing="1.5">NOTES</text>
+    <text x="748" y="1100" font-size="19" font-weight="700" letter-spacing="1.5">NOTES</text>
+  </g>
+  <g id="label-muted" fill="#8a8a8a" fill-opacity="0.75" font-family="sans-serif" font-size="17" text-anchor="middle">
+    <text x="972" y="112">S</text>
+    <text x="1004" y="112">M</text>
+    <text x="1036" y="112">T</text>
+    <text x="1068" y="112">W</text>
+    <text x="1100" y="112">T</text>
+    <text x="1132" y="112">F</text>
+    <text x="1164" y="112">S</text>
+  </g>
+  <g id="rule-priorities" fill="none" stroke="#7c7c7c" stroke-width="1.2" stroke-opacity="0.52">
     <path d="M104 328 H1180"/>
+    <rect x="60" y="307" width="22" height="22" rx="4"/>
     <path d="M104 366 H1180"/>
+    <rect x="60" y="345" width="22" height="22" rx="4"/>
     <path d="M104 404 H1180"/>
+    <rect x="60" y="383" width="22" height="22" rx="4"/>
+  </g>
+  <g id="rule-schedule" fill="none" stroke="#7c7c7c" stroke-width="1.2" stroke-opacity="0.52">
     <path d="M150 576 H700"/>
+    <text x="60" y="568" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">08:00</text>
     <path d="M150 654 H700"/>
+    <text x="60" y="646" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">09:00</text>
     <path d="M150 732 H700"/>
+    <text x="60" y="724" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">10:00</text>
     <path d="M150 810 H700"/>
+    <text x="60" y="802" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">11:00</text>
     <path d="M150 888 H700"/>
+    <text x="60" y="880" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">12:00</text>
     <path d="M150 966 H700"/>
+    <text x="60" y="958" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">13:00</text>
     <path d="M150 1044 H700"/>
+    <text x="60" y="1036" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">14:00</text>
     <path d="M150 1122 H700"/>
+    <text x="60" y="1114" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">15:00</text>
     <path d="M150 1200 H700"/>
-    <path d="M150 1278 H700" stroke-opacity="0.49"/>
+    <text x="60" y="1192" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">16:00</text>
+    <path d="M150 1278 H700"/>
+    <text x="60" y="1270" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">17:00</text>
     <path d="M150 1356 H700"/>
+    <text x="60" y="1348" fill="#8a8a8a" fill-opacity="0.52" font-family="sans-serif" font-size="18">18:00</text>
+  </g>
+  <g id="rule-todo" fill="none" stroke="#7c7c7c" stroke-width="1.2" stroke-opacity="0.52">
+    <path d="M784 576 H1180"/>
+    <rect x="748" y="558" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 610 H1180"/>
+    <rect x="748" y="592" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 644 H1180"/>
+    <rect x="748" y="626" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 678 H1180"/>
+    <rect x="748" y="660" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 712 H1180"/>
+    <rect x="748" y="694" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 746 H1180"/>
+    <rect x="748" y="728" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 780 H1180"/>
+    <rect x="748" y="762" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 814 H1180"/>
+    <rect x="748" y="796" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 848 H1180"/>
+    <rect x="748" y="830" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 882 H1180"/>
+    <rect x="748" y="864" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 916 H1180"/>
+    <rect x="748" y="898" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 950 H1180"/>
+    <rect x="748" y="932" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 984 H1180"/>
+    <rect x="748" y="966" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 1018 H1180"/>
+    <rect x="748" y="1000" width="20" height="20" rx="4" stroke-width="1.1"/>
+    <path d="M784 1052 H1180"/>
+    <rect x="748" y="1034" width="20" height="20" rx="4" stroke-width="1.1"/>
+  </g>
+  <g id="rule-notes-left" fill="none" stroke="#7c7c7c" stroke-width="1.2" stroke-opacity="0.52">
     <path d="M60 1452 H700"/>
     <path d="M60 1487 H700"/>
     <path d="M60 1522 H700"/>
@@ -26,21 +99,8 @@
     <path d="M60 1592 H700"/>
     <path d="M60 1627 H700"/>
     <path d="M60 1662 H700"/>
-    <path d="M784 576 H1180"/>
-    <path d="M784 610 H1180"/>
-    <path d="M784 644 H1180"/>
-    <path d="M784 678 H1180"/>
-    <path d="M784 712 H1180"/>
-    <path d="M784 746 H1180"/>
-    <path d="M784 780 H1180"/>
-    <path d="M784 814 H1180"/>
-    <path d="M784 848 H1180"/>
-    <path d="M784 882 H1180"/>
-    <path d="M784 916 H1180"/>
-    <path d="M784 950 H1180"/>
-    <path d="M784 984 H1180"/>
-    <path d="M784 1018 H1180"/>
-    <path d="M784 1052 H1180" stroke-width="1.15"/>
+  </g>
+  <g id="rule-notes-right" fill="none" stroke="#7c7c7c" stroke-width="1.2" stroke-opacity="0.52">
     <path d="M748 1136 H1180"/>
     <path d="M748 1172 H1180"/>
     <path d="M748 1208 H1180"/>
@@ -58,62 +118,10 @@
     <path d="M748 1640 H1180"/>
     <path d="M748 1676 H1180"/>
   </g>
-  <g stroke="#9a9a9a" stroke-width="0.9" stroke-opacity="0.4" fill="none">
-    <path d="M722 490 V1694"/>
-    <path d="M150 556 V1372"/>
-    <path d="M952 122 H1180" stroke-opacity="0.34"/>
+  <g id="sticker-paperclip" transform="translate(1146 62)" fill="none" stroke="#8a8a8a" stroke-width="3" stroke-linecap="round">
+    <path d="M-7 -24 V20 a7 7 0 0 0 14 0 V-26 a9 9 0 0 0 -18 0 V26"/>
   </g>
-  <g stroke="#6f6f6f" stroke-opacity="0.62" fill="none">
-    <rect x="748" y="558" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="592" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="626" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="660" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="694" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="728" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="762" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="796" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="830" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="864" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="898" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="932" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="966" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="1000" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="748" y="1034" width="20" height="20" rx="4" stroke-width="1.1"/>
-    <rect x="60" y="307" width="22" height="22" rx="4" stroke-width="1.2"/>
-    <rect x="60" y="345" width="22" height="22" rx="4" stroke-width="1.2"/>
-    <rect x="60" y="383" width="22" height="22" rx="4" stroke-width="1.2"/>
-  </g>
-  <g fill="#8a8a8a" font-family="sans-serif" font-size="18">
-    <text x="60" y="568">08:00</text>
-    <text x="60" y="646">09:00</text>
-    <text x="60" y="724">10:00</text>
-    <text x="60" y="802">11:00</text>
-    <text x="60" y="880">12:00</text>
-    <text x="60" y="958">13:00</text>
-    <text x="60" y="1036">14:00</text>
-    <text x="60" y="1114">15:00</text>
-    <text x="60" y="1192">16:00</text>
-    <text x="60" y="1270">17:00</text>
-    <text x="60" y="1348">18:00</text>
-  </g>
-  <g fill="#8a8a8a" font-family="sans-serif" font-size="17">
-    <text x="972" y="112" text-anchor="middle">S</text>
-    <text x="1004" y="112" text-anchor="middle">M</text>
-    <text x="1036" y="112" text-anchor="middle">T</text>
-    <text x="1068" y="112" text-anchor="middle">W</text>
-    <text x="1100" y="112" text-anchor="middle">T</text>
-    <text x="1132" y="112" text-anchor="middle">F</text>
-    <text x="1164" y="112" text-anchor="middle">S</text>
-  </g>
-  <g fill="#6d6d6d" font-family="sans-serif" font-weight="700">
-    <text x="60" y="104" font-size="27" letter-spacing="2">DAILY PLAN</text>
-    <text x="60" y="282" font-size="19" letter-spacing="1.5">TOP PRIORITIES</text>
-    <text x="60" y="522" font-size="19" letter-spacing="1.5">SCHEDULE</text>
-    <text x="60" y="1420" font-size="19" letter-spacing="1.5">NOTES</text>
-    <text x="748" y="522" font-size="19" letter-spacing="1.5">TO-DO</text>
-    <text x="748" y="1100" font-size="19" letter-spacing="1.5">NOTES</text>
-  </g>
-  <g fill="#8a8a8a" font-family="sans-serif" font-size="16" font-weight="500">
-    <text x="60" y="150" letter-spacing="1">DATE</text>
+  <g id="sticker-spark" transform="translate(300 80)">
+    <polygon points="0,-18 5,-5 18,0 5,5 0,18 -5,5 -18,0 -5,-5" fill="#b8b8b8"/>
   </g>
 </svg>

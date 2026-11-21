@@ -19,9 +19,13 @@ import sys
 REPO_URL = "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main"
 SVG_DIR = "templates/svg"
 META_DIR = "templates/meta"
+MODEL_DIR = "templates/model"
 OUT_FILE = "templates/templates_data.json"
 
 APP_CATEGORIES = ["Basic", "Academic", "Planners"]
+MODEL_FORMAT = "nnotes-template"
+MODEL_VERSION = 1
+CAPABILITIES = ["recolor", "spacing", "blend", "stickers"]
 
 
 def prettify(stem):
@@ -54,6 +58,36 @@ def check_svg(filename):
         print(f"warning: {path} has no viewBox, the app may not size it", file=sys.stderr)
 
 
+def validate_model(stem):
+    """Return the compiled model when it is present and safe to ship, else None."""
+    path = os.path.join(MODEL_DIR, stem + ".json")
+    model = load_json(path)
+    if model is None:
+        return None
+    problems = []
+    if model.get("format") != MODEL_FORMAT:
+        problems.append(f"format is {model.get('format')!r}")
+    if model.get("version") != MODEL_VERSION:
+        problems.append(f"version is {model.get('version')!r}, expected {MODEL_VERSION}")
+    canvas = model.get("canvas") or {}
+    if not (canvas.get("w") and canvas.get("h")):
+        problems.append("canvas has no size")
+    for name, spec in (model.get("repeat") or {}).items():
+        if not (spec.get("base") or 0) > 0 or spec.get("anchor") is None:
+            problems.append(f"repeat {name!r} needs anchor and a positive base")
+    for sticker in model.get("stickers") or []:
+        rect = sticker.get("rect") or []
+        if len(rect) != 4 or not sticker.get("svg"):
+            problems.append(f"sticker {sticker.get('id')!r} needs rect[4] and svg")
+        if not (rect[2] > 0 and rect[3] > 0):
+            problems.append(f"sticker {sticker.get('id')!r} has an empty box")
+    if problems:
+        for problem in problems:
+            print(f"warning: {path}: {problem}", file=sys.stderr)
+        return None
+    return model
+
+
 def build_entry(filename, previous):
     stem = os.path.splitext(filename)[0]
     meta = load_json(os.path.join(META_DIR, stem + ".json")) or {}
@@ -82,6 +116,18 @@ def build_entry(filename, previous):
     pattern = pick("matchingPattern")
     if pattern:
         entry["matchingPattern"] = pattern
+
+    model = validate_model(stem)
+    if model is not None:
+        entry["modelUrl"] = f"{REPO_URL}/{MODEL_DIR}/{stem}.json"
+        entry["modelVersion"] = model["version"]
+        entry["capabilities"] = list(CAPABILITIES)
+        spacing = model.get("spacing") or {}
+        if spacing.get("base"):
+            base = spacing["base"]
+            entry["spacingBase"] = int(base) if float(base).is_integer() else base
+        if spacing.get("primary"):
+            entry["spacingPrimary"] = spacing["primary"]
     return entry
 
 

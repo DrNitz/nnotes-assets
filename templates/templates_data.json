@@ -19,7 +19,17 @@
       ],
       "description": "A4 daily page with a date header, top priorities, an hourly schedule, a to-do column and notes.",
       "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/daily-planner.svg",
-      "previewUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/daily-planner.svg"
+      "previewUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/daily-planner.svg",
+      "modelUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/model/daily-planner.json",
+      "modelVersion": 1,
+      "capabilities": [
+        "recolor",
+        "spacing",
+        "blend",
+        "stickers"
+      ],
+      "spacingBase": 78,
+      "spacingPrimary": "schedule"
     }
   ]
 }
