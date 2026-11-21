@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "categories": [
+    "Basic",
+    "Academic",
+    "Planners"
+  ],
+  "templates": [
+    {
+      "id": "daily-planner",
+      "title": "Daily Planner",
+      "category": "Planners",
+      "tags": [
+        "daily",
+        "planner",
+        "schedule",
+        "agenda",
+        "to-do"
+      ],
+      "description": "A4 daily page with a date header, top priorities, an hourly schedule, a to-do column and notes.",
+      "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/daily-planner.svg",
+      "previewUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/daily-planner.svg"
+    }
+  ]
+}
