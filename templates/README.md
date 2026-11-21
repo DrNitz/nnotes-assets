@@ -148,3 +148,26 @@ ratio.
 `.github/workflows/generate.yml` still regenerates only the sticker and frame JSONs. To rebuild
 this registry on push, add `templates/svg/**` to its `paths` list, run
 `python generate_templates_json.py`, and add `templates/templates_data.json` to its `git add`.
+
+## Generating a template from a spec
+
+Use `create_template.py` when you want the layout computed for you. It turns a small declarative
+spec into a correctly layered SVG plus the `layout` sidecar, and **fails** on overlapping sections,
+x-band collisions inside a band, rows that run past the bottom margin, bad categories and off-grid
+geometry.
+
+```bash
+python create_template.py --sample > my-template.json   # starter spec
+python create_template.py my-template.json              # writes templates/svg + templates/meta
+python create_template.py my-template.json --check      # CI-style verification
+```
+
+A spec declares `sections` with `label`, `kind` (`lines`, `checklist`, `timed`), `rows`, `pitch`,
+`x`, `width`, and an optional `band`. Sections sharing a `band` start at the same y (side by side);
+bands stack vertically, so nothing can overlap. Leave out `band` to stack a section on its own.
+`anchor`, `base` and `limit` for every repeat group are computed from the row geometry and written
+into the meta sidecar automatically. Stickers use the built-in `paperclip`, `star` and `tag` shapes,
+or a custom `elements` list.
+
+The sample prints a complete A4 daily planner; edit it, regenerate, then run the normal
+`compile_templates.py` and `generate_templates_json.py` chain.
