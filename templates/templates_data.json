@@ -7,6 +7,29 @@
   ],
   "templates": [
     {
+      "id": "birthday-card",
+      "title": "Birthday Card",
+      "category": "Basic",
+      "tags": [
+        "birthday",
+        "card",
+        "greeting"
+      ],
+      "description": "Birthday card with a cake, candles, balloons and a ruled message area.",
+      "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/birthday-card.svg",
+      "previewUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/birthday-card.svg",
+      "modelUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/model/birthday-card.json",
+      "modelVersion": 1,
+      "capabilities": [
+        "recolor",
+        "spacing",
+        "blend",
+        "stickers"
+      ],
+      "spacingBase": 52,
+      "spacingPrimary": "message"
+    },
+    {
       "id": "daily-planner",
       "title": "Daily Planner",
       "category": "Planners",

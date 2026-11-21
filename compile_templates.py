@@ -611,7 +611,8 @@ def walk(el, style, matrix, fonts, role, repeats, group_id, sink, sticker_sink=N
             else:
                 item["rep"] = name
         item["role"] = role
-        item["alpha"] = rnd(alpha_of(style, "fill" if item["op"] == "fill" else "stroke"))
+        uses_fill = item["op"] == "fill" or item.get("fill") is True
+        item["alpha"] = rnd(alpha_of(style, "fill" if uses_fill else "stroke"))
         if role == "sticker":
             item["ink"] = style.get("fill") if item["op"] == "fill" else style.get("stroke")
         sink.append(item)

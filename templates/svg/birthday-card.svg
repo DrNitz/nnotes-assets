@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1754" viewBox="0 0 1240 1754">
+  <g id="structural" fill="none" stroke="#5d5d5d" stroke-opacity="0.7">
+    <path d="M40 40 H1200 V1714 H40 Z" stroke-width="3"/>
+    <path d="M56 56 H1184 V1698 H56 Z" stroke-width="1.2"/>
+  </g>
+  <g id="guide" fill="none" stroke="#9a9a9a" stroke-opacity="0.4">
+    <path d="M140 220 H1100" stroke-width="2"/>
+    <path d="M300 962 H940" stroke-width="1.2"/>
+  </g>
+  <g id="label" fill="#6d6d6d" fill-opacity="0.9" font-family="sans-serif" text-anchor="middle">
+    <text x="620" y="190" font-size="56" font-weight="700" letter-spacing="3">HAPPY BIRTHDAY</text>
+    <text x="620" y="940" font-size="26" font-weight="700" letter-spacing="2">MAKE A WISH</text>
+    <text x="620" y="1660" font-size="20" font-weight="500" letter-spacing="2">WITH LOVE</text>
+  </g>
+  <g id="decor" fill="#c4c4c4" fill-opacity="0.5">
+    <circle cx="130" cy="360" r="6"/>
+    <circle cx="1110" cy="380" r="7"/>
+    <circle cx="160" cy="600" r="5"/>
+    <circle cx="1080" cy="620" r="6"/>
+    <circle cx="120" cy="860" r="7"/>
+    <circle cx="1120" cy="880" r="5"/>
+    <circle cx="300" cy="420" r="4"/>
+    <circle cx="940" cy="430" r="5"/>
+    <circle cx="340" cy="900" r="6"/>
+    <circle cx="900" cy="910" r="4"/>
+  </g>
+  <g id="rule-message" fill="none" stroke="#7c7c7c" stroke-width="1.2" stroke-opacity="0.5">
+    <path d="M140 1010 H1100"/>
+    <path d="M140 1062 H1100"/>
+    <path d="M140 1114 H1100"/>
+    <path d="M140 1166 H1100"/>
+    <path d="M140 1218 H1100"/>
+    <path d="M140 1270 H1100"/>
+    <path d="M140 1322 H1100"/>
+    <path d="M140 1374 H1100"/>
+    <path d="M140 1426 H1100"/>
+    <path d="M140 1478 H1100"/>
+    <path d="M140 1530 H1100"/>
+    <path d="M140 1582 H1100"/>
+  </g>
+  <g id="sticker-balloon-left" transform="translate(230 170)">
+    <ellipse cx="0" cy="0" rx="48" ry="60" fill="#ff6b81"/>
+    <polygon points="-7,55 7,55 0,73" fill="#e05568"/>
+    <path d="M0 73 Q-14 130 6 170" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+  </g>
+  <g id="sticker-balloon-right" transform="translate(1010 170)">
+    <ellipse cx="0" cy="0" rx="48" ry="60" fill="#7aa7ff"/>
+    <polygon points="-7,55 7,55 0,73" fill="#5b87df"/>
+    <path d="M0 73 Q-14 130 6 170" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+  </g>
+  <g id="sticker-cake" transform="translate(620 0)">
+    <ellipse cx="0" cy="840" rx="250" ry="24" fill="#d9d9e3"/>
+    <rect x="-200" y="690" width="400" height="140" rx="12" fill="#f6c9d6"/>
+    <rect x="-200" y="742" width="400" height="18" fill="#e58fa8"/>
+    <ellipse cx="-170" cy="688" rx="48" ry="26" fill="#fff0f4"/>
+    <ellipse cx="-85" cy="688" rx="48" ry="26" fill="#fff0f4"/>
+    <ellipse cx="0" cy="688" rx="48" ry="26" fill="#fff0f4"/>
+    <ellipse cx="85" cy="688" rx="48" ry="26" fill="#fff0f4"/>
+    <ellipse cx="170" cy="688" rx="48" ry="26" fill="#fff0f4"/>
+  </g>
+  <g id="sticker-candle-1" transform="translate(520 610)">
+    <rect x="-7" y="0" width="14" height="72" rx="3" fill="#fdfdfd" stroke="#d0d0d0" stroke-width="1.5"/>
+    <rect x="-7" y="26" width="14" height="9" fill="#e58fa8"/>
+    <ellipse cx="0" cy="-13" rx="8" ry="15" fill="#ffb43b"/>
+    <ellipse cx="0" cy="-11" rx="3.5" ry="8" fill="#fff0a8"/>
+  </g>
+  <g id="sticker-candle-2" transform="translate(620 610)">
+    <rect x="-7" y="0" width="14" height="72" rx="3" fill="#fdfdfd" stroke="#d0d0d0" stroke-width="1.5"/>
+    <rect x="-7" y="26" width="14" height="9" fill="#e58fa8"/>
+    <ellipse cx="0" cy="-13" rx="8" ry="15" fill="#ffb43b"/>
+    <ellipse cx="0" cy="-11" rx="3.5" ry="8" fill="#fff0a8"/>
+  </g>
+  <g id="sticker-candle-3" transform="translate(720 610)">
+    <rect x="-7" y="0" width="14" height="72" rx="3" fill="#fdfdfd" stroke="#d0d0d0" stroke-width="1.5"/>
+    <rect x="-7" y="26" width="14" height="9" fill="#e58fa8"/>
+    <ellipse cx="0" cy="-13" rx="8" ry="15" fill="#ffb43b"/>
+    <ellipse cx="0" cy="-11" rx="3.5" ry="8" fill="#fff0a8"/>
+  </g>
+</svg>

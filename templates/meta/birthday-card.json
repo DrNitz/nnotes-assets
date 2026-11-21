@@ -1,0 +1,21 @@
+{
+  "title": "Birthday Card",
+  "category": "Basic",
+  "tags": [
+    "birthday",
+    "card",
+    "greeting"
+  ],
+  "description": "Birthday card with a cake, candles, balloons and a ruled message area.",
+  "layout": {
+    "primary": "message",
+    "repeats": {
+      "message": {
+        "group": "rule-message",
+        "anchor": 1010.0,
+        "base": 52.0,
+        "limit": 1652.0
+      }
+    }
+  }
+}
