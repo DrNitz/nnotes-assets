@@ -171,3 +171,20 @@ or a custom `elements` list.
 
 The sample prints a complete A4 daily planner; edit it, regenerate, then run the normal
 `compile_templates.py` and `generate_templates_json.py` chain.
+
+## One-step packing (AI-authored SVG)
+
+If an AI writes the SVG from the prompt in this repo's docs, save its output as a plain `.svg`
+file and run:
+
+```bash
+python make_template.py path/to/ai-template.svg
+```
+
+The script validates the SVG, infers `layout.repeats` from the `rule-*` groups (anchor, pitch,
+limit — boundaries come from labels **and** structural separators), writes
+`templates/svg/<id>.svg` and `templates/meta/<id>.json`, then runs the compiler and the registry
+generator itself. It prints the four files to upload and refuses bad input: external refs, CSS,
+ungrouped elements, uneven row spacing, fewer than two rows, and overlapping x bands.
+
+Useful flags: `--id`, `--title`, `--category`, `--primary`, `--tags`, `--description`.
