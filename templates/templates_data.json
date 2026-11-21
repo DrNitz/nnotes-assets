@@ -53,6 +53,30 @@
       ],
       "spacingBase": 78,
       "spacingPrimary": "schedule"
+    },
+    {
+      "id": "travel-card",
+      "title": "Travel Card",
+      "category": "Basic",
+      "tags": [
+        "travel",
+        "trip",
+        "journal",
+        "vintage"
+      ],
+      "description": "Cute travel diary with a plane, camera, passport, map pin and suitcase stickers.",
+      "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/travel-card.svg",
+      "previewUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/travel-card.svg",
+      "modelUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/model/travel-card.json",
+      "modelVersion": 1,
+      "capabilities": [
+        "recolor",
+        "spacing",
+        "blend",
+        "stickers"
+      ],
+      "spacingBase": 80,
+      "spacingPrimary": "itinerary"
     }
   ]
 }

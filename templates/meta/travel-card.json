@@ -1,0 +1,40 @@
+{
+  "title": "Travel Card",
+  "category": "Basic",
+  "tags": [
+    "travel",
+    "trip",
+    "journal",
+    "vintage"
+  ],
+  "description": "Cute travel diary with a plane, camera, passport, map pin and suitcase stickers.",
+  "layout": {
+    "primary": "itinerary",
+    "repeats": {
+      "details": {
+        "group": "rule-details",
+        "anchor": 320.0,
+        "base": 50.0,
+        "limit": 512.0
+      },
+      "itinerary": {
+        "group": "rule-itinerary",
+        "anchor": 560.0,
+        "base": 80.0,
+        "limit": 1112.0
+      },
+      "packing": {
+        "group": "rule-packing",
+        "anchor": 560.0,
+        "base": 40.0,
+        "limit": 1112.0
+      },
+      "notes": {
+        "group": "rule-notes",
+        "anchor": 1160.0,
+        "base": 48.0,
+        "limit": 1652.0
+      }
+    }
+  }
+}
