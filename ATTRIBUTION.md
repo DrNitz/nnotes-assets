@@ -75,37 +75,5 @@ Used under the default SVG Repo license (commercial use allowed, no attribution 
 | Edit Tool | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544938](https://www.svgrepo.com/show/544938/edit-tool) | 2026-11-22 |
 | Discovery | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #541611](https://www.svgrepo.com/show/541611/discovery) | 2026-11-22 |
 
-## Party Planner template artwork
 
-CC0 artwork baked into `templates/svg/party-planner.svg`.
 
-| Artwork | Author | License | Source | Fetched |
-|---|---|---|---|---|
-| Birthday Cake With Blue Candles | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/birthday-cake-with-blue-candles) | 2026-11-22 |
-| Toy Balloon Vector Illustration | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/toy-balloon-vector-illustration) | 2026-11-22 |
-| Colored Party Hat | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/colored-party-hat) | 2026-11-22 |
-| Vector Drawing Of Gift Box | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/vector-drawing-of-gift-box) | 2026-11-22 |
-| Birthday Cupcake | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/birthday-cupcake) | 2026-11-22 |
-
-## Pet Diary template artwork
-
-CC0 artwork baked into `templates/svg/pet-diary.svg`.
-
-| Artwork | Author | License | Source | Fetched |
-|---|---|---|---|---|
-| Vector image of huge smile cat face | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/vector-image-of-huge-smile-cat-face) | 2026-11-22 |
-| Dog With Bone | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/dog-with-bone) | 2026-11-22 |
-| Smiling rabbit vector drawing | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/smiling-rabbit-vector-drawing) | 2026-11-22 |
-| Paw print | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/paw-print) | 2026-11-22 |
-
-## Garden Journal template artwork
-
-CC0 artwork baked into `templates/svg/garden-journal.svg`.
-
-| Artwork | Author | License | Source | Fetched |
-|---|---|---|---|---|
-| Sunflower | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/nature-sunflower) | 2026-11-22 |
-| Lavender ribbon | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/lavender-ribbon) | 2026-11-22 |
-| cherry blossom | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/cherry-blossom) | 2026-11-22 |
-| Rose Red | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/rose-red) | 2026-11-22 |
-| Narcissus vector image | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/narcissus-vector-image) | 2026-11-22 |
