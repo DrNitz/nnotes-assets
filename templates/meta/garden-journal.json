@@ -1,0 +1,40 @@
+{
+  "title": "Garden Journal",
+  "category": "Basic",
+  "tags": [
+    "garden",
+    "flowers",
+    "plants",
+    "nature"
+  ],
+  "description": "Garden journal with baked CC0 botanical artwork.",
+  "layout": {
+    "primary": "watering",
+    "repeats": {
+      "planting": {
+        "group": "rule-planting",
+        "anchor": 530.0,
+        "base": 40.0,
+        "limit": 1092.0
+      },
+      "watering": {
+        "group": "rule-watering",
+        "anchor": 530.0,
+        "base": 48.0,
+        "limit": 1092.0
+      },
+      "tasks": {
+        "group": "rule-tasks",
+        "anchor": 1140.0,
+        "base": 44.0,
+        "limit": 1632.0
+      },
+      "notes": {
+        "group": "rule-notes",
+        "anchor": 1140.0,
+        "base": 44.0,
+        "limit": 1632.0
+      }
+    }
+  }
+}

@@ -97,3 +97,15 @@ CC0 artwork baked into `templates/svg/pet-diary.svg`.
 | Dog With Bone | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/dog-with-bone) | 2026-11-22 |
 | Smiling rabbit vector drawing | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/smiling-rabbit-vector-drawing) | 2026-11-22 |
 | Paw print | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/paw-print) | 2026-11-22 |
+
+## Garden Journal template artwork
+
+CC0 artwork baked into `templates/svg/garden-journal.svg`.
+
+| Artwork | Author | License | Source | Fetched |
+|---|---|---|---|---|
+| Sunflower | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/nature-sunflower) | 2026-11-22 |
+| Lavender ribbon | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/lavender-ribbon) | 2026-11-22 |
+| cherry blossom | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/cherry-blossom) | 2026-11-22 |
+| Rose Red | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/rose-red) | 2026-11-22 |
+| Narcissus vector image | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/narcissus-vector-image) | 2026-11-22 |

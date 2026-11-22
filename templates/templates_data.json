@@ -55,6 +55,30 @@
       "spacingPrimary": "schedule"
     },
     {
+      "id": "garden-journal",
+      "title": "Garden Journal",
+      "category": "Basic",
+      "tags": [
+        "garden",
+        "flowers",
+        "plants",
+        "nature"
+      ],
+      "description": "Garden journal with baked CC0 botanical artwork.",
+      "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/garden-journal.svg",
+      "previewUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/garden-journal.svg",
+      "modelUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/model/garden-journal.json",
+      "modelVersion": 1,
+      "capabilities": [
+        "recolor",
+        "spacing",
+        "blend",
+        "stickers"
+      ],
+      "spacingBase": 48,
+      "spacingPrimary": "watering"
+    },
+    {
       "id": "party-planner",
       "title": "Party Planner",
       "category": "Planners",
