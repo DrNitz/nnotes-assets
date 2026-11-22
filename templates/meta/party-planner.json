@@ -1,0 +1,39 @@
+{
+  "title": "Party Planner",
+  "category": "Planners",
+  "tags": [
+    "birthday",
+    "party",
+    "celebration"
+  ],
+  "description": "Party planning page with baked CC0 celebration artwork.",
+  "layout": {
+    "primary": "schedule",
+    "repeats": {
+      "guests": {
+        "group": "rule-guests",
+        "anchor": 530.0,
+        "base": 44.0,
+        "limit": 1092.0
+      },
+      "schedule": {
+        "group": "rule-schedule",
+        "anchor": 530.0,
+        "base": 70.0,
+        "limit": 1092.0
+      },
+      "gifts": {
+        "group": "rule-gifts",
+        "anchor": 1140.0,
+        "base": 48.0,
+        "limit": 1632.0
+      },
+      "notes": {
+        "group": "rule-notes",
+        "anchor": 1140.0,
+        "base": 44.0,
+        "limit": 1632.0
+      }
+    }
+  }
+}

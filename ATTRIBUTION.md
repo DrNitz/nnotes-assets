@@ -74,3 +74,15 @@ Used under the default SVG Repo license (commercial use allowed, no attribution 
 | Biology | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544937](https://www.svgrepo.com/show/544937/biology) | 2026-11-22 |
 | Edit Tool | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #544938](https://www.svgrepo.com/show/544938/edit-tool) | 2026-11-22 |
 | Discovery | SVG Repo | [SVG Repo License](https://www.svgrepo.com/page/licensing/) | [SVGRepo #541611](https://www.svgrepo.com/show/541611/discovery) | 2026-11-22 |
+
+## Party Planner template artwork
+
+CC0 artwork baked into `templates/svg/party-planner.svg`.
+
+| Artwork | Author | License | Source | Fetched |
+|---|---|---|---|---|
+| Birthday Cake With Blue Candles | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/birthday-cake-with-blue-candles) | 2026-11-22 |
+| Toy Balloon Vector Illustration | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/toy-balloon-vector-illustration) | 2026-11-22 |
+| Colored Party Hat | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/colored-party-hat) | 2026-11-22 |
+| Vector Drawing Of Gift Box | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/vector-drawing-of-gift-box) | 2026-11-22 |
+| Birthday Cupcake | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/birthday-cupcake) | 2026-11-22 |

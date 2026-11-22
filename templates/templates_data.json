@@ -55,6 +55,29 @@
       "spacingPrimary": "schedule"
     },
     {
+      "id": "party-planner",
+      "title": "Party Planner",
+      "category": "Planners",
+      "tags": [
+        "birthday",
+        "party",
+        "celebration"
+      ],
+      "description": "Party planning page with baked CC0 celebration artwork.",
+      "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/party-planner.svg",
+      "previewUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/party-planner.svg",
+      "modelUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/model/party-planner.json",
+      "modelVersion": 1,
+      "capabilities": [
+        "recolor",
+        "spacing",
+        "blend",
+        "stickers"
+      ],
+      "spacingBase": 70,
+      "spacingPrimary": "schedule"
+    },
+    {
       "id": "travel-card",
       "title": "Travel Card",
       "category": "Basic",
