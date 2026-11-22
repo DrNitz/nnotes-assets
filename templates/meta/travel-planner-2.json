@@ -1,0 +1,63 @@
+{
+  "title": "Travel Planner",
+  "category": "Planners",
+  "tags": [
+    "travel",
+    "trip",
+    "planner"
+  ],
+  "description": "Detailed A4 travel planner with a baked sticker palette.",
+  "layout": {
+    "primary": "packing-left",
+    "repeats": {
+      "itinerary-1": {
+        "group": "rule-itinerary-1",
+        "anchor": 393.0,
+        "base": 32.0,
+        "limit": 497.0
+      },
+      "itinerary-2": {
+        "group": "rule-itinerary-2",
+        "anchor": 523.0,
+        "base": 32.0,
+        "limit": 627.0
+      },
+      "itinerary-3": {
+        "group": "rule-itinerary-3",
+        "anchor": 653.0,
+        "base": 32.0,
+        "limit": 757.0
+      },
+      "itinerary-4": {
+        "group": "rule-itinerary-4",
+        "anchor": 783.0,
+        "base": 32.0,
+        "limit": 887.0
+      },
+      "packing-left": {
+        "group": "rule-packing-left",
+        "anchor": 925.0,
+        "base": 36.0,
+        "limit": 1177.0
+      },
+      "packing-right": {
+        "group": "rule-packing-right",
+        "anchor": 925.0,
+        "base": 36.0,
+        "limit": 1177.0
+      },
+      "budget": {
+        "group": "rule-budget",
+        "anchor": 1281.0,
+        "base": 36.0,
+        "limit": 1417.0
+      },
+      "notes": {
+        "group": "rule-notes",
+        "anchor": 1515.0,
+        "base": 32.0,
+        "limit": 1612.0
+      }
+    }
+  }
+}

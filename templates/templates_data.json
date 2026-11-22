@@ -77,6 +77,29 @@
       ],
       "spacingBase": 80,
       "spacingPrimary": "itinerary"
+    },
+    {
+      "id": "travel-planner-2",
+      "title": "Travel Planner",
+      "category": "Planners",
+      "tags": [
+        "travel",
+        "trip",
+        "planner"
+      ],
+      "description": "Detailed A4 travel planner with a baked sticker palette.",
+      "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/travel-planner-2.svg",
+      "previewUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/travel-planner-2.svg",
+      "modelUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/model/travel-planner-2.json",
+      "modelVersion": 1,
+      "capabilities": [
+        "recolor",
+        "spacing",
+        "blend",
+        "stickers"
+      ],
+      "spacingBase": 36,
+      "spacingPrimary": "packing-left"
     }
   ]
 }

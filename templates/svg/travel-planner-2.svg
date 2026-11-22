@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1754" viewBox="0 0 1240 1754"><g id="structural"><line x1="920" y1="100" x2="1180" y2="100" stroke="#aaaaaa" stroke-width="0.8" stroke-opacity="0.6" stroke-linecap="round" />
+    <line x1="60" y1="120" x2="1180" y2="120" stroke="#555555" stroke-width="2.0" stroke-opacity="0.8" stroke-linecap="round" />
+  <rect x="60" y="140" width="1120" height="170" rx="6" fill="none" stroke="#555555" stroke-width="2.0" stroke-opacity="0.8" />
+    <line x1="230" y1="182" x2="1160" y2="182" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="230" y1="232" x2="580" y2="232" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="790" y1="232" x2="1160" y2="232" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="230" y1="282" x2="580" y2="282" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="790" y1="282" x2="1160" y2="282" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+  <line x1="60" y1="1205" x2="1180" y2="1205" stroke="#555555" stroke-width="2.0" stroke-opacity="0.8" stroke-linecap="round" />
+    <line x1="60" y1="1245" x2="1180" y2="1245" stroke="#555555" stroke-width="2.0" stroke-opacity="0.8" stroke-linecap="round" />
+    <line x1="60" y1="1425" x2="1180" y2="1425" stroke="#555555" stroke-width="2.0" stroke-opacity="0.8" stroke-linecap="round" />
+    </g><g id="guide"><line x1="360" y1="1205" x2="360" y2="1425" stroke="#aaaaaa" stroke-width="0.8" stroke-opacity="0.4" stroke-linecap="round" />
+    <line x1="680" y1="1205" x2="680" y2="1425" stroke="#aaaaaa" stroke-width="0.8" stroke-opacity="0.4" stroke-linecap="round" />
+    <line x1="860" y1="1205" x2="860" y2="1425" stroke="#aaaaaa" stroke-width="0.8" stroke-opacity="0.4" stroke-linecap="round" />
+  </g><g id="label"><text x="60" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="800" letter-spacing="4" fill="#444444">TRAVEL PLANNER</text>
+    <text x="860" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" letter-spacing="1.5" fill="#666666">TRIP:</text>
+    <text x="80" y="178" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#666666">DESTINATION</text>
+    <text x="80" y="228" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#666666">DATES</text>
+    <text x="640" y="228" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#666666">TRAVELERS</text>
+    <text x="80" y="278" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#666666">BUDGET</text>
+    <text x="640" y="278" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#666666">WEATHER</text>
+    <text x="60" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#555555">ITINERARY</text>
+    <text x="60" y="375" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#555555">DAY 1</text>
+    <text x="60" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#555555">DAY 2</text>
+    <text x="60" y="635" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#555555">DAY 3</text>
+    <text x="60" y="765" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#555555">DAY 4</text>
+    <text x="60" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#555555">PACKING LIST</text>
+    <text x="60" y="1185" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#555555">BUDGET</text>
+    <text x="80" y="1233" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#666666">ITEM</text>
+    <text x="380" y="1233" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#666666">CATEGORY</text>
+    <text x="700" y="1233" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#666666">COST</text>
+    <text x="880" y="1233" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#666666">NOTES</text>
+    <text x="60" y="1485" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#555555">NOTES</text>
+    <text x="60" y="1620" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#666666">STICKER PALETTE</text>
+    </g><g id="rule-itinerary-1"><line x1="180" y1="393" x2="1180" y2="393" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="180" y1="425" x2="1180" y2="425" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="180" y1="457" x2="1180" y2="457" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    </g><g id="rule-itinerary-2"><line x1="180" y1="523" x2="1180" y2="523" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="180" y1="555" x2="1180" y2="555" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="180" y1="587" x2="1180" y2="587" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    </g><g id="rule-itinerary-3"><line x1="180" y1="653" x2="1180" y2="653" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="180" y1="685" x2="1180" y2="685" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="180" y1="717" x2="1180" y2="717" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    </g><g id="rule-itinerary-4"><line x1="180" y1="783" x2="1180" y2="783" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="180" y1="815" x2="1180" y2="815" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="180" y1="847" x2="1180" y2="847" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+  </g><g id="rule-packing-left"><rect x="60" y="913" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <line x1="92" y1="925" x2="560" y2="925" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <rect x="60" y="949" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <line x1="92" y1="961" x2="560" y2="961" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <rect x="60" y="985" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <line x1="92" y1="997" x2="560" y2="997" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <rect x="60" y="1021" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <line x1="92" y1="1033" x2="560" y2="1033" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <rect x="60" y="1057" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <line x1="92" y1="1069" x2="560" y2="1069" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <rect x="60" y="1093" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <line x1="92" y1="1105" x2="560" y2="1105" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <rect x="640" y="913" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="640" y="949" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="640" y="985" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="640" y="1021" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="640" y="1057" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="640" y="1093" width="16" height="16" rx="3" fill="none" stroke="#aaaaaa" stroke-width="1.2" stroke-opacity="0.8" />
+    </g><g id="rule-packing-right"><line x1="672" y1="925" x2="1140" y2="925" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="672" y1="961" x2="1140" y2="961" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="672" y1="997" x2="1140" y2="997" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="672" y1="1033" x2="1140" y2="1033" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="672" y1="1069" x2="1140" y2="1069" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="672" y1="1105" x2="1140" y2="1105" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+  </g><g id="rule-budget"><line x1="60" y1="1281" x2="1180" y2="1281" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="60" y1="1317" x2="1180" y2="1317" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="60" y1="1353" x2="1180" y2="1353" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="60" y1="1389" x2="1180" y2="1389" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    </g><g id="rule-notes"><line x1="60" y1="1515" x2="1180" y2="1515" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="60" y1="1547" x2="1180" y2="1547" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+    <line x1="60" y1="1579" x2="1180" y2="1579" stroke="#888888" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round" />
+  </g><g id="sticker-suitcase"><g id="sticker-suitcase" transform="translate(120,1660) scale(0.2727)">
+      <circle r="110" fill="#ffffff" stroke="#ececec" stroke-width="2" />
+      <path d="M -22 -50 Q -22 -68 0 -68 Q 22 -68 22 -50" fill="none" stroke="#E8825C" stroke-width="9" stroke-linecap="round" />
+      <rect x="-62" y="-50" width="124" height="98" rx="16" fill="#FFB088" />
+      <line x1="-24" y1="-46" x2="-24" y2="44" stroke="#F5A275" stroke-width="7" stroke-linecap="round" />
+      <line x1="24" y1="-46" x2="24" y2="44" stroke="#F5A275" stroke-width="7" stroke-linecap="round" />
+      <rect x="-11" y="-8" width="22" height="15" rx="5" fill="#FFF3EC" />
+    </g>
+    </g><g id="sticker-airplane"><g id="sticker-airplane" transform="translate(263,1660) scale(0.2727)">
+      <circle r="110" fill="#ffffff" stroke="#ececec" stroke-width="2" />
+      <path d="M -30 -12 L 0 -12 L -18 -58 L -48 -58 Z" fill="#6FBFDD" />
+      <path d="M -30 12 L 0 12 L -18 52 L -48 52 Z" fill="#6FBFDD" />
+      <path d="M -64 -12 L -64 -48 L -32 -12 Z" fill="#6FBFDD" />
+      <rect x="-64" y="-13" width="126" height="26" rx="13" fill="#8FD0E8" />
+      <circle cx="16" cy="0" r="4.5" fill="#ffffff" />
+      <circle cx="30" cy="0" r="4.5" fill="#ffffff" />
+      <circle cx="44" cy="0" r="4.5" fill="#ffffff" />
+    </g>
+    </g><g id="sticker-passport"><g id="sticker-passport" transform="translate(406,1660) scale(0.2727)">
+      <circle r="110" fill="#ffffff" stroke="#ececec" stroke-width="2" />
+      <rect x="-46" y="-62" width="92" height="124" rx="12" fill="#6DC5A8" />
+      <circle cx="0" cy="-12" r="28" fill="#B2E4D4" />
+      <ellipse cx="0" cy="-12" rx="28" ry="10" fill="none" stroke="#6DC5A8" stroke-width="3" />
+      <ellipse cx="0" cy="-12" rx="12" ry="28" fill="none" stroke="#6DC5A8" stroke-width="3" />
+      <line x1="-28" y1="36" x2="28" y2="36" stroke="#B2E4D4" stroke-width="7" stroke-linecap="round" />
+      <line x1="-28" y1="52" x2="10" y2="52" stroke="#B2E4D4" stroke-width="7" stroke-linecap="round" />
+    </g>
+    </g><g id="sticker-camera"><g id="sticker-camera" transform="translate(549,1660) scale(0.2727)">
+      <circle r="110" fill="#ffffff" stroke="#ececec" stroke-width="2" />
+      <rect x="-26" y="-56" width="52" height="22" rx="9" fill="#FFA8BE" />
+      <rect x="-66" y="-40" width="132" height="90" rx="16" fill="#FFA8BE" />
+      <circle cx="0" cy="6" r="32" fill="#FFF0F5" />
+      <circle cx="0" cy="6" r="21" fill="#FF8FB0" />
+      <circle cx="0" cy="6" r="10" fill="#FFD6E3" />
+      <circle cx="48" cy="-18" r="8" fill="#FFE9F0" />
+    </g>
+    </g><g id="sticker-palm"><g id="sticker-palm" transform="translate(691,1660) scale(0.2727)">
+      <circle r="110" fill="#ffffff" stroke="#ececec" stroke-width="2" />
+      <path d="M -4 56 C 0 20, 2 -8, 0 -22 L 16 -22 C 16 -6, 12 20, 10 56 Z" fill="#C99A6A" />
+      <path d="M 7 -24 Q -50 -48, -66 -6 Q -30 -14, 7 -24 Z" fill="#7CC98F" />
+      <path d="M 7 -24 Q 66 -52, 76 -8 Q 40 -16, 7 -24 Z" fill="#8FD9A3" />
+      <path d="M 7 -24 Q -22 -72, 20 -68 Q 16 -42, 7 -24 Z" fill="#6FBF85" />
+      <path d="M 7 -24 Q -42 -62, -58 -34 Q -24 -30, 7 -24 Z" fill="#8FD9A3" />
+      <path d="M 7 -24 Q 46 -62, 60 -34 Q 26 -30, 7 -24 Z" fill="#6FBF85" />
+      <circle cx="2" cy="-20" r="6" fill="#B07A4E" />
+      <circle cx="15" cy="-16" r="6" fill="#B07A4E" />
+    </g>
+    </g><g id="sticker-sun"><g id="sticker-sun" transform="translate(834,1660) scale(0.2727)">
+      <circle r="110" fill="#ffffff" stroke="#ececec" stroke-width="2" />
+      <g stroke="#FFC94A" stroke-width="9" stroke-linecap="round">
+        <line x1="0" y1="-56" x2="0" y2="-76" />
+        <line x1="0" y1="56" x2="0" y2="76" />
+        <line x1="-56" y1="0" x2="-76" y2="0" />
+        <line x1="56" y1="0" x2="76" y2="0" />
+        <line x1="-40" y1="-40" x2="-54" y2="-54" />
+        <line x1="40" y1="-40" x2="54" y2="-54" />
+        <line x1="-40" y1="40" x2="-54" y2="54" />
+        <line x1="40" y1="40" x2="54" y2="54" />
+      </g>
+      <circle r="42" fill="#FFD966" />
+      <circle cx="-14" cy="-8" r="4.5" fill="#C99A2E" />
+      <circle cx="14" cy="-8" r="4.5" fill="#C99A2E" />
+      <path d="M -12 8 Q 0 20 12 8" fill="none" stroke="#C99A2E" stroke-width="4" stroke-linecap="round" />
+    </g>
+    </g><g id="sticker-compass"><g id="sticker-compass" transform="translate(977,1660) scale(0.2727)">
+      <circle r="110" fill="#ffffff" stroke="#ececec" stroke-width="2" />
+      <circle r="62" fill="#F2F6FF" />
+      <circle r="62" fill="none" stroke="#A3C4F3" stroke-width="9" />
+      <g stroke="#A3C4F3" stroke-width="4" stroke-linecap="round">
+        <line x1="0" y1="-62" x2="0" y2="-50" />
+        <line x1="0" y1="62" x2="0" y2="50" />
+        <line x1="-62" y1="0" x2="-50" y2="0" />
+        <line x1="62" y1="0" x2="50" y2="0" />
+      </g>
+      <path d="M 0 -46 L 15 0 L -15 0 Z" fill="#FF8FA3" />
+      <path d="M 0 46 L 15 0 L -15 0 Z" fill="#7FA8E0" />
+      <circle r="6" fill="#ffffff" />
+    </g>
+    </g><g id="sticker-star"><g id="sticker-star" transform="translate(1120,1660) scale(0.2727)">
+      <circle r="110" fill="#ffffff" stroke="#ececec" stroke-width="2" />
+      <path d="M 0 -62 L 14 -18 L 60 -18 L 23 10 L 37 56 L 0 28 L -37 56 L -23 10 L -60 -18 L -14 -18 Z" fill="#FFE07A" />
+      <path d="M 0 -62 L 14 -18 L 60 -18 L 23 10 L 37 56 L 0 28 Z" fill="#FFD44D" opacity="0.6" />
+    </g>
+  </g></svg>
