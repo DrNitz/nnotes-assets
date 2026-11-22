@@ -30,6 +30,29 @@
       "spacingPrimary": "message"
     },
     {
+      "id": "birthday-deluxe",
+      "title": "Birthday Deluxe",
+      "category": "Planners",
+      "tags": [
+        "birthday",
+        "party",
+        "cake"
+      ],
+      "description": "Rich birthday card with baked CC0-style celebration artwork.",
+      "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/birthday-deluxe.svg",
+      "previewUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/birthday-deluxe.svg",
+      "modelUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/model/birthday-deluxe.json",
+      "modelVersion": 1,
+      "capabilities": [
+        "recolor",
+        "spacing",
+        "blend",
+        "stickers"
+      ],
+      "spacingBase": 30,
+      "spacingPrimary": "wishes"
+    },
+    {
       "id": "daily-planner",
       "title": "Daily Planner",
       "category": "Planners",

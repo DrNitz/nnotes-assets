@@ -1,0 +1,21 @@
+{
+  "title": "Birthday Deluxe",
+  "category": "Planners",
+  "tags": [
+    "birthday",
+    "party",
+    "cake"
+  ],
+  "description": "Rich birthday card with baked CC0-style celebration artwork.",
+  "layout": {
+    "primary": "wishes",
+    "repeats": {
+      "wishes": {
+        "group": "rule-wishes",
+        "anchor": 760.0,
+        "base": 30.0,
+        "limit": 850
+      }
+    }
+  }
+}
