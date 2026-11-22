@@ -86,3 +86,14 @@ CC0 artwork baked into `templates/svg/party-planner.svg`.
 | Colored Party Hat | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/colored-party-hat) | 2026-11-22 |
 | Vector Drawing Of Gift Box | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/vector-drawing-of-gift-box) | 2026-11-22 |
 | Birthday Cupcake | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/birthday-cupcake) | 2026-11-22 |
+
+## Pet Diary template artwork
+
+CC0 artwork baked into `templates/svg/pet-diary.svg`.
+
+| Artwork | Author | License | Source | Fetched |
+|---|---|---|---|---|
+| Vector image of huge smile cat face | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/vector-image-of-huge-smile-cat-face) | 2026-11-22 |
+| Dog With Bone | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/dog-with-bone) | 2026-11-22 |
+| Smiling rabbit vector drawing | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/smiling-rabbit-vector-drawing) | 2026-11-22 |
+| Paw print | OpenClipart | [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [FreeSVG](https://freesvg.org/paw-print) | 2026-11-22 |

@@ -78,6 +78,30 @@
       "spacingPrimary": "schedule"
     },
     {
+      "id": "pet-diary",
+      "title": "Pet Diary",
+      "category": "Basic",
+      "tags": [
+        "pet",
+        "cat",
+        "dog",
+        "rabbit"
+      ],
+      "description": "Pet care journal with baked CC0 animal artwork.",
+      "url": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/pet-diary.svg",
+      "previewUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/svg/pet-diary.svg",
+      "modelUrl": "https://raw.githubusercontent.com/DrNitz/nnotes-assets/main/templates/model/pet-diary.json",
+      "modelVersion": 1,
+      "capabilities": [
+        "recolor",
+        "spacing",
+        "blend",
+        "stickers"
+      ],
+      "spacingBase": 48,
+      "spacingPrimary": "vet"
+    },
+    {
       "id": "travel-card",
       "title": "Travel Card",
       "category": "Basic",
